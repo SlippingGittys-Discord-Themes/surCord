@@ -1,0 +1,8 @@
+{
+    "name": "surCord",
+    "version": "1.0.0",
+    "license": "WTFPL",
+    "theme": "surCord.theme.css",
+    "author": "Vozer",
+    "description": "A Discord theme inspired by Human Design"
+}
