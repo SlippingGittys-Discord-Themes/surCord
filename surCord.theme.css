@@ -1,0 +1,512 @@
+/* Licence https://github.com/SlippingGitty/surCord/blob/main/LICENSE
+
+MIT License
+
+Copyright (c) 2022 SlippingGitty
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+
+/*
+                    'c.          discord@DiscordTheme.local 
+                 ,xNMM.          ----------------------- 
+               .OMMMMo           OS: surCord 06.04.22 arm64 
+               OMMM0,            Host: DiscordCanary0,1 
+     .;loddo:' loolloddol;.      Kernel: 0.0.284
+   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 48 hours, 00 mins 
+ .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 20 (plugins) 
+ XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: Powercord, BetterDiscord, BeautifulDiscord,
+;MMMMMMMMMMMMMMMMMMMMMMMM:              Astra, Goosemod, Stylus 
+:MMMMMMMMMMMMMMMMMMMMMMMM:       DE: ImagineAPlace
+.MMMMMMMMMMMMMMMMMMMMMMMMX.      WM: Vozer
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.    WM Theme: Discord (Dark) 
+ .XMMMMMMMMMMMMMMMMMMMMMMMMMMk   Font: San Fransisco Display
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.   Memory: #7673MiB / 8192MiB 
+    kMMMMMMMMMMMMMMMMMMMMMMd      
+     ;KMMMMMMMWXXWMMMMMMMk.       
+       .cooc,.    .,coo:.       
+
+*/
+
+/*
+///////////
+////////////////////////////////////////
+///Colors and other small details
+////////////////////////////////////////
+//////////
+*/
+
+.theme-dark {
+    --background-tertiary: rgb(42, 40, 44);
+    --background-secondary: rgb(42, 40, 44);
+    --background-secondary-alt: rgb(42, 40, 44);
+    --background-primary: rgb(31, 30, 30);
+    --channeltextarea-background: rgb(30, 30, 30);
+    --background-accent: rgb(26, 129, 251);
+    --background-modifier-hover: rgb(65, 63, 66);
+    --background-modifier-active: rgb(30, 30, 30);
+    --background-modifier-selected: rgb(26, 129, 251);
+    --deprecated-card-bg: #12141f63;
+    --background-floating: rgba(35, 35, 35, 0.771);
+    --deprecated-quickswitcher-input-background:#101320;
+    --elevation-low: none;
+    --toast-background: #292841 !important;
+    --toast-header: #101320 !important;
+    --toast-contents: #23283d !important;
+}
+
+
+/* Font */
+* {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    text-transform: none;
+}
+
+/* Checkboxes - Slate Theme - Tropical */
+#app-mount .container-2nx-BQ .input-2XRLou, #app-mount .container-2nx-BQ .input-3xr72x, #app-mount .checkboxWrapper-2fDzaA .input-2XRLou, #app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
+    margin: 0;
+    opacity: 1;
+    height: 14px !important;
+    width: 14px !important;
+    position: relative;
+    cursor: var(--cursor);
+    -webkit-appearance: checkbox;
+    appearance: checkbox;
+}
+#app-mount .container-2nx-BQ, #app-mount .checkboxWrapper-2fDzaA {
+    width: auto;
+    border-radius: 0;
+    background: transparent !important;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    cursor: var(--cursor);
+}
+#app-mount .container-2nx-BQ .slider-32CRPX, #app-mount .checkboxWrapper-2fDzaA .slider-32CRPX {
+    display: none;
+}
+.theme-dark .checkbox-f1HnKB {
+display:none;
+}
+
+/* Powercord Theme Toggler and Plugins Products */
+.powercord-product {
+    padding: 9px;
+    margin-bottom: 13px;
+  }
+  .powercord-product-header h4 {
+    font-size: 16px;
+  }
+  .powercord-product .divider-3LgWDL {
+    display: none;
+  }
+  .description, .powercord-product .metadata, .powercord-product-permissions, .powercord-product-footer {
+    margin-top: 4px;
+    font-size: 13px;
+  }
+
+
+/*
+//////////
+/////////////////////////
+//// Title Bar
+/////////////////////////
+/////////
+*/
+
+/* Title Bar */
+.container-ZMc96U.themed-Hp1KC_, .header-3OsQeK {
+    background: rgb(55, 53, 55) !important;
+    border-bottom: .5px solid black;
+}
+    .communityInfoPill-2Mll66 {
+        display: none;
+    }
+.theme-dark .children-3xh0VB:after {
+    background: rgba(0, 0, 0, 0);
+}
+    .title-17SveM {
+        font-weight: 900;
+    }
+
+
+/* Search and other Text fields */
+.searchBar-jGtisZ, .searchBar-3TnChZ .searchBarComponent-3N7dCG, .inner-2pOSmK, .wrapper-n2dlvs, .searchBar-2M9mRP, .input-2z42oC {
+    background-color: rgb(53, 51, 55);
+    border-radius: 4px;
+    border: 1px solid rgb(97, 96, 99); 
+}
+.searchBar-jGtisZ:hover, .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover, .wrapper-n2dlvs:hover,  .inner-2pOSmK:hover, .searchBar-2M9mRP:hover, .input-2z42oC:hover, .searchBar-2aylmZ:hover {
+    box-shadow: 0 0 3px 3px rgb(32, 83, 148);
+}
+
+/*
+///////////
+///////////////////////
+//// Guilds
+///////////////////////
+//////////
+*/
+.guilds-2JjMmN .scroller-3X7KbA, .wrapper-1_HaEi {
+    background-color: rgb(42, 40, 44);
+}
+    .platform-osx .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH {
+        background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87)) ;
+    }
+    .expandedFolderBackground-1kSAf6 {
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+        border: 1px solid rgb(78, 78, 81); 
+        border-radius: 15px;
+        background: rgba(41, 38, 39, 0.276);
+    }
+        .closedFolderIconWrapper-3tRb2d {
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+            border: 1px solid rgb(78, 78, 81); 
+            border-radius: 15px;
+            background: rgba(41, 38, 39, 0.276);
+        }
+            .expandedFolderBackground-1kSAf6.collapsed-uGXEbi, .expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT {
+                display: none;
+            }
+    .folder-241Joy, .folder-241Joy:hover {
+        background-color: #00000000;
+    }
+    .item-2LIpTv {
+        width: 8px;
+        border-radius: 5px 5px 5px 5px;
+        margin-left: 0px;
+        background-color: rgb(145, 138, 152);
+    }
+
+/*
+/////////////
+////////////////////////
+/// Chat Area
+////////////////////////
+/////////////
+/*
+
+/* Text Box */
+.scrollableContainer-15eg7h, .hasConnectedBar-1vN2JH, .preview-QJ3OG3 {
+    border-radius: 20px;
+    border: 1px solid rgb(97, 96, 99); 
+  }
+  .scrollableContainer-15eg7h:hover {
+    box-shadow: 0 0 2px 3px #4189c38c;
+  }
+  .theme-dark .autocomplete-3NRXG8 {
+    background: rgba(93, 93, 93, 0.241); 
+    backdrop-filter: blur(20px);
+}
+.autocompleteRowVerticalSmall-2rVED0 .base-2v-uc0:hover, .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover {
+    background-color: rgba(26, 127, 251, 0.612) !important; 
+    backdrop-filter: blur(3px);
+}
+    .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 {
+        background-color: rgba(26, 127, 251, 0.353) !important; 
+        backdrop-filter: blur(3px);
+    }
+
+/* New Messages Banner */
+.newMessagesBar-1hF-9G {
+    background-color: rgba(26, 127, 251, 0.612) !important; 
+    backdrop-filter: blur(3px);
+    border-radius: 50px;
+    margin-top: 2px;
+}
+
+/* Reply Bar */
+.replyBar-1oi75v, .jumpToPresentBar-1cEnH0 {
+    background-color: rgba(26, 127, 251, 0.612) !important; 
+    backdrop-filter: blur(3px);
+    border-radius: 50px;
+    margin-bottom: 2px;  
+}
+.attachedBars-2BCP3l, .clipContainer-31nYlH, .container-A2jo65, .channelTextArea-1FufC0 {
+    background: transparent;
+}
+
+/*
+/////////////
+////////////////////////
+////Friends List 
+////////////////////////
+/////////////
+*/
+
+/* Friends themselves */
+.peopleListItem-u6dGxF {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    background: rgb(40, 38, 42);
+    margin-bottom: 13px;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.peopleListItem-u6dGxF:hover {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(26, 127, 251, 0.487);
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    background: rgba(41, 38, 39, 0.276);
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+    .actions-YHvpIT {
+        padding-right: 10px;
+    }
+    .actionButton-3-B2x- {
+        margin-right: 13px;
+    }
+.peopleColumn-1wMU14 {
+    background: rgb(33, 31, 35); 
+}
+
+/* Active Now */
+.itemCard-3Etziu {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    background: rgba(88, 84, 85, 0.276);
+    margin-bottom: 13px;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+    .section-3G9aLW:only-child {
+        border: 1px solid rgb(78, 78, 81); 
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
+    }
+.itemCard-3Etziu:hover {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(26, 127, 251, 0.487);
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    background: rgba(41, 38, 39, 0.276);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/*
+///////////
+////////////////////
+///Sidebars
+////////////////////
+///////////
+*/
+
+.scroller-WSmht3, .scroller-1ox3I2, .container-1zzFcN { 
+    border-right: .5px solid black;
+    border-top: .5px solid black;
+}
+
+/* User Settings */
+.container-YkUktl {
+    background: rgba(0, 0, 0, 0.436); 
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+    .panels-3wFtMD {
+        background-color: #00000000;
+        border-right: .5px solid black;
+    }
+
+.searchBar-3TnChZ {
+    border-right: .5px solid black;
+}
+.interactiveSelected-29CP8y {
+    background: rgba(26, 127, 251, 0.612) !important; 
+    backdrop-filter: blur(20px);
+}
+.container-2o3qEW {
+    border-left: .5px solid black; 
+}
+
+/* Channels */
+.modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg, .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg {
+    color: white;
+}
+.icon-2W8DHg {
+    color: rgb(16,138,225);
+}
+
+
+/*
+///////////
+////////////////////
+////Fly Outs
+///////////////////
+///////////
+*/
+
+/* Pins/Inbox */
+.messagesPopoutWrap-3zryHW, .container-2ebMPP {
+    background: rgba(0, 0, 0, 0.436) !important; 
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+}
+.header-1w9Q93, .footer-5ji8u1 {
+    background: rgba(0, 0, 0, 0) !important; 
+}
+    .channelHeader-DFRX8q {
+        border-radius: 20px;
+        background: rgba(55, 55, 55, 0); 
+        position: inherit;
+    }
+    .messageContainer-3VTXBC, .messages-23can0, .messageGroupWrapper-1jf_7C {
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+        border: 1px solid rgb(78, 78, 81); 
+        border-radius: 5px;
+    }
+    .collapseButton-39-IRc {
+        left: 6px;
+    }
+
+
+/* Quick Switcher */
+.quickswitcher-pKcM9U {
+    background: rgba(93, 93, 93, 0); 
+}
+.scroller-2qwVWY, .input-3r5zZY {
+    background: rgba(93, 93, 93, 0);
+}
+
+/* User Popout */
+ .popout_28, .userPopout-2j1gM4 { 
+    background: rgba(0, 0, 0, 0.436) !important; 
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 10px;
+}
+.bodyInnerWrapper-2bQs1k, .footer-3naVBw {
+    background: rgba(0, 0, 0, 0) !important; 
+}
+
+/* Emoji Menu */
+.contentWrapper-3vHNP2 {
+    background: rgba(0, 0, 0, 0.436); 
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+}
+    .header-1ULbqO, .packHeader-w9jpYl {
+      border-radius: 20px;
+      background: rgba(55, 55, 55, 0); 
+      position: inherit;
+    }
+    .inspector-DFKXwB, .categoryList-2qRrlj, .categoryList-2GgCrD{
+        background-color: rgba(0, 0, 0, 0); 
+    }
+    .unicodeShortcut-3N8oDe, .standardStickerShortcut-ObSns3 {
+        background: rgba(0, 0, 0, 0.933); 
+    }
+
+/* Context Menu */
+.scroller-1bVxF5 {
+    background: rgba(41, 38, 39, 0.276);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+}
+.colorDefault-CDqZdO:hover {
+    background: rgba(26, 127, 251, 0.612) !important; 
+    border-radius: 4px;
+}
+.styleFlexible-x0_sIC {
+    background: rgba(0, 0, 0, 0.436); 
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+}
+    .label-2gNW3x {
+        color: white;
+    }
+
+
+
+/*------------------* testing *-----------------*/
+
+/* Nitro Claim a Gift, Join a Server */
+.description-X8_53U, .userSelectNone-3AtPzf  {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    background: rgba(41, 38, 39, 0.276);
+}
+
+/* Full User Popout */
+.theme-dark .root-g14mjS {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    background: rgba(41, 38, 39, 0.276);
+}
+    .body-1Ukv50, .topSection-13QKHs {
+        background: rgba(41, 38, 39, 0);
+}
+
+/* Buttons */
+.button-2b4VEQ.buttonSize-3QlBTl {
+    background-color: rgb(26, 129, 251);
+    border-radius: 5px;
+}
+.button-2b4VEQ.buttonSize-3QlBTl:hover, .actionButton-3-B2x-:hover {
+    background-color: rgba(0, 78, 174, 0.977);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.actionButton-3-B2x- {
+    background-color: rgb(26, 129, 251);
+    color: white;
+}
+
+/* Image Replacing */
+img[src="/imglocation.png"] {
+    background: url(something.png) no-repeat;
+    }
+
+    .xenoLib-notification-content {
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+        border: 1px solid rgb(146, 146, 146); 
+        border-radius: 5px;
+        background: rgba(41, 38, 39, 0.276);
+    }
+
