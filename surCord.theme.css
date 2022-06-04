@@ -29,41 +29,15 @@
 */
 
 /*
-///////////
 ////////////////////////////////////////
 ///Colors and other small details
 ////////////////////////////////////////
-//////////
 */
 
-.theme-dark {
-    --background-tertiary: rgb(42, 40, 44);
-    --background-secondary: rgb(42, 40, 44);
-    --background-secondary-alt: rgb(42, 40, 44);
-    --background-primary: rgb(31, 30, 30);
-    --channeltextarea-background: rgb(30, 30, 30);
-    --background-accent: rgb(26, 129, 251);
-    --background-modifier-hover: rgb(65, 63, 66);
-    --background-modifier-active: rgb(30, 30, 30);
-    --background-modifier-selected: rgb(26, 129, 251);
-    --deprecated-card-bg: #12141f63;
-    --background-floating: rgba(35, 35, 35, 0.771);
-    --deprecated-quickswitcher-input-background:#101320;
-    --elevation-low: none;
-    --toast-background: #292841 !important;
-    --toast-header: #101320 !important;
-    --toast-contents: #23283d !important;
-}
+/* LUCKFIRE - macOS Title Bar - LICENSE https://github.com/discord-extensions/macos-titlebar/blob/master/LICENSE */
+@import url('https://discord-extensions.github.io/macos-titlebar/src/source.css');
 
-
-/* Font */
-* {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    text-rendering: optimizeLegibility !important;
-    text-transform: none;
-}
-
-/* Checkboxes - Slate Theme - Tropical */
+/* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
 #app-mount .container-2nx-BQ .input-2XRLou, #app-mount .container-2nx-BQ .input-3xr72x, #app-mount .checkboxWrapper-2fDzaA .input-2XRLou, #app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
     margin: 0;
     opacity: 1;
@@ -107,13 +81,39 @@ display:none;
     font-size: 13px;
   }
 
+/* Color Pallete */
+.theme-dark {
+    --background-tertiary: rgb(42, 40, 44);
+    --background-secondary: rgb(42, 40, 44);
+    --background-secondary-alt: rgb(42, 40, 44);
+    --background-primary: rgb(31, 30, 30);
+    --channeltextarea-background: rgb(30, 30, 30);
+    --background-accent: rgb(26, 129, 251);
+    --background-modifier-hover: rgb(65, 63, 66);
+    --background-modifier-active: rgb(30, 30, 30);
+    --background-modifier-selected: rgb(26, 129, 251);
+    --deprecated-card-bg: #12141f63;
+    --background-floating: rgba(35, 35, 35, 0.771);
+    --deprecated-quickswitcher-input-background:#101320;
+    --elevation-low: none;
+    --toast-background: #292841 !important;
+    --toast-header: #101320 !important;
+    --toast-contents: #23283d !important;
+}
+
+
+/* Font */
+* {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    text-transform: none;
+}
+
 
 /*
-//////////
 /////////////////////////
-//// Title Bar
+//// Title Bar on macOS
 /////////////////////////
-/////////
 */
 
 /* Title Bar */
@@ -131,7 +131,6 @@ display:none;
         font-weight: 900;
     }
 
-
 /* Search and other Text fields */
 .searchBar-jGtisZ, .searchBar-3TnChZ .searchBarComponent-3N7dCG, .inner-2pOSmK, .wrapper-n2dlvs, .searchBar-2M9mRP, .input-2z42oC {
     background-color: rgb(53, 51, 55);
@@ -143,11 +142,9 @@ display:none;
 }
 
 /*
-///////////
 ///////////////////////
 //// Guilds
 ///////////////////////
-//////////
 */
 .guilds-2JjMmN .scroller-3X7KbA, .wrapper-1_HaEi {
     background-color: rgb(42, 40, 44);
@@ -183,11 +180,9 @@ display:none;
     }
 
 /*
-/////////////
 ////////////////////////
 /// Chat Area
 ////////////////////////
-/////////////
 /*
 
 /* Text Box */
@@ -231,11 +226,9 @@ display:none;
 }
 
 /*
-/////////////
 ////////////////////////
 ////Friends List 
 ////////////////////////
-/////////////
 */
 
 /* Friends themselves */
@@ -298,11 +291,9 @@ display:none;
 }
 
 /*
-///////////
 ////////////////////
 ///Sidebars
 ////////////////////
-///////////
 */
 
 .scroller-WSmht3, .scroller-1ox3I2, .container-1zzFcN { 
@@ -347,11 +338,9 @@ display:none;
 
 
 /*
-///////////
 ////////////////////
 ////Fly Outs
 ///////////////////
-///////////
 */
 
 /* Pins/Inbox */
