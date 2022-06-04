@@ -296,6 +296,7 @@ display:none;
 ////////////////////
 */
 
+/*Channel Bars */
 .scroller-WSmht3, .scroller-1ox3I2, .container-1zzFcN { 
     border-right: .5px solid black;
     border-top: .5px solid black;
@@ -425,6 +426,27 @@ display:none;
         border: 1px solid rgb(78, 78, 81); 
         border-radius: 5px;
     }
+
+
+/* Search Options */
+.searchInput-3pIoTy {
+    background: rgba(0, 0, 0, 0.436); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px; 
+}
+.resultsGroup-cfY57t { 
+    background: rgba(0, 0, 0, 0.436); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+}
+.searchOption-3u1gRt:hover {
+    background: rgba(26, 127, 251, 0.612) !important; 
+    border-radius: 4px;
+}
     
 /* Hovering over Menus */
 .colorDefault-CDqZdO:hover {
