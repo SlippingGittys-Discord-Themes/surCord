@@ -65,7 +65,7 @@
 display:none;
 }
 
-/* Powercord Theme Toggler and Plugins Products */
+/* Compact Powercord Theme Toggler and Plugins Products */
 .powercord-product {
     padding: 9px;
     margin-bottom: 13px;
@@ -149,7 +149,7 @@ display:none;
 .guilds-2JjMmN .scroller-3X7KbA, .wrapper-1_HaEi {
     background-color: rgb(42, 40, 44);
 }
-    .platform-osx .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH {
+    .platform-osx .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH, .unreadMentionsIndicatorBottom-3RJMnQ .unreadMentionsBar-ZXXoOH{
         background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87)) ;
     }
     .expandedFolderBackground-1kSAf6 {
@@ -409,26 +409,31 @@ display:none;
         background: rgba(0, 0, 0, 0.933); 
     }
 
-/* Context Menu */
-.scroller-1bVxF5 {
-    background: rgba(41, 38, 39, 0.276);
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgb(78, 78, 81); 
-    border-radius: 5px;
-}
+/* Context & Status Menus */
+.menu-1QACrS {
+        background: none;
+    }
+    .menu-1QACrS::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        border-radius: inherit;
+        background: rgba(0, 0, 0, 0.436); 
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+        border: 1px solid rgb(78, 78, 81); 
+        border-radius: 5px;
+    }
+    
+/* Hovering over Menus */
 .colorDefault-CDqZdO:hover {
     background: rgba(26, 127, 251, 0.612) !important; 
     border-radius: 4px;
 }
-.styleFlexible-x0_sIC {
-    background: rgba(0, 0, 0, 0.436); 
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-}
     .label-2gNW3x {
         color: white;
     }
-
 
 
 /*------------------* testing *-----------------*/
