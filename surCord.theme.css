@@ -1,7 +1,7 @@
  /**
  * @name surCord
  * @author Vozer
- * @version 2022.06.01
+ * @version 2022.06.04
  * @description Hello. Again.
  * @source https://github.com/SlippingGitty/surCord/
  * @website https://slippinggitty.github.io/
@@ -178,6 +178,17 @@ display:none;
         margin-left: 0px;
         background-color: rgb(145, 138, 152);
     }
+    .circleIconButton-1VxDrg {
+        backdrop-filter: blur(20px);
+        border: 1px solid rgb(78, 78, 81); 
+        border-radius: 15px;
+        background: rgba(39, 38, 41, 0.276);
+        color: rgba(26, 127, 251, 0.612);
+    }
+    .circleIconButton-1VxDrg:hover {
+        background: rgba(99, 81, 199, 0.276);
+        color: rgba(255, 255, 255, 0.612);  
+    }
 
 /*
 ////////////////////////
@@ -224,6 +235,16 @@ display:none;
 .attachedBars-2BCP3l, .clipContainer-31nYlH, .container-A2jo65, .channelTextArea-1FufC0 {
     background: transparent;
 }
+
+/* Embeds and MarkUp */
+.grid-1aWVsE, .markup-eYLPri code {
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    background: rgba(41, 38, 39, 0.276);
+}
+.embedFull-1HGV2S {
+        background-color: transparent;
+    }
 
 /*
 ////////////////////////
