@@ -202,25 +202,26 @@ display:none;
     border: 1px solid rgb(97, 96, 99); 
   }
   .scrollableContainer-15eg7h:hover {
-    box-shadow: 0 0 2px 3px #4189c38c;
+    box-shadow: 0 0 2px 2px #4189c38c;
   }
   .theme-dark .autocomplete-3NRXG8 {
-    background: rgba(93, 93, 93, 0.241); 
+    background: rgba(41, 38, 39, 0.276);
     backdrop-filter: blur(20px);
+    border: 1px solid rgb(78, 78, 81); 
 }
 .autocompleteRowVerticalSmall-2rVED0 .base-2v-uc0:hover, .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover {
     background-color: rgba(26, 127, 251, 0.612) !important; 
-    backdrop-filter: blur(3px);
+backdrop-filter: blur(10px);
 }
     .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 {
         background-color: rgba(26, 127, 251, 0.353) !important; 
-        backdrop-filter: blur(3px);
+    backdrop-filter: blur(10px);
     }
 
 /* New Messages Banner */
 .newMessagesBar-1hF-9G {
     background-color: rgba(26, 127, 251, 0.612) !important; 
-    backdrop-filter: blur(3px);
+backdrop-filter: blur(10px);
     border-radius: 50px;
     margin-top: 2px;
 }
@@ -228,7 +229,7 @@ display:none;
 /* Reply Bar */
 .replyBar-1oi75v, .jumpToPresentBar-1cEnH0 {
     background-color: rgba(26, 127, 251, 0.612) !important; 
-    backdrop-filter: blur(3px);
+backdrop-filter: blur(10px);
     border-radius: 50px;
     margin-bottom: 2px;  
 }
@@ -326,7 +327,7 @@ display:none;
 /* User Settings */
 .container-YkUktl {
     background: rgba(0, 0, 0, 0.436); 
-    backdrop-filter: blur(3px);
+backdrop-filter: blur(10px);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 20px;
@@ -435,13 +436,16 @@ display:none;
     }
 
 /* Emoji Menu */
-.contentWrapper-3vHNP2 {
+.contentWrapper-3vHNP2, .popoutContainer-2wbmiM {
     background: rgba(0, 0, 0, 0.436); 
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(10px);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 5px;
 }
+    .guildSection-2Zyzy8{
+        background-color: transparent; 
+    }
     .header-1ULbqO, .packHeader-w9jpYl {
       border-radius: 20px;
       background: rgba(55, 55, 55, 0); 
@@ -455,7 +459,7 @@ display:none;
     }
     .button-1zW0-r {
         background-color: rgba(26, 127, 251, 0.358);
-        backdrop-filter: blur(3px);
+    backdrop-filter: blur(10px);
     }
 
 /* Context & Status Menus */
