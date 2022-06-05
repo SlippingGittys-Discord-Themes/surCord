@@ -436,7 +436,7 @@ backdrop-filter: blur(10px);
     }
 
 /* Emoji Menu */
-.contentWrapper-3vHNP2, .popoutContainer-2wbmiM {
+.contentWrapper-3vHNP2, .popoutContainer-2wbmiM, .emojiPicker-6YCk8a {
     background: rgba(0, 0, 0, 0.436); 
     backdrop-filter: blur(10px);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
@@ -640,6 +640,7 @@ img[src="/imglocation.png"] {
     background: url(something.png) no-repeat;
     }
 
+/* In App Notifications */
     .xenoLib-notification-content {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
