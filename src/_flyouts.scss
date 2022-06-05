@@ -1,3 +1,4 @@
+
 /*
 ////////////////////
 ////Fly Outs
@@ -72,13 +73,17 @@
 
 
 /* Emoji Menu */
-.contentWrapper-3vHNP2, .popoutContainer-2wbmiM, .emojiPicker-6YCk8a {
+.contentWrapper-3vHNP2, .popoutContainer-2wbmiM {
     background: rgba(0, 0, 0, 0.436); 
     backdrop-filter: blur(10px);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 5px;
 }
+    .wrapper-3u51GQ .emojiPicker-6YCk8a {
+         background-color: transparent;
+         backdrop-filter: blur(10px);
+     }
     .guildSection-2Zyzy8{
         background-color: transparent; 
     }
@@ -94,7 +99,7 @@
         background: rgba(0, 0, 0, 0.933); 
     }
     .button-1zW0-r {
-        background-color: rgba(26, 127, 251, 0.358);
+    background-color: rgba(26, 127, 251, 0.358);
     backdrop-filter: blur(10px);
     }
 
