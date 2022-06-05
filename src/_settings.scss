@@ -14,3 +14,47 @@
 .fieldList-in8WkP, .background-3d_SjE {
     background-color: transparent;
 }
+
+/* left Side bar */
+.sidebarRegion-1VBisG {
+    border-right: .5px solid black;
+}
+
+
+/*
+////////////////////////
+////Powercord
+////////////////////////
+*/
+
+
+/* Search Feilds */
+.powercord-entities-manage-search input {
+    background-color: rgb(53, 51, 55);
+    border-radius: 4px;
+    border: 1px solid rgb(97, 96, 99); 
+}
+    .powercord-entities-manage-search input:hover {
+        box-shadow: 0 0 3px 3px rgb(32, 83, 148);
+    }
+
+/* Headers */
+.powercord-entities-manage-tabs {
+    background: rgba(0, 0, 0, 0.436) !important; 
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+}
+
+/* Text Feilds */
+.inputDefault-3FGxgL {
+    border-radius: 20px;
+    border: 1px solid rgb(97, 96, 99); 
+}
+
+
+/* Buttons */
+.app-2CXKsg button, .lookFilled-yCfaCM.colorYellow-Pgtmch {
+    border-radius: 50px;
+}
