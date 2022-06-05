@@ -35,10 +35,11 @@
 display:none;
 }
 
-/* Compact Powercord Theme Toggler and Plugins Products */
+/* VOZER - Compact Powercord - LICENSE - https://github.com/SlippingGitty/Compact-Powercord/blob/main/LICENSE */
 .powercord-product {
     padding: 9px;
     margin-bottom: 13px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
   }
   .powercord-product-header h4 {
     font-size: 16px;
@@ -50,6 +51,30 @@ display:none;
     margin-top: 4px;
     font-size: 13px;
   }
+
+/* LUCKFIRE - Theme Notices - NOTIFICATION - https://github.com/discord-theme-tools/theme-notices/blob/main/LICENSE */
+  .theme-light #app-mount::after {
+    z-index: 101;
+    position: absolute;
+    content: "For this theme to work properly, you have to enable Dark Mode. \a\aTo enable it, head over to Settings -> Appearance.";
+    white-space: pre-wrap;
+    font-weight: 500;
+    line-height: 21px;
+    right: 10px;
+    bottom: 10px;
+    padding: 15px 15px 15px 15px;
+    width: 299px;
+    max-width: 299px;
+    min-height: 75px;
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    color: var(--text-normal);
+    background-color: var(--background-floating);
+    background-repeat: no-repeat;
+    background-position: 16px center;
+}
 
 /* Color Pallete */
 .theme-dark {
