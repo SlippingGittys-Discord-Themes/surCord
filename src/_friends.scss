@@ -1,0 +1,64 @@
+/*
+////////////////////////
+////Friends List 
+////////////////////////
+*/
+
+/* Friends themselves */
+.peopleListItem-u6dGxF {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    background: rgb(40, 38, 42);
+    margin-bottom: 13px;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.peopleListItem-u6dGxF:hover {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(26, 127, 251, 0.487);
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    background: rgba(41, 38, 39, 0.276);
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+    .actions-YHvpIT {
+        padding-right: 10px;
+    }
+    .actionButton-3-B2x- {
+        margin-right: 13px;
+    }
+.peopleColumn-1wMU14 {
+    background: rgb(33, 31, 35); 
+}
+
+/* Active Now */
+.itemCard-3Etziu {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    background: rgba(88, 84, 85, 0.276);
+    margin-bottom: 13px;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+    .section-3G9aLW:only-child {
+        border: 1px solid rgb(78, 78, 81); 
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
+    }
+.itemCard-3Etziu:hover {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(26, 127, 251, 0.487);
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    background: rgba(41, 38, 39, 0.276);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

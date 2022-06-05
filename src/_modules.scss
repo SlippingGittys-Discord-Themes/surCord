@@ -1,0 +1,80 @@
+/*
+////////////////////////////////////////
+///Colors and other small details
+////////////////////////////////////////
+*/
+
+/* LUCKFIRE - macOS Title Bar - LICENSE https://github.com/discord-extensions/macos-titlebar/blob/master/LICENSE */
+@import url('https://discord-extensions.github.io/macos-titlebar/src/source.css');
+
+/* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
+#app-mount .container-2nx-BQ .input-2XRLou, #app-mount .container-2nx-BQ .input-3xr72x, #app-mount .checkboxWrapper-2fDzaA .input-2XRLou, #app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
+    margin: 0;
+    opacity: 1;
+    height: 14px !important;
+    width: 14px !important;
+    position: relative;
+    cursor: var(--cursor);
+    -webkit-appearance: checkbox;
+    appearance: checkbox;
+}
+#app-mount .container-2nx-BQ, #app-mount .checkboxWrapper-2fDzaA {
+    width: auto;
+    border-radius: 0;
+    background: transparent !important;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    cursor: var(--cursor);
+}
+#app-mount .container-2nx-BQ .slider-32CRPX, #app-mount .checkboxWrapper-2fDzaA .slider-32CRPX {
+    display: none;
+}
+.theme-dark .checkbox-f1HnKB {
+display:none;
+}
+
+/* Compact Powercord Theme Toggler and Plugins Products */
+.powercord-product {
+    padding: 9px;
+    margin-bottom: 13px;
+  }
+  .powercord-product-header h4 {
+    font-size: 16px;
+  }
+  .powercord-product .divider-3LgWDL {
+    display: none;
+  }
+  .description, .powercord-product .metadata, .powercord-product-permissions, .powercord-product-footer {
+    margin-top: 4px;
+    font-size: 13px;
+  }
+
+/* Color Pallete */
+.theme-dark {
+    --background-tertiary: rgb(42, 40, 44);
+    --background-secondary: rgb(42, 40, 44);
+    --background-secondary-alt: rgb(42, 40, 44);
+    --background-primary: rgb(31, 30, 30);
+    --channeltextarea-background: rgb(30, 30, 30);
+    --background-accent: rgb(26, 129, 251);
+    --background-modifier-hover: rgb(65, 63, 66);
+    --background-modifier-active: rgb(30, 30, 30);
+    --background-modifier-selected: rgb(26, 129, 251);
+    --deprecated-card-bg: #12141f63;
+    --background-floating: rgba(35, 35, 35, 0.771);
+    --deprecated-quickswitcher-input-background:#101320;
+    --elevation-low: none;
+    --toast-background: #292841 !important;
+    --toast-header: #101320 !important;
+    --toast-contents: #23283d !important;
+}
+
+
+/* Font */
+* {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+    text-rendering: optimizeLegibility !important;
+    text-transform: none;
+}

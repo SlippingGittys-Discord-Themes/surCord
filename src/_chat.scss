@@ -1,0 +1,65 @@
+/*
+////////////////////////
+/// Chat Area
+////////////////////////
+/*
+
+/* Text Box */
+.scrollableContainer-15eg7h, .hasConnectedBar-1vN2JH, .preview-QJ3OG3 {
+    border-radius: 20px;
+    border: 1px solid rgb(97, 96, 99); 
+  }
+  .scrollableContainer-15eg7h:hover {
+    box-shadow: 0 0 2px 2px #4189c38c;
+  }
+  .theme-dark .autocomplete-3NRXG8 {
+    background: rgba(41, 38, 39, 0.276);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(78, 78, 81); 
+}
+.autocompleteRowVerticalSmall-2rVED0 .base-2v-uc0:hover, .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover {
+    background-color: rgba(26, 127, 251, 0.612) !important; 
+backdrop-filter: blur(10px);
+}
+    .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 {
+        background-color: rgba(26, 127, 251, 0.353) !important; 
+    backdrop-filter: blur(10px);
+    }
+
+/* New Messages Banner */
+.newMessagesBar-1hF-9G {
+    background-color: rgba(26, 127, 251, 0.612) !important; 
+backdrop-filter: blur(10px);
+    border-radius: 50px;
+    margin-top: 2px;
+}
+
+/* Reply Bar */
+.replyBar-1oi75v, .jumpToPresentBar-1cEnH0 {
+    background-color: rgba(26, 127, 251, 0.612) !important; 
+backdrop-filter: blur(10px);
+    border-radius: 50px;
+    margin-bottom: 2px;  
+}
+.attachedBars-2BCP3l, .clipContainer-31nYlH, .container-A2jo65, .channelTextArea-1FufC0 {
+    background: transparent;
+}
+
+/* Embeds and MarkUp */
+.grid-1aWVsE, .markup-eYLPri code {
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    background: rgba(41, 38, 39, 0.276);
+}
+.embedFull-1HGV2S {
+        background-color: transparent;
+    }
+
+/* Nitro Claim a Gift, Join a Server */
+.description-X8_53U, .userSelectNone-3AtPzf  {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    background: rgba(41, 38, 39, 0.276);
+}

@@ -1,0 +1,30 @@
+/*
+/////////////////////////
+//// Title Bar on macOS
+/////////////////////////
+*/
+
+/* Title Bar */
+.container-ZMc96U.themed-Hp1KC_, .header-3OsQeK {
+    background: rgb(55, 53, 55) !important;
+    border-bottom: .5px solid black;
+}
+    .communityInfoPill-2Mll66 {
+        display: none;
+    }
+.theme-dark .children-3xh0VB:after {
+    background: rgba(0, 0, 0, 0);
+}
+    .title-17SveM {
+        font-weight: 900;
+    }
+
+/* Search and other Text fields */
+.searchBar-jGtisZ, .searchBar-3TnChZ .searchBarComponent-3N7dCG, .inner-2pOSmK, .wrapper-n2dlvs, .searchBar-2M9mRP, .input-2z42oC {
+    background-color: rgb(53, 51, 55);
+    border-radius: 4px;
+    border: 1px solid rgb(97, 96, 99); 
+}
+.searchBar-jGtisZ:hover, .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover, .wrapper-n2dlvs:hover,  .inner-2pOSmK:hover, .searchBar-2M9mRP:hover, .input-2z42oC:hover, .searchBar-2aylmZ:hover {
+    box-shadow: 0 0 3px 3px rgb(32, 83, 148);
+}

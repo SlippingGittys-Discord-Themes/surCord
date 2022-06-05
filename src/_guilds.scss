@@ -1,0 +1,48 @@
+/*
+///////////////////////
+//// Guilds
+///////////////////////
+*/
+.guilds-2JjMmN .scroller-3X7KbA, .wrapper-1_HaEi {
+    background-color: rgb(42, 40, 44);
+}
+    .platform-osx .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH, .unreadMentionsIndicatorBottom-3RJMnQ .unreadMentionsBar-ZXXoOH{
+        background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87)) ;
+    }
+    .expandedFolderBackground-1kSAf6 {
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+        border: 1px solid rgb(78, 78, 81); 
+        border-radius: 15px;
+        background: rgba(41, 38, 39, 0.276);
+    }
+        .closedFolderIconWrapper-3tRb2d {
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+            border: 1px solid rgb(78, 78, 81); 
+            border-radius: 15px;
+            background: rgba(41, 38, 39, 0.276);
+        }
+            .expandedFolderBackground-1kSAf6.collapsed-uGXEbi, .expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT {
+                display: none;
+            }
+    .folder-241Joy, .folder-241Joy:hover {
+        background-color: #00000000;
+    }
+    .item-2LIpTv {
+        width: 8px;
+        border-radius: 5px 5px 5px 5px;
+        margin-left: 0px;
+        background-color: rgb(145, 138, 152);
+    }
+    .circleIconButton-1VxDrg {
+        backdrop-filter: blur(20px);
+        border: 1px solid rgb(78, 78, 81); 
+        border-radius: 15px;
+        background: rgba(39, 38, 41, 0.276);
+        color: rgba(26, 127, 251, 0.612);
+    }
+    .circleIconButton-1VxDrg:hover {
+        background: rgba(99, 81, 199, 0.276);
+        color: rgba(255, 255, 255, 0.612);  
+    }

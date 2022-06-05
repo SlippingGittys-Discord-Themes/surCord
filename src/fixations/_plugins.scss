@@ -1,0 +1,16 @@
+/*
+////////////////////////
+//////Plugins
+//////////////////////// 
+*/
+
+/* ---------- xenoLib/Lighty plugins ------------ */
+
+/* In App Notifications */
+.xenoLib-notification-content {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(146, 146, 146); 
+    border-radius: 5px;
+    background: rgba(41, 38, 39, 0.276);
+}
