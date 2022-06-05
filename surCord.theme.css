@@ -13,7 +13,7 @@
                .OMMMMo           OS: surCord 06.04.22 arm64 
                OMMM0,            Host: DiscordCanary0,1 
      .;loddo:' loolloddol;.      Kernel: 0.0.284
-   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 48 hours, 00 mins 
+   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 09 hours, 15 mins 
  .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 20 (plugins) 
  XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: Powercord, BetterDiscord, BeautifulDiscord,
 ;MMMMMMMMMMMMMMMMMMMMMMMM:              Astra, Goosemod, Stylus 
@@ -104,7 +104,7 @@ display:none;
 
 /* Font */
 * {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
     text-rendering: optimizeLegibility !important;
     text-transform: none;
 }
@@ -330,11 +330,26 @@ display:none;
 }
 
 /* Channels */
-.modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg, .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg {
+.modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg, .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg, .mainContent-uDGa6R .overflow-1wOqNV, .mainContent-uDGa6R {
     color: white;
 }
 .icon-2W8DHg {
     color: rgb(16,138,225);
+}
+.modeUnread-3Cxepe .icon-2W8DHg  {
+       color: rgb(44, 192, 90); 
+}
+.actionIcon-2sw4Sl {
+    color: rgb(255, 255, 255);
+}
+.addButtonIcon-3rJeaD {
+    border-radius: 50%; 
+    color: rgb(44, 192, 90);
+}
+.unreadRelevant-2f-VSK {
+    background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87)) ;
+    width: 8px;
+    border-radius: 5px 5px 5px 5px; 
 }
 
 
@@ -389,6 +404,14 @@ display:none;
 .bodyInnerWrapper-2bQs1k, .footer-3naVBw {
     background: rgba(0, 0, 0, 0) !important; 
 }
+    .role-2TIOKu {
+        border: 1px solid rgb(78, 78, 81); 
+    }
+    .input-2z42oC {
+        border-radius: 50px;
+        background: rgba(107, 107, 107, 0.392) !important; 
+        backdrop-filter: blur(10px);  
+    }
 
 /* Emoji Menu */
 .contentWrapper-3vHNP2 {
@@ -408,6 +431,10 @@ display:none;
     }
     .unicodeShortcut-3N8oDe, .standardStickerShortcut-ObSns3 {
         background: rgba(0, 0, 0, 0.933); 
+    }
+    .button-1zW0-r {
+        background-color: rgba(26, 127, 251, 0.358);
+        backdrop-filter: blur(3px);
     }
 
 /* Context & Status Menus */
@@ -447,6 +474,37 @@ display:none;
     background: rgba(26, 127, 251, 0.612) !important; 
     border-radius: 4px;
 }
+
+/* Search Results */
+.searchResult-O9NDji, .scroller-3iiyhZ {
+    background: rgba(0, 0, 0, 0.436); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+    margin-top: 5px;
+}
+    .channelName-3w2Y3c, .searchResultsWrap-5RVOkx {
+        background: transparent;   
+    }
+    .searchHeader-1r_ZSh {
+        background: rgba(0, 0, 0, 0.436); 
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+        border: 1px solid rgb(78, 78, 81); 
+        border-radius: 5px;
+        border-radius: 20px;
+        margin-right: 8px;
+        margin-left: 5px;
+        margin-top: 8px;
+    }
+    .searchHeader-1r_ZSh:hover {
+        box-shadow: 0 0 2px 3px #4189c38c;
+    }
+
     
 /* Hovering over Menus */
 .colorDefault-CDqZdO:hover {
@@ -456,6 +514,44 @@ display:none;
     .label-2gNW3x {
         color: white;
     }
+
+/* All Active Threads */
+.container-3GP6AV, .header-3cSJjT {
+    background: rgba(0, 0, 0, 0.59);
+    backdrop-filter: blur(10px);
+}
+.container-2rzKKA {
+    background: rgba(0, 0, 0, 0.436); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+}
+    .container-2rzKKA:hover {
+     box-shadow: 0 0 3px 1px rgba(26, 127, 251, 0.612) !important; 
+     border-radius: 4px;
+     }
+     .list-3YHPPb, .activeThreadsList-12IFYm {
+         background-color: transparent;
+     }
+
+
+/*
+//////////////////////////
+/////Settings
+//////////////////////////
+*/
+
+/* Account Profile Card */
+.accountProfileCard-lbN7n-, .profileBannerPreview-3mLIdO {
+    background: rgba(0, 0, 0, 0.436); 
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+}
+.fieldList-in8WkP, .background-3d_SjE {
+    background-color: transparent;
+}
 
 
 /*------------------* testing *-----------------*/
@@ -470,7 +566,7 @@ display:none;
 }
 
 /* Full User Popout */
-.theme-dark .root-g14mjS {
+.theme-dark .root-g14mjS, .container-2O1UgZ {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid rgb(78, 78, 81); 
@@ -479,14 +575,18 @@ display:none;
 }
     .body-1Ukv50, .topSection-13QKHs {
         background: rgba(41, 38, 39, 0);
-}
+    }
 
 /* Buttons */
-.button-2b4VEQ.buttonSize-3QlBTl {
+.button-2b4VEQ.buttonSize-3QlBTl, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ, .full-motion .button-1_oXub, .lookFilled-yCfaCM.colorBrand-I6CyqQ {
     background-color: rgb(26, 129, 251);
-    border-radius: 5px;
+    color: white;
+    border-radius: 50px;
 }
-.button-2b4VEQ.buttonSize-3QlBTl:hover, .actionButton-3-B2x-:hover {
+.popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ {
+    border: 1px solid rgb(255, 255, 255); 
+}
+.button-2b4VEQ.buttonSize-3QlBTl:hover, .actionButton-3-B2x-:hover, .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover, .popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ:hover {
     background-color: rgba(0, 78, 174, 0.977);
     border-radius: 10px;
     transition: 0.3s;
@@ -495,6 +595,20 @@ display:none;
     background-color: rgb(26, 129, 251);
     color: white;
 }
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+    background: linear-gradient(to bottom, rgb(238, 52, 48) 0%,rgb(238, 52, 48) 50%,rgba(205, 43, 40, 0.999) 100%);
+    border-radius: 50px;
+    border: 1px solid rgb(182, 0, 0); 
+    box-shadow: 0 0 3px 3px rgba(255, 0, 0, 0.483);
+}
+.lookOutlined-3yKVGo.colorRed-rQXKgM {
+    background: linear-gradient(to bottom, rgb(255, 4, 0) 0%,rgb(255, 4, 0) 50%,rgba(255, 4, 0, 0.999) 100%);
+    border-radius: 50px;
+}
+.numberBadge-37OJ3S, .newBadge-1bHewI {
+    background: linear-gradient(to bottom, rgb(238, 52, 48) 0%,rgb(238, 52, 48) 50%,rgba(238, 52, 48, 0.999) 100%);
+    font-size: 10px;
+  }
 
 /* Image Replacing */
 img[src="/imglocation.png"] {
