@@ -1,5 +1,5 @@
 <h1 align="center">surCord</h1>
-<p align="center">A Discord Theme inspired by Human Design Guidelines - Hello. Again. </p>
+<p align="center">Hello. Again. </p>
 
 ## How to use 📖
 
@@ -16,7 +16,7 @@
   * Head [here](https://github.com/SlippingGitty/surCord/raw/main/surCord.user.css) to install.
 
 ## Extra info ℹ️
-This theme was made with macOS in mind first and foremost. As a result, this theme may look imporper if you are on Windows or any various Linux flavor of choice. Various parts may or may not be broken, such as fonts, spacing, etc. 
+This theme was made with macOS in mind first and foremost. As a result, this theme might look imporper if you are on Windows, or any various Linux flavor of choice. Several parts may or may not be broken, such as fonts, margins & padding, etc. 
 
 ## Devs, Contributors, and other Creditors:
 
