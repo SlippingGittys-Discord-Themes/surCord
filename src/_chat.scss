@@ -16,7 +16,17 @@
     background: rgba(41, 38, 39, 0.276);
     backdrop-filter: blur(20px);
     border: 1px solid rgb(78, 78, 81); 
-}
+    }
+    .upload-vLbqu- {
+        background: rgba(8, 4, 5, 0.429);
+        border: 1px solid rgb(78, 78, 81); 
+    }
+    .actionBar-1ozugS .wrapper-2vIMkT {
+        background: rgba(8, 4, 5, 0.429);
+        backdrop-filter: blur(3px);
+        border: 1px solid rgb(78, 78, 81); 
+        border-radius: 50px;
+    }
 .autocompleteRowVerticalSmall-2rVED0 .base-2v-uc0:hover, .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover {
     background-color: rgba(26, 127, 251, 0.612) !important; 
 backdrop-filter: blur(10px);
@@ -37,9 +47,10 @@ backdrop-filter: blur(10px);
 /* Reply Bar */
 .replyBar-1oi75v, .jumpToPresentBar-1cEnH0 {
     background-color: rgba(26, 127, 251, 0.612) !important; 
-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     border-radius: 50px;
-    margin-bottom: 2px;  
+    padding-bottom: 1px;
+    margin-bottom: 12px;  
 }
 .attachedBars-2BCP3l, .clipContainer-31nYlH, .container-A2jo65, .channelTextArea-1FufC0 {
     background: transparent;
