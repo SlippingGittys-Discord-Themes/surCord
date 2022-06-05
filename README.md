@@ -2,7 +2,7 @@
 <p align="center">Hello. Again. </p>
 
 # ![screenshot](https://raw.githubusercontent.com/SlippingGitty/surCord/main/assets/Screen%20Shot%202022-06-05%20at%203.04.43%20PM.png?token=GHSAT0AAAAAABVBPTVIHKKVQXL3YQWH27F6YU5CX6A)
-# ![screenshot](https://raw.githubusercontent.com/SlippingGitty/surCord/main/assets/Screen%20Shot%202022-06-05%20at%203.11.48%20PM.png?token=GHSAT0AAAAAABVBPTVI7R77FZ4U6F6SHY7SYU5CW5Q)
+# ![screenshot](https://raw.githubusercontent.com/SlippingGitty/surCord/main/assets/Screen%20Shot%202022-06-05%20at%203.12.00%20PM.png?token=GHSAT0AAAAAABVBPTVJMG6KY7HVQ3FYAQVCYU5CZ4A)
 
 ## How to use 📖
 
