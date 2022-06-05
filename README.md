@@ -2,7 +2,6 @@
 <p align="center">Hello. Again. </p>
 
 # ![screenshot](https://files.catbox.moe/lpqiva.png)
-# ![screenshot](https://files.catbox.moe/x9i4wt.png)
 
 ## How to use 📖
 
