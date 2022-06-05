@@ -1,8 +1,8 @@
 <h1 align="center">surCord</h1>
 <p align="center">Hello. Again. </p>
 
-# ![screenshot](https://raw.githubusercontent.com/SlippingGitty/surCord/main/assets/Screen%20Shot%202022-06-05%20at%203.04.43%20PM.png?token=GHSAT0AAAAAABVBPTVIHKKVQXL3YQWH27F6YU5CX6A)
-# ![screenshot](https://raw.githubusercontent.com/SlippingGitty/surCord/main/assets/Screen%20Shot%202022-06-05%20at%203.12.00%20PM.png?token=GHSAT0AAAAAABVBPTVJMG6KY7HVQ3FYAQVCYU5CZ4A)
+# ![screenshot](https://files.catbox.moe/lpqiva.png)
+# ![screenshot](https://files.catbox.moe/x9i4wt.png)
 
 ## How to use 📖
 
