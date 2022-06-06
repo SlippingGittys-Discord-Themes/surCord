@@ -1,7 +1,7 @@
 {
     "name": "surCord",
     "version": "1.0.0",
-    "license": "WTFPL",
+    "license": "MIT",
     "theme": "/src/_index.scss",
     "author": "Vozer",
     "description": "A Discord theme inspired by Human Design"
