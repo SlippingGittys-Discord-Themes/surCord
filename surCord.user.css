@@ -1,0 +1,16 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name         surCord
+    @description  Hello. Again.
+    @author       Vozer
+    @namespace    https://github.com/SlippingGitty/surCord
+    @version      1.0.0
+    ==/UserStyle== */
+
+/* 
+////////////////
+///IMPORT CSS
+///////////////
+*/
+@import url("https://slippinggitty.github.io/surCord.css");
+}
