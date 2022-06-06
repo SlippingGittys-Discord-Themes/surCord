@@ -18,7 +18,7 @@
   * Head [here](https://github.com/SlippingGitty/surCord/raw/main/surCord.user.css) to install.
 
 ### Extra info ℹ️
-This theme was made with macOS in mind first and foremost. As a result, this theme might look imporper if you are on Windows, or any various Linux flavor of choice. As a result, several parts may or may not be broken, such as fonts, margins & padding, etc. [Consider installing the San Fransisco font library.](https://github.com/AppleDesignResources/SanFranciscoFont)
+This theme was made with macOS in mind first and foremost. As a result, this theme might look imporper if you are on Windows, or any various Linux flavor of choice. You should maybe [consider installing the San Fransisco font library.](https://github.com/AppleDesignResources/SanFranciscoFont)
 
 macOS users may also check out [Faux-TitleBar](https://github.com/SlippingGitty-s-Discord-Things/Faux-TitleBar-for-MacOS).
 
