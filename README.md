@@ -7,7 +7,7 @@
 
 #### Learn how to use [BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord), [Powercord](https://github.com/powercord-org/powercord), [Goosemod](https://goosemod.com/), or [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp). Browser users should look into [Stylus](https://github.com/openstyles/stylus).
 
-* BetterDiscord/BeautifulDiscord users can download [surCord.theme.css](https://raw.githubusercontent.com/SlippingGitty/surCord/main/surCord.user.css) and either
+* BetterDiscord/BeautifulDiscord users can download [surCord.theme.css](https://raw.githubusercontent.com/SlippingGitty/surCord/main/surCord.theme.css) and either
   * Inject the CSS file with BeautifulDiscord
   * Place in the BetterDiscord themes folder
 * Powercord users:
