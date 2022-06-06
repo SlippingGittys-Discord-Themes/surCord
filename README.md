@@ -1,7 +1,7 @@
 <h1 align="center">surCord</h1>
 <p align="center">Hello. Again. </p>
 
-# ![screenshot](https://files.catbox.moe/lpqiva.png)
+# ![screenshot](https://files.catbox.moe/roa9pp.png)
 
 ## How to use 📖
 
