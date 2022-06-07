@@ -29,7 +29,7 @@
 
 
 /* Search Feilds */
-.powercord-entities-manage-search input {
+.powercord-entities-manage-search input, .inner-1NoIT5 {
     background-color: rgb(53, 51, 55);
     border-radius: 4px;
     border: 1px solid rgb(97, 96, 99); 
@@ -58,3 +58,34 @@
 .app-2CXKsg button, .lookFilled-yCfaCM.colorYellow-Pgtmch {
     border-radius: 50px;
 }
+
+
+/*
+////////////////////////
+////Kernel
+////////////////////////
+*/
+
+/* Kernel Settings */
+
+.kernel-card, .kernel-card .kernel-card-tools, .ksu-card, .ksu-card .ksu-git-info .ksu-git-info-item {
+    background: rgba(0, 0, 0, 0.436) !important; 
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+}
+
+
+/* Powercord Combat & BetterDiscord Combat */
+
+.pc-notices .pc-notice-container, .pc-settings-addon-card, .pcu-card, .pcu-card .pcu-git-info .pcu-git-info-item, .bd-addon-card {
+    background: rgba(0, 0, 0, 0.436) !important; 
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid rgb(78, 78, 81); 
+    border-radius: 5px;
+}
+    .bd-addon-card .bd-addoncard-header {
+        background: transparent;
+    }
