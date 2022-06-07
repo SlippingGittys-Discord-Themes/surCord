@@ -24,9 +24,9 @@ macOS users may also check out [Faux-TitleBar](https://github.com/SlippingGitty-
 
 ## Devs, Contributors, and other Creditors:
 
-| <a href="https://github.com/SlippingGitty" target="_blank"> <img src="https://avatars.githubusercontent.com/u/76500838?s=460&u=109f1c2012f3e452251391807262ed098f45ec94&v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/discord-extensions" target="_blank"> <img src="https://avatars.githubusercontent.com/u/103222215?s=200&v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/twbs" target="_blank"> <img src="https://avatars.githubusercontent.com/u/2918581?s=200&v=4" alt="" width="96px" height="96px"> </a>
-|:-:|:-:|:-:|
-| Vozer | Discord Extensions ORG | Bootstrap |
+| <a href="https://github.com/SlippingGitty" target="_blank"> <img src="https://avatars.githubusercontent.com/u/76500838?s=460&u=109f1c2012f3e452251391807262ed098f45ec94&v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/discord-extensions" target="_blank"> <img src="https://avatars.githubusercontent.com/u/103222215?s=200&v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/twbs" target="_blank"> <img src="https://avatars.githubusercontent.com/u/2918581?s=200&v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/BlueRedBlueYellow" target="_blank"> <img src="https://avatars.githubusercontent.com/u/74393018?v=4" alt="" width="96px" height="96px"> </a>
+|:-:|:-:|:-:|:-:|
+| Vozer | Discord Extensions ORG | Bootstrap | BlueRedBlueYellow |
 
 ___
 Support Server 💬: https://discord.gg/xWYMgbD28p
