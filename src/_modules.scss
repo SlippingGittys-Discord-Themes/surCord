@@ -103,3 +103,8 @@ display:none;
     text-rendering: optimizeLegibility !important;
     text-transform: none;
 }
+
+/* Links */
+:root {
+--text-link: var(--accent);
+}
