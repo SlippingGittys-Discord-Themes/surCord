@@ -6,10 +6,14 @@
 */
 
 /* Title Bar */
-.container-ZMc96U.themed-Hp1KC_, .header-3OsQeK, .communityInfoVisible-3zc5_s .header-3OsQeK, .communityInfoVisible-3zc5_s .header-3OsQeK:hover, .hasBanner-2IrYih .header-3OsQeK, .hasBanner-2IrYih .header-3OsQeK:hover{
+.container-ZMc96U.themed-Hp1KC_, .header-3OsQeK{
     background: rgb(55, 53, 55);
     border-bottom: .5px solid black;
 }
+    .communityInfoVisible-3zc5_s .header-3OsQeK, .communityInfoVisible-3zc5_s .header-3OsQeK:hover, .hasBanner-2IrYih .header-3OsQeK, .hasBanner-2IrYih .header-3OsQeK:hover {
+      border-bottom: .5px solid rgba(0, 0, 0, 0);
+      border-right: .5px solid black;
+    }
     .communityInfoPill-2Mll66 {
         display: none;
     }
