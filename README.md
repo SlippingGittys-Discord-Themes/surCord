@@ -18,9 +18,10 @@
   * Head [here](https://github.com/SlippingGitty/surCord/raw/main/surCord.user.css) to install.
 
 ### Extra info ℹ️
-This theme was made with macOS in mind first and foremost. As a result, this theme might look imporper if you are on Windows, or any various Linux flavor of choice. You should maybe [consider installing the San Fransisco font library.](https://github.com/AppleDesignResources/SanFranciscoFont)
+* This theme was made with macOS in mind first and foremost. As a result, this theme might look imporper if you are on Windows, or any various Linux flavor of choice. You should maybe [consider installing the San Fransisco font library.](https://github.com/AppleDesignResources/SanFranciscoFont)
+  * macOS users may also check out [Faux-TitleBar](https://github.com/SlippingGitty-s-Discord-Things/Faux-TitleBar-for-MacOS).
 
-macOS users may also check out [Faux-TitleBar](https://github.com/SlippingGitty-s-Discord-Things/Faux-TitleBar-for-MacOS).
+* You can now very easily [change the accent color](https://cdn.discordapp.com/attachments/816373850647953439/984177819204603924/unknown.png) for surCord by navigating to `/src/_accents.scss` and [uncommenting >>>one<<<](https://github.com/SlippingGitty/surCord/blob/main/src/_accents.scss) of the colors. 
 
 ## Devs, Contributors, and other Creditors:
 
