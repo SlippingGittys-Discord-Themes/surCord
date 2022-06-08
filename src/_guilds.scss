@@ -40,9 +40,9 @@
         border: 1px solid rgb(78, 78, 81); 
         border-radius: 15px;
         background: rgba(39, 38, 41, 0.276);
-        color: rgba(26, 127, 251, 0.612);
+        color: var(--accent-selected);
     }
     .circleIconButton-1VxDrg:hover {
         background: rgba(99, 81, 199, 0.276);
-        color: rgba(255, 255, 255, 0.612);  
+        color: var(--accent-selected);  
     }
