@@ -108,3 +108,16 @@ display:none;
 :root {
 --text-link: var(--accent);
 }
+
+/* Scrollbars */
+.scroller-kQBbkU, .auto-2K3UW5, .peopleColumn-1wMU14 {
+  &::-webkit-scrollbar-track {
+      background-color: transparent;
+  }
+}
+
+.scroller-kQBbkU, .auto-2K3UW5, .thin-31rlnD, .peopleColumn-1wMU14 {
+  &::-webkit-scrollbar-thumb {
+      background-color: rgb(139, 139, 139);
+  }
+}
