@@ -143,8 +143,8 @@
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 5px;
 }
-.searchOption-3u1gRt:hover {
-    background: rgba(26, 127, 251, 0.612) !important; 
+.searchOption-3u1gRt:hover, .option-ayUoaq:hover {
+    background: var(--accent-selected) !important; 
     border-radius: 4px;
 }
 
@@ -181,7 +181,7 @@
     
 /* Hovering over Menus */
 .colorDefault-CDqZdO:hover {
-    background: rgba(26, 127, 251, 0.612) !important; 
+    background: var(--accent-selected) !important; 
     border-radius: 4px;
 }
     .label-2gNW3x {

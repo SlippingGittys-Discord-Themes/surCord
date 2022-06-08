@@ -35,7 +35,7 @@
     border: 1px solid rgb(97, 96, 99); 
 }
     .powercord-entities-manage-search input:hover {
-        box-shadow: 0 0 3px 3px rgb(32, 83, 148);
+        box-shadow: 0 0 3px 3px var(--accent-hover);
     }
 
 /* Headers */
@@ -77,7 +77,7 @@
 }
 
 
-/* Powercord Compat & BetterDiscord Compat */
+/* Powercord Combat & BetterDiscord Combat */
 
 .pc-notices .pc-notice-container, .pc-settings-addon-card, .pcu-card, .pcu-card .pcu-git-info .pcu-git-info-item, .bd-addon-card {
     background: rgba(0, 0, 0, 0.436) !important; 

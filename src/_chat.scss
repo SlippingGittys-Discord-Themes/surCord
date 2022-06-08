@@ -38,15 +38,15 @@ backdrop-filter: blur(10px);
 
 /* New Messages Banner */
 .newMessagesBar-1hF-9G {
-    background-color: rgba(26, 127, 251, 0.612) !important; 
-backdrop-filter: blur(10px);
+    background-color: var(--accent-selected) !important; 
+    backdrop-filter: blur(10px);
     border-radius: 50px;
     margin-top: 2px;
 }
 
 /* Reply Bar */
 .replyBar-1oi75v, .jumpToPresentBar-1cEnH0 {
-    background-color: rgba(26, 127, 251, 0.612) !important; 
+    background-color: var(--accent-selected) !important; 
     backdrop-filter: blur(10px);
     border-radius: 50px;
     padding-bottom: 1px;

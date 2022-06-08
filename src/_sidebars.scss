@@ -4,6 +4,12 @@
 ////////////////////
 */
 
+/* Discord Logo */
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background-color: var(--accent);
+}
+
+
 /* Channel Bars */
 .scroller-WSmht3, .scroller-1ox3I2, .container-1zzFcN { 
     border-right: .5px solid black;
@@ -29,7 +35,7 @@
     border-right: .5px solid black;
 }
 .interactiveSelected-29CP8y {
-    background: rgba(26, 127, 251, 0.612) !important; 
+    background: var(--accent-selected) !important; 
     backdrop-filter: blur(20px);
 }
 .container-2o3qEW {
@@ -40,8 +46,11 @@
 .modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg, .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg, .mainContent-uDGa6R .overflow-1wOqNV, .mainContent-uDGa6R {
     color: white;
 }
-.icon-2W8DHg {
-    color: rgb(16,138,225);
+.icon-2W8DHg, .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    color: var(--accent);
+}
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background-color: var(--accent) !important;
 }
 .modeUnread-3Cxepe .icon-2W8DHg  {
        color: rgb(44, 192, 90); 
