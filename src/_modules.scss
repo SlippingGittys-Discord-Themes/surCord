@@ -72,7 +72,7 @@
 }
 
 .notice-2HEN-u {
-  z-index: 1004;
+  z-index: 104;
   -webkit-app-region: no-drag;
 }
 
@@ -89,11 +89,13 @@
   -webkit-app-region: drag;
 }
 
-.container-ZMc96U {
+.chat-2ZfjoI {
   z-index: 103;
+}
+.chat-2ZfjoI .container-ZMc96U {
   -webkit-app-region: drag;
 }
-.container-ZMc96U .topic-11NuQZ, .container-ZMc96U .title-17SveM, .container-ZMc96U .nicknames-10Sg6e {
+.chat-2ZfjoI .container-ZMc96U .topic-11NuQZ, .chat-2ZfjoI .container-ZMc96U .title-17SveM, .chat-2ZfjoI .container-ZMc96U .nicknames-10Sg6e {
   -webkit-app-region: no-drag;
 }
 
