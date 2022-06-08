@@ -57,10 +57,12 @@ backdrop-filter: blur(10px);
 }
 
 /* Embeds and MarkUp */
-.grid-1aWVsE, .markup-eYLPri code, .attachment-1PZZB2 {
+.grid-1aWVsE, .markup-eYLPri code, .attachment-1PZZB2, .theme-dark .wrapperAudio-1Bzv_Z{
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid rgb(78, 78, 81); 
     background: rgba(41, 38, 39, 0.276);
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+    'DejaVu Sans Mono', Menlo, Consolas, monospace;
 }
 .embedFull-1HGV2S {
         background-color: transparent;
