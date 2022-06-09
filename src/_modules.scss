@@ -208,3 +208,15 @@ display:none;
       background-color: rgb(139, 139, 139);
   }
 }
+
+/* Add surCord Branding */
+.info-3pQQBb > span:first-child::after {
+  content: '\asurCord 06.2022';
+  color: var(--text-muted);
+  white-space: pre;
+  line-height: 17px !important;
+  text-transform: none;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+} 
