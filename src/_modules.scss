@@ -93,121 +93,6 @@
   -webkit-app-region: no-drag;
 }
 
-/* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
-#app-mount .container-2nx-BQ .input-2XRLou, #app-mount .container-2nx-BQ .input-3xr72x, #app-mount .checkboxWrapper-2fDzaA .input-2XRLou, #app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
-    margin: 0;
-    opacity: 1;
-    height: 14px !important;
-    width: 14px !important;
-    position: relative;
-    cursor: var(--cursor);
-    -webkit-appearance: checkbox;
-    appearance: checkbox;
-}
-#app-mount .container-2nx-BQ, #app-mount .checkboxWrapper-2fDzaA {
-    width: auto;
-    border-radius: 0;
-    background: transparent !important;
-    display: flex;
-    align-items: center;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    cursor: var(--cursor);
-}
-#app-mount .container-2nx-BQ .slider-32CRPX, #app-mount .checkboxWrapper-2fDzaA .slider-32CRPX {
-    display: none;
-}
-.theme-dark .checkbox-f1HnKB {
-display:none;
-}
-
-/* VOZER - Compact Powercord - LICENSE - https://github.com/SlippingGitty/Compact-Powercord/blob/main/LICENSE */
-.powercord-product {
-    padding: 9px;
-    margin-bottom: 13px;
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-  }
-  .powercord-product-header h4 {
-    font-size: 16px;
-  }
-  .powercord-product .divider-3LgWDL {
-    display: none;
-  }
-  .description, .powercord-product .metadata, .powercord-product-permissions, .powercord-product-footer {
-    margin-top: 4px;
-    font-size: 13px;
-  }
-
-/* LUCKFIRE - Theme Notices - NOTIFICATION - https://github.com/discord-theme-tools/theme-notices/blob/main/LICENSE */
-  .theme-light #app-mount::after {
-    z-index: 101;
-    position: absolute;
-    content: "For this theme to work properly, you have to enable Dark Mode. \a\aTo enable it, head over to Settings -> Appearance.";
-    white-space: pre-wrap;
-    font-weight: 500;
-    line-height: 21px;
-    right: 10px;
-    bottom: 10px;
-    padding: 15px 15px 15px 15px;
-    width: 299px;
-    max-width: 299px;
-    min-height: 75px;
-    border: 1px solid rgb(78, 78, 81); 
-    border-radius: 5px;
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-    color: var(--text-normal);
-    background-color: var(--background-floating);
-    background-repeat: no-repeat;
-    background-position: 16px center;
-}
-
-/* Color Pallete */
-.theme-dark {
-    --background-tertiary: rgb(42, 40, 44);
-    --background-secondary: rgb(42, 40, 44);
-    --background-secondary-alt: rgb(42, 40, 44);
-    --background-primary: rgb(31, 30, 30);
-    --channeltextarea-background: rgb(30, 30, 30);
-    --background-accent: rgb(26, 129, 251);
-    --background-modifier-hover: rgb(65, 63, 66);
-    --background-modifier-active: rgb(30, 30, 30);
-    --background-modifier-selected: rgb(26, 129, 251);
-    --deprecated-card-bg: #12141f63;
-    --background-floating: rgba(35, 35, 35, 0.771);
-    --deprecated-quickswitcher-input-background:#101320;
-    --elevation-low: none;
-    --toast-background: #292841 !important;
-    --toast-header: #101320 !important;
-    --toast-contents: #23283d !important;
-}
-
-
-/* Font */
-* {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
-    text-rendering: optimizeLegibility !important;
-    text-transform: none;
-}
-
-/* Links */
-:root {
---text-link: var(--accent);
-}
-
-/* Scrollbars */
-.scroller-kQBbkU, .auto-2K3UW5, .peopleColumn-1wMU14 {
-  &::-webkit-scrollbar-track {
-      background-color: transparent;
-  }
-}
-
-.scroller-kQBbkU, .auto-2K3UW5, .thin-31rlnD, .peopleColumn-1wMU14 {
-  &::-webkit-scrollbar-thumb {
-      background-color: rgb(139, 139, 139);
-  }
-}
-
 
 /* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
 #app-mount .container-2nx-BQ .input-2XRLou, #app-mount .container-2nx-BQ .input-3xr72x, #app-mount .checkboxWrapper-2fDzaA .input-2XRLou, #app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
@@ -285,17 +170,17 @@ display:none;
     --background-secondary-alt: rgb(42, 40, 44);
     --background-primary: rgb(31, 30, 30);
     --channeltextarea-background: rgb(30, 30, 30);
-    --background-accent: rgb(26, 129, 251);
+    --background-accent: var(--accent);
     --background-modifier-hover: rgb(65, 63, 66);
     --background-modifier-active: rgb(30, 30, 30);
-    --background-modifier-selected: rgb(26, 129, 251);
+    --background-modifier-selected: var(--accent-selected);
     --deprecated-card-bg: #12141f63;
     --background-floating: rgba(35, 35, 35, 0.771);
     --deprecated-quickswitcher-input-background:#101320;
     --elevation-low: none;
-    --toast-background: #292841 !important;
-    --toast-header: #101320 !important;
-    --toast-contents: #23283d !important;
+    --toast-background: #000000 !important;
+    --toast-header: #000000 !important;
+    --toast-contents: #000000 !important;
 }
 
 
