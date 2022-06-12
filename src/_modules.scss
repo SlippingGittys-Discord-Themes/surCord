@@ -191,6 +191,18 @@ display:none;
     text-transform: none;
 }
 
+
+/* If you are having trouble with getting the San Francisco font to work on 
+your platform, you do not have the SF Pro Fonts installed
+
+Download those here: 
+https://github.com/blaisck/sfwin/tree/master/SFPro/OpenType */
+.platform-linux *, .platform-win *{
+  font-family: SF Pro Display, sans-serif !important;
+  text-rendering: optimizeLegibility !important;
+  text-transform: none;
+}
+
 /* Links */
 :root {
 --text-link: var(--accent);
