@@ -89,3 +89,27 @@
 .buttonIcon-2Zsrs2.withText-2iJppd {
     margin-right: 0px;
 }
+
+/* Spotify Plugin */
+.powercord-spotify{
+    margin-bottom: 10px;
+    .spotify-extra-controls{
+        pointer-events: initial;
+        height: 32px;
+        opacity: 1;
+    }
+    .spotify-seek{
+        margin-top: 3px !important;
+        margin-right: 10px;
+        .spotify-seek-bar{
+            height: 4px;
+            .spotify-seek-bar-progress{
+                border-radius: 5px;
+            }
+        }
+        .spotify-seek-elements{
+            height: 12px;
+            opacity: 1;
+        }
+    }
+}
