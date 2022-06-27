@@ -8,15 +8,12 @@
 ..ゞノ　 ~じ'ﾌ~ﾙ'ノ
 */
 
-
 /* Blue */
 :root {
   --accent: rgb(26, 129, 251);
   --accent-hover: rgba(0, 78, 174, 0.977);
   --accent-selected: rgb(26, 129, 251, 0.612);
-
 }
-
 
 
 /* Red 
@@ -24,7 +21,18 @@
     --accent: rgb(237, 60, 68);
     --accent-hover: rgb(237, 60, 68, 0.977);
     --accent-selected: rgb(237, 60, 68, 0.612);
-  }*/
+  } 
+*/
+
+
+/* Yellow 
+:root {
+  --accent: rgb(	251, 192, 45);
+  --accent-hover: rgba(	251, 192, 45, 0.977);
+  --accent-selected: rgb(	251, 192, 45, 0.612);
+}
+*/
+
 
 /* Pink 
   :root {
@@ -32,4 +40,48 @@
     --accent-hover: rgba(248, 74, 156, 0.977);
     --accent-selected: rgb(248, 74, 156, 0.612);
   }
+*/
+
+
+/* Hatsune 
+:root {
+  --accent: rgb(0, 166, 166);
+  --accent-hover: rgb(255, 0, 128, 0.977);
+  --accent-selected: rgb(255, 0, 128, 0.612);
+}
+*/
+
+/* Dark
+:root {
+  --accent: rgb(152,129,123)
+  --accent-hover: rgb(0,0,0);
+  --accent-selected: rgb(0,0,0);
+}
+*/
+
+/* Apple 
+:root {
+  --accent: rgba(14,157,219);
+  --accent-hover: rgba(251,185,56);
+  --accent-selected: rgba(246,129,41);
+  --accent-buttons: rgba(150,56,146);
+}
+.clickable-ZD7xvu .icon-2xnN2Y, .linkButtonIcon-7rsZcu  {
+  color: rgb(224,54,60) !important;
+}
+.iconWrapper-2awDjA .icon-2xnN2Y {
+  color: rgba(96,189,78);
+}
+.stickerIcon-3Jx5SE {
+  color: var(--accent);
+}
+.icon-1d5zch {
+  color: rgba(96,189,78);
+}
+.contents-3ca1mk .button-2fCJ0o .button-3BaQ4X {
+  color: rgb(224,54,60);
+}
+.buttonWrapper-3YFQGJ {
+  color: var(--accent);
+}
 */

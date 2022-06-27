@@ -4,8 +4,95 @@
 ////////////////////////////////////////
 */
 
+
 /* LUCKFIRE - macOS Title Bar - LICENSE https://github.com/discord-extensions/macos-titlebar/blob/master/LICENSE */
-@import url('https://discord-extensions.github.io/macos-titlebar/src/source.css');
+.platform-win .typeWindows-2-g3UY {
+  z-index: 102;
+  position: absolute;
+  flex-direction: row;
+  align-items: center;
+  top: 1px;
+  width: 100%;
+  margin: 0;
+  padding-top: 12px;
+  padding-right: 9px;
+  padding-left: 3px;
+  -webkit-app-region: drag;
+}
+.platform-win .typeWindows-2-g3UY .wordmark-2u86JB {
+  top: 11px;
+  left: 11px;
+  width: 52px;
+  height: 12px;
+  padding: 0;
+  -webkit-app-region: no-drag;
+}
+.platform-win .typeWindows-2-g3UY .wordmark-2u86JB g {
+  display: none;
+}
+.platform-win .typeWindows-2-g3UY .winButton-3UMjdg {
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+  border-radius: 15px;
+  background-color: var(--background-primary);
+  background-size: 0;
+  -webkit-app-region: no-drag;
+}
+.platform-win .typeWindows-2-g3UY .winButton-3UMjdg svg {
+  display: none;
+}
+.platform-win.app-focused .typeWindows-2-g3UY:hover div.winButton-3UMjdg {
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.platform-win.app-focused .typeWindows-2-g3UY .winButtonClose-3Q8ZH5 {
+  background-color: #ff5c57;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUuMjkyODkgNkwyLjgxODAxIDMuNTI1MTNMMy41MjUxMiAyLjgxODAyTDUuOTk5OTkgNS4yOTI4OUw4LjQ3NDg3IDIuODE4MDJMOS4xODE5NyAzLjUyNTEzTDYuNzA3MSA2TDkuMTgxOTcgOC40NzQ4N0w4LjQ3NDg3IDkuMTgxOThMNS45OTk5OSA2LjcwNzExTDMuNTI1MTIgOS4xODE5OEwyLjgxODAxIDguNDc0ODdMNS4yOTI4OSA2WiIgZmlsbD0iI0EyMDAwOCIvPgo8L3N2Zz4=);
+}
+.platform-win.app-focused .typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(2n) {
+  background-color: #fdbd3d;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDUuMzk5OTlIMlY2LjU5OTk5SDEwVjUuMzk5OTlaIiBmaWxsPSIjQjM3MTFBIi8+Cjwvc3ZnPg==);
+}
+.platform-win.app-focused .typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(3n) {
+  order: 3;
+  background-color: #26c84b;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuMzkyOTMgMy4wMDg5M0wzLjAwODg3IDcuMzkyOTlMMi44MTc5NSAyLjgxODAxTDcuMzkyOTMgMy4wMDg5M1oiIGZpbGw9IiMwMjZBMTUiLz4KPHBhdGggZD0iTTQuNjA2OTUgOC45OTEwMUw4Ljk5MTAxIDQuNjA2OTVMOS4xODE5MyA5LjE4MTkzTDQuNjA2OTUgOC45OTEwMVogIiBmaWxsPSIjMDI2QTE1Ii8+Cjwvc3ZnPg==);
+}
+
+.guilds-2JjMmN {
+  margin-top: 29px;
+}
+
+.notice-2HEN-u {
+  z-index: 104;
+  -webkit-app-region: no-drag;
+}
+
+.platform-win .sidebar-1tnWFu {
+  border-radius: 0;
+}
+.platform-win .sidebar-1tnWFu .header-3OsQeK, .platform-win .sidebar-1tnWFu .searchBar-3TnChZ {
+  z-index: 103;
+}
+.platform-win .sidebar-1tnWFu .header-3OsQeK, .platform-win .sidebar-1tnWFu .searchBarComponent-3N7dCG {
+  -webkit-app-region: no-drag;
+}
+.platform-win .sidebar-1tnWFu .searchBar-3TnChZ {
+  -webkit-app-region: drag;
+}
+
+.chat-2ZfjoI {
+  z-index: 103;
+}
+.chat-2ZfjoI .container-ZMc96U {
+  -webkit-app-region: drag;
+}
+.chat-2ZfjoI .container-ZMc96U .topic-11NuQZ, .chat-2ZfjoI .container-ZMc96U .title-17SveM, .chat-2ZfjoI .container-ZMc96U .nicknames-10Sg6e {
+  -webkit-app-region: no-drag;
+}
+
 
 /* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
 #app-mount .container-2nx-BQ .input-2XRLou, #app-mount .container-2nx-BQ .input-3xr72x, #app-mount .checkboxWrapper-2fDzaA .input-2XRLou, #app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
@@ -52,30 +139,6 @@ display:none;
     font-size: 13px;
   }
 
-/* LUCKFIRE - Theme Notices - NOTIFICATION - https://github.com/discord-theme-tools/theme-notices/blob/main/LICENSE */
-  .theme-light #app-mount::after {
-    z-index: 101;
-    position: absolute;
-    content: "For this theme to work properly, you have to enable Dark Mode. \a\aTo enable it, head over to Settings -> Appearance.";
-    white-space: pre-wrap;
-    font-weight: 500;
-    line-height: 21px;
-    right: 10px;
-    bottom: 10px;
-    padding: 15px 15px 15px 15px;
-    width: 299px;
-    max-width: 299px;
-    min-height: 75px;
-    border: 1px solid rgb(78, 78, 81); 
-    border-radius: 5px;
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-    color: var(--text-normal);
-    background-color: var(--background-floating);
-    background-repeat: no-repeat;
-    background-position: 16px center;
-}
-
 /* Color Pallete */
 .theme-dark {
     --background-tertiary: rgb(42, 40, 44);
@@ -83,28 +146,86 @@ display:none;
     --background-secondary-alt: rgb(42, 40, 44);
     --background-primary: rgb(31, 30, 30);
     --channeltextarea-background: rgb(30, 30, 30);
-    --background-accent: rgb(26, 129, 251);
+    --background-accent: var(--accent);
     --background-modifier-hover: rgb(65, 63, 66);
     --background-modifier-active: rgb(30, 30, 30);
-    --background-modifier-selected: rgb(26, 129, 251);
+    --background-modifier-selected: var(--accent-selected);
     --deprecated-card-bg: #12141f63;
     --background-floating: rgba(35, 35, 35, 0.771);
     --deprecated-quickswitcher-input-background:#101320;
     --elevation-low: none;
-    --toast-background: #292841 !important;
-    --toast-header: #101320 !important;
-    --toast-contents: #23283d !important;
+    --toast-background: #000000 !important;
+    --toast-header: #000000 !important;
+    --toast-contents: #000000 !important;
+}
+
+.theme-light {
+  --background-tertiary: rgb(225, 225, 225);
+  --background-secondary: rgb(225, 225, 225);
+  --background-secondary-alt: rgb(225, 225, 225);
+  --background-primary: rgb(231, 234, 237);
+  --channeltextarea-background: rgb(213, 213, 213);
+  --background-accent: var(--accent);
+  --background-modifier-hover: rgb(213,214,214);
+  --background-modifier-active: rgb(231, 231, 231);
+  --background-modifier-selected: var(--accent-selected);
+  --deprecated-card-bg: #12141f63;
+  --background-floating: rgba(236, 236, 236, 0.771);
+  --deprecated-quickswitcher-input-background:rgba(237, 237, 237);
+  --elevation-low: none;
+  --toast-background: #ffffff !important;
+  --toast-header: #ffffff !important;
+  --toast-contents: #ffffff !important;
+
+  .clickable-ZD7xvu .icon-2xnN2Y, .linkButtonIcon-7rsZcu  {
+    color: var(--accent);
+  }
 }
 
 
 /* Font */
-* {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
-    text-rendering: optimizeLegibility !important;
-    text-transform: none;
+@import url('https://v1.fontapi.ir/css/SFProDisplay');
+
+.platform-osx * {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+  text-rendering: optimizeLegibility !important;
+  text-transform: none;
 }
+
+
+.platform-linux *, .platform-win *{
+font-family: "SF Pro Display", sans-serif !important;
+text-rendering: optimizeLegibility !important;
+text-transform: none;
+}
+
 
 /* Links */
 :root {
 --text-link: var(--accent);
 }
+
+/* Scrollbars */
+.scroller-kQBbkU, .auto-2K3UW5, .peopleColumn-1wMU14 {
+  &::-webkit-scrollbar-track {
+      background-color: transparent;
+  }
+}
+
+.scroller-kQBbkU, .auto-2K3UW5, .thin-31rlnD, .peopleColumn-1wMU14 {
+  &::-webkit-scrollbar-thumb {
+      background-color: rgb(139, 139, 139);
+  }
+}
+
+/* Add surCord Branding */
+.info-3pQQBb > span:first-child::after {
+  content: '\asurCord 06.2022';
+  color: var(--text-muted);
+  white-space: pre;
+  line-height: 17px !important;
+  text-transform: none;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+} 

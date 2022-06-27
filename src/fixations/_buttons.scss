@@ -45,6 +45,12 @@
       color: var(--accent);
   }
 
+.theme-light {
+    .lookOutlined-3yKVGo.colorRed-rQXKgM .contents-3ca1mk {
+        color: white;
+    }
+}
+
 /* Sidebar "selected" Accents */
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
     background-color: var(--accent) !important;

@@ -15,6 +15,15 @@
     border-right: .5px solid black;
 }
 
+.theme-light {
+    .scroller-WSmht3, .scroller-1ox3I2, .container-1zzFcN { 
+      border-right: .5px solid rgba(186, 186, 186, 0.386);
+}
+.item-3XjbnG .selected-g-kMVV .channelName-3KPsGw, .modeSelected-3DmyhH .channelName-3KPsGw {
+    color: white;
+}
+}
+
 /* User Settings */
 .container-YkUktl {
     background: rgba(0, 0, 0, 0.436); 
@@ -31,15 +40,34 @@
         border-right: .5px solid black;
     }
 
+.theme-light {
+    .container-YkUktl {
+        background: rgba(226, 221, 225, 0.89);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        margin-bottom: 18px;
+        margin-right: 5px;
+        margin-left: 2px;
+    }
+        .panels-3wFtMD {
+            background-color: #00000000;
+            border-right: .5px solid rgba(186, 186, 186, 0.386);
+        }
+}
+
 .searchBar-3TnChZ {
     border-right: .5px solid black;
+}
+.theme-light {
+.searchBar-3TnChZ {
+    border-right: .5px solid rgba(186, 186, 186, 0.386);
+}
 }
 .interactiveSelected-29CP8y {
     background: var(--accent-selected) !important; 
     backdrop-filter: blur(20px);
-}
-.container-2o3qEW {
-    border-left: .5px solid black; 
 }
 
 /* Channels */
@@ -68,6 +96,23 @@
     border-radius: 5px 5px 5px 5px; 
 }
 
+.theme-light {
+    .mainContent-uDGa6R .overflow-1wOqNV {
+        color:black;
+    }
+}
+
+/* Members Side Bar */
+.membersWrap-3NUR2t {
+    border-left: .5px solid rgb(0, 0, 0); 
+}
+
+.theme-light {
+    .membersWrap-3NUR2t {
+        border-left: .5px solid rgba(186, 186, 186, 0.386); 
+    }
+}
+
 /* Voice Chat Controls */
 .wrapper-3Hk9OB .container-1zzFcN{
     background: rgba(0, 0, 0, 0.436); 
@@ -86,4 +131,28 @@
 }
 .buttonIcon-2Zsrs2.withText-2iJppd {
     margin-right: 0px;
+}
+
+/* Spotify Plugin */
+.powercord-spotify{
+    margin-bottom: 10px;
+    .spotify-extra-controls{
+        pointer-events: initial;
+        height: 32px;
+        opacity: 1;
+    }
+    .spotify-seek{
+        margin-top: 3px !important;
+        margin-right: 10px;
+        .spotify-seek-bar{
+            height: 4px;
+            .spotify-seek-bar-progress{
+                border-radius: 5px;
+            }
+        }
+        .spotify-seek-elements{
+            height: 12px;
+            opacity: 1;
+        }
+    }
 }

@@ -12,6 +12,16 @@
   .scrollableContainer-15eg7h:hover {
     box-shadow: 0 0 2px 2px #4189c38c;
   }
+.theme-light {
+    .scrollableContainer-15eg7h, .hasConnectedBar-1vN2JH, .preview-QJ3OG3 {
+        border-radius: 20px;
+        background: rgba(231, 234, 237, 0.436) !important; 
+        border: 1px solid rgb(97, 96, 99); 
+      }
+      .scrollableContainer-15eg7h:hover {
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+      }
+}
   .theme-dark .autocomplete-3NRXG8 {
     background: rgba(41, 38, 39, 0.276);
     backdrop-filter: blur(20px);
@@ -27,6 +37,25 @@
         border: 1px solid rgb(78, 78, 81); 
         border-radius: 50px;
     }
+.theme-light {
+    .autocomplete-3NRXG8 {
+        background: rgba(231, 234, 237, 0.436) !important; 
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        }
+        .upload-vLbqu- {
+            background: rgba(231, 234, 237, 0.436) !important; 
+            border: 1px solid rgba(249, 249, 249, 0.772); 
+        }
+        .actionBar-1ozugS .wrapper-2vIMkT {
+            background: rgba(231, 234, 237, 0.436) !important; 
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+            border: 1px solid rgba(249, 249, 249, 0.772); 
+            border-radius: 50px;
+        }
+}
 .autocompleteRowVerticalSmall-2rVED0 .base-2v-uc0:hover, .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover {
     background-color: rgba(26, 127, 251, 0.612) !important; 
 backdrop-filter: blur(10px);
@@ -67,7 +96,15 @@ backdrop-filter: blur(10px);
 .embedFull-1HGV2S {
         background-color: transparent;
     }
-
+.theme-light {
+    .grid-1aWVsE, .markup-eYLPri code, .attachment-1PZZB2, .theme-dark .wrapperAudio-1Bzv_Z{
+        background: rgba(231, 234, 237, 0.436) !important; 
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+        'DejaVu Sans Mono', Menlo, Consolas, monospace;
+    }
+}
 /* Nitro Claim a Gift, Join a Server */
 .description-X8_53U, .userSelectNone-3AtPzf  {
     backdrop-filter: blur(20px);
