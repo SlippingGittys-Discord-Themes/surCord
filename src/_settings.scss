@@ -13,10 +13,10 @@
 }
 .theme-light {
     .accountProfileCard-lbN7n-, .profileBannerPreview-3mLIdO {
-        background: rgba(226, 221, 225, 0.89);
+        background: rgba(231, 234, 237, 0.436) !important; 
+        backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772); 
-        backdrop-filter: blur(10px);
         border-radius: 5px;
 }
 }

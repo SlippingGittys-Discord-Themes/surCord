@@ -15,7 +15,7 @@
 .theme-light {
     .scrollableContainer-15eg7h, .hasConnectedBar-1vN2JH, .preview-QJ3OG3 {
         border-radius: 20px;
-        background: rgba(231, 234, 237, 0.436) !important; 
+        background: rgba(231, 234, 237) !important; 
         border: 1px solid rgb(97, 96, 99); 
       }
       .scrollableContainer-15eg7h:hover {
@@ -112,6 +112,13 @@ backdrop-filter: blur(10px);
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 5px;
     background: rgba(41, 38, 39, 0.276);
+}
+.theme-light {
+    background: rgba(231, 234, 237, 0.436) !important; 
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+    border: 1px solid rgba(249, 249, 249, 0.772); 
+    border-radius: 5px;
 }
 
 /* Empty Channel Icon */
