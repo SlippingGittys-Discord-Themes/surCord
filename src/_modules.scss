@@ -139,30 +139,6 @@ display:none;
     font-size: 13px;
   }
 
-/* LUCKFIRE - Theme Notices - NOTIFICATION - https://github.com/discord-theme-tools/theme-notices/blob/main/LICENSE */
-  .theme-light #app-mount::after {
-    z-index: 101;
-    position: absolute;
-    content: "For this theme to work properly, you have to enable Dark Mode. \a\aTo enable it, head over to Settings -> Appearance.";
-    white-space: pre-wrap;
-    font-weight: 500;
-    line-height: 21px;
-    right: 10px;
-    bottom: 10px;
-    padding: 15px 15px 15px 15px;
-    width: 299px;
-    max-width: 299px;
-    min-height: 75px;
-    border: 1px solid rgb(78, 78, 81); 
-    border-radius: 5px;
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-    color: var(--text-normal);
-    background-color: var(--background-floating);
-    background-repeat: no-repeat;
-    background-position: 16px center;
-}
-
 /* Color Pallete */
 .theme-dark {
     --background-tertiary: rgb(42, 40, 44);
@@ -181,6 +157,29 @@ display:none;
     --toast-background: #000000 !important;
     --toast-header: #000000 !important;
     --toast-contents: #000000 !important;
+}
+
+.theme-light {
+  --background-tertiary: rgb(225, 225, 225);
+  --background-secondary: rgb(225, 225, 225);
+  --background-secondary-alt: rgb(225, 225, 225);
+  --background-primary: rgb(231, 234, 237);
+  --channeltextarea-background: rgb(213, 213, 213);
+  --background-accent: var(--accent);
+  --background-modifier-hover: rgb(213,214,214);
+  --background-modifier-active: rgb(231, 231, 231);
+  --background-modifier-selected: var(--accent-selected);
+  --deprecated-card-bg: #12141f63;
+  --background-floating: rgba(236, 236, 236, 0.771);
+  --deprecated-quickswitcher-input-background:rgba(237, 237, 237);
+  --elevation-low: none;
+  --toast-background: #ffffff !important;
+  --toast-header: #ffffff !important;
+  --toast-contents: #ffffff !important;
+
+  .clickable-ZD7xvu .icon-2xnN2Y, .linkButtonIcon-7rsZcu  {
+    color: var(--accent);
+  }
 }
 
 

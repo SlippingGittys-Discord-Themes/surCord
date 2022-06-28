@@ -13,6 +13,18 @@
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 5px;
 }
+.theme-light {
+    .messagesPopoutWrap-3zryHW, .container-2ebMPP {
+        background: rgba(231, 234, 237, 0.436) !important; 
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        border-radius: 5px;
+    }
+    .tab-TRrPC8 .active-1grPyy .item-3XjbnG selected-g-kMVV .themed-2-lozF {
+        color: white;
+    }
+}
 .header-1w9Q93, .footer-5ji8u1 {
     background: rgba(0, 0, 0, 0) !important; 
 }
@@ -25,6 +37,13 @@
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid rgb(78, 78, 81); 
         border-radius: 5px;
+    }
+    .theme-light {
+        .messageContainer-3VTXBC, .messages-23can0, .messageGroupWrapper-1jf_7C {
+            box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+            border: 1px solid rgba(249, 249, 249, 0.772);
+            border-radius: 5px;
+        }
     }
     .collapseButton-39-IRc {
         left: 6px;
@@ -46,6 +65,15 @@
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 10px;
+}
+.theme-light {
+.popout_28, .userPopout-2j1gM4 { 
+    background: rgba(231, 234, 237, 0.436) !important; 
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+    border: 1px solid rgba(249, 249, 249, 0.772); 
+    border-radius: 10px;
+}
 }
 .bodyInnerWrapper-2bQs1k, .footer-3naVBw {
     background: rgba(0, 0, 0, 0) !important; 
@@ -70,6 +98,15 @@
     .body-1Ukv50, .topSection-13QKHs {
         background: rgba(41, 38, 39, 0);
     }
+.theme-light {
+    .theme-dark .root-g14mjS, .container-2O1UgZ {
+        background: rgba(231, 234, 237, 0.436) !important; 
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        border-radius: 5px;
+    }
+}
 
 
 /* Emoji Menu */
@@ -79,6 +116,15 @@
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 5px;
+}
+.theme-light {
+    .contentWrapper-3vHNP2, .popoutContainer-2wbmiM {
+        background: rgba(226, 221, 225, 0.89);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+    }
 }
     .wrapper-3u51GQ .emojiPicker-6YCk8a {
          background-color: transparent;
@@ -97,6 +143,12 @@
     }
     .unicodeShortcut-3N8oDe, .standardStickerShortcut-ObSns3 {
         background: rgba(0, 0, 0, 0.933); 
+    }
+    .theme-light {
+        .unicodeShortcut-3N8oDe, .standardStickerShortcut-ObSns3 {
+            background: rgba(255, 255, 255, 0.353); 
+            backdrop-filter: blur(10px);
+        }
     }
     .button-1zW0-r {
     background-color: var(--accent-selected);
@@ -119,6 +171,23 @@
         border: 1px solid rgb(78, 78, 81); 
         border-radius: 5px;
     }
+.theme-light {
+    .menu-1QACrS::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        border-radius: inherit;
+        background: rgba(226, 221, 225, 0.89);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+    }
+    .label-2gNW3x {
+        color: black;
+    }
+}
 .wrapper-2vIMkT {
     background: rgba(0, 0, 0, 0.436); 
     backdrop-filter: blur(10px);
@@ -126,7 +195,16 @@
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 5px;
 }
-
+.theme-light {
+    .wrapper-2vIMkT {
+        background: rgba(226, 221, 225, 0.89);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+        color: black;
+    }
+}
 
 /* Search Options */
 .searchInput-3pIoTy {
@@ -146,6 +224,26 @@
 .searchOption-3u1gRt:hover, .option-ayUoaq:hover {
     background: var(--accent-selected) !important; 
     border-radius: 4px;
+}
+.theme-light {
+    .searchInput-3pIoTy {
+        background: rgba(231, 234, 237, 0.436) !important; 
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        border-radius: 5px; 
+    }
+    .resultsGroup-cfY57t { 
+        background: rgba(231, 234, 237, 0.436) !important; 
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        border-radius: 5px;
+    }
+    .searchOption-3u1gRt:hover, .option-ayUoaq:hover {
+        background: var(--accent-selected) !important; 
+        border-radius: 4px;
+    }
 }
 
 /* Search Results */
@@ -177,7 +275,37 @@
     .searchHeader-1r_ZSh:hover {
         box-shadow: 0 0 2px 3px #4189c38c;
     }
-
+.theme-light {
+    .searchResult-O9NDji, .scroller-3iiyhZ {
+        background: rgba(231, 234, 237, 0.436) !important; 
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        border-radius: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+        
+        margin-top: 5px;
+    }
+        .channelName-3w2Y3c, .searchResultsWrap-5RVOkx {
+            background: transparent;   
+        }
+        .searchHeader-1r_ZSh {
+            background: rgba(231, 234, 237, 0.436) !important; 
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+            border: 1px solid rgba(249, 249, 249, 0.772); 
+            border-radius: 5px;
+            border-radius: 20px;
+            margin-right: 8px;
+            margin-left: 5px;
+            margin-top: 8px;
+        }
+        .searchHeader-1r_ZSh:hover {
+            box-shadow: 0 0 2px 3px #4189c38c;
+        }
+    
+}
     
 /* Hovering over Menus */
 .colorDefault-CDqZdO:hover {
@@ -199,6 +327,15 @@
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 5px;
+}
+.theme-light {
+    .container-2rzKKA {
+        background: rgba(226, 221, 225, 0.89);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+    }
 }
     .container-2rzKKA:hover {
      box-shadow: 0 0 3px 1px rgba(26, 127, 251, 0.612) !important; 

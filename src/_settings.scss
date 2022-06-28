@@ -11,6 +11,15 @@
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 5px;
 }
+.theme-light {
+    .accountProfileCard-lbN7n-, .profileBannerPreview-3mLIdO {
+        background: rgba(226, 221, 225, 0.89);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+}
+}
 .fieldList-in8WkP, .background-3d_SjE {
     background-color: transparent;
 }
@@ -20,6 +29,14 @@
     border-right: .5px solid black;
 }
 
+.theme-light {
+    .sidebarRegion-1VBisG {
+        border-right: .5px solid rgba(186, 186, 186, 0.386);
+    .selected-g-kMVV.item-3XjbnG, .selected-g-kMVV.item-3XjbnG:hover {
+        color: white;
+    }
+    }
+}
 
 /*
 ////////////////////////
@@ -29,7 +46,7 @@
 
 
 /* Search Feilds */
-.powercord-entities-manage-search input, .inner-1NoIT5 {
+ .powercord-entities-manage-search input, .inner-1NoIT5 {
     background-color: rgb(53, 51, 55);
     border-radius: 4px;
     border: 1px solid rgb(97, 96, 99); 
@@ -37,6 +54,16 @@
     .powercord-entities-manage-search input:hover {
         box-shadow: 0 0 3px 3px var(--accent-hover);
     }
+.theme-light {
+    .powercord-entities-manage-search input, .inner-1NoIT5 {
+        background: rgba(226, 221, 225, 0.89);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+    }
+        .powercord-entities-manage-search input:hover {
+            box-shadow: 0 0 3px 3px var(--accent-hover);
+        }
+}
 
 /* Headers */
 .powercord-entities-manage-tabs {
@@ -46,6 +73,22 @@
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 5px;
 }
+.theme-light {
+    .powercord-entities-manage-tabs {
+        background: rgba(226, 221, 225, 0.89);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+    }
+}
+
+.penis {
+    background: rgba(226, 221, 225, 0.89);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+    border: 1px solid rgba(249, 249, 249, 0.772); 
+    backdrop-filter: blur(10px);
+    }
 
 /* Text Feilds */
 .inputDefault-3FGxgL {
@@ -75,16 +118,37 @@
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 5px;
 }
-
+.theme-light {
+    .kernel-card, .kernel-card .kernel-card-tools, .ksu-card, .ksu-card .ksu-git-info .ksu-git-info-item, .layers-OrUESM .layers-1YQhyW {
+        background: rgba(231, 234, 237, 0.436) !important; 
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        border-radius: 5px;
+        color: rgb(115, 115, 115);
+    }
+}
 
 /* Powercord Combat & BetterDiscord Combat */
-
+.theme-dark {
 .pc-notices .pc-notice-container, .pc-settings-addon-card, .pcu-card, .pcu-card .pcu-git-info .pcu-git-info-item, .bd-addon-card {
     background: rgba(0, 0, 0, 0.436) !important; 
     backdrop-filter: blur(20px);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid rgb(78, 78, 81); 
     border-radius: 5px;
+}
+}
+
+.theme-light {
+    .pc-notices .pc-notice-container, .pc-settings-addon-card, .pcu-card, .pcu-card .pcu-git-info .pcu-git-info-item, .bd-addon-card {
+        background: rgba(226, 221, 225, 0.89);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        color: black;
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+    }
 }
     .bd-addon-card .bd-addoncard-header {
         background: transparent;
