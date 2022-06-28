@@ -13,10 +13,10 @@
 }
 .theme-light {
     .accountProfileCard-lbN7n-, .profileBannerPreview-3mLIdO {
-        background: rgba(231, 234, 237, 0.436) !important; 
-        backdrop-filter: blur(20px);
+        background: rgba(226, 221, 225, 0.89);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772); 
+        backdrop-filter: blur(10px);
         border-radius: 5px;
 }
 }
@@ -119,12 +119,13 @@
     border-radius: 5px;
 }
 .theme-light {
-    .kernel-card, .kernel-card .kernel-card-tools, .ksu-card, .ksu-card .ksu-git-info .ksu-git-info-item {
-        background: rgba(226, 221, 225, 0.89);
+    .kernel-card, .kernel-card .kernel-card-tools, .ksu-card, .ksu-card .ksu-git-info .ksu-git-info-item, .layers-OrUESM .layers-1YQhyW {
+        background: rgba(231, 234, 237, 0.436) !important; 
+        backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772); 
-        backdrop-filter: blur(10px);
         border-radius: 5px;
+        color: rgb(115, 115, 115);
     }
 }
 

@@ -225,6 +225,26 @@
     background: var(--accent-selected) !important; 
     border-radius: 4px;
 }
+.theme-light {
+    .searchInput-3pIoTy {
+        background: rgba(231, 234, 237, 0.436) !important; 
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        border-radius: 5px; 
+    }
+    .resultsGroup-cfY57t { 
+        background: rgba(231, 234, 237, 0.436) !important; 
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        border-radius: 5px;
+    }
+    .searchOption-3u1gRt:hover, .option-ayUoaq:hover {
+        background: var(--accent-selected) !important; 
+        border-radius: 4px;
+    }
+}
 
 /* Search Results */
 .searchResult-O9NDji, .scroller-3iiyhZ {
@@ -255,7 +275,37 @@
     .searchHeader-1r_ZSh:hover {
         box-shadow: 0 0 2px 3px #4189c38c;
     }
-
+.theme-light {
+    .searchResult-O9NDji, .scroller-3iiyhZ {
+        background: rgba(231, 234, 237, 0.436) !important; 
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        border-radius: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+        
+        margin-top: 5px;
+    }
+        .channelName-3w2Y3c, .searchResultsWrap-5RVOkx {
+            background: transparent;   
+        }
+        .searchHeader-1r_ZSh {
+            background: rgba(231, 234, 237, 0.436) !important; 
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+            border: 1px solid rgba(249, 249, 249, 0.772); 
+            border-radius: 5px;
+            border-radius: 20px;
+            margin-right: 8px;
+            margin-left: 5px;
+            margin-top: 8px;
+        }
+        .searchHeader-1r_ZSh:hover {
+            box-shadow: 0 0 2px 3px #4189c38c;
+        }
+    
+}
     
 /* Hovering over Menus */
 .colorDefault-CDqZdO:hover {
