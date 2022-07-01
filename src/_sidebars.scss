@@ -74,6 +74,9 @@
 .modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg, .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg, .mainContent-uDGa6R .overflow-1wOqNV, .mainContent-uDGa6R {
     color: white;
 }
+div[aria-label="Text (Age-Restricted)"]>svg {
+    color: #ff5252 !important;
+}
 .icon-2W8DHg, .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
     color: var(--accent);
 }
