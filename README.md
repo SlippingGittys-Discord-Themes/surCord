@@ -19,7 +19,11 @@
 
 ### Extra info ℹ️
 
-* You can very easily [change the accent color](https://cdn.discordapp.com/attachments/816373850647953439/984177819204603924/unknown.png) for surCord by navigating to `/src/_accents.scss` and [uncommenting >>>one<<<](https://github.com/SlippingGitty/surCord/blob/main/src/_accents.scss) of the colors. 
+* You can very easily [change the accent and theme color](https://cdn.discordapp.com/attachments/816373850647953439/984177819204603924/unknown.png) for surCord by navigating to `/src/_themeing.scss` and [uncommenting >>>one<<<](https://github.com/SlippingGitty/surCord/blob/main/src/_accents.scss) of the accent colors and one of the background colors. 
+
+* You can set surCord to use Apple's Emoji font by navigating to `/src/_modulals.scss` and uncommenting `@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);`
+
+* You can follow [this guide](https://github.com/SlippingGitty/surCord/issues/9) to set surCord's font to **San Fransisco Display Bold**.
 
 ## Devs, Contributors, and other Creditors:
 
