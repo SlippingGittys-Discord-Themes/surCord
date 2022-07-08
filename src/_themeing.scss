@@ -37,7 +37,6 @@
   } 
 */
 
-
 /* Yellow 
 :root {
   --accent: rgb(	251, 192, 45);
@@ -47,7 +46,6 @@
 }
 */
 
-
 /* Pink 
   :root {
     --accent: rgb(248, 74, 156);
@@ -55,8 +53,6 @@
     --accent-selected: rgb(248, 74, 156, 0.612);
     --accent-focused: rgb(248, 74, 156, 0.200);
   }*/
-
-
 
 /* Hatsune 
 :root {
@@ -66,6 +62,14 @@
   --accent-focused: rgb(255, 0, 128, 0.200);
 }*/
 
+/* Nord Accents
+:root {
+  --accent: rgba(129, 161, 193);
+  --accent-hover: rgb(67, 76, 94, 0.977);
+  --accent-selected: rgb(136, 192, 208, 0.612);
+  --accent-focused: rgb(143, 188, 187, 0.200);
+}
+*/
 
 /* Dark
 :root {
@@ -115,7 +119,21 @@
 |_______/  \_______/ \_______/|__/  \__/ \____  $$|__/       \______/  \______/ |__/  |__/ \_______/
                                          /$$  \ $$                                                  
                                         |  $$$$$$/                                                  
-                                         \______/*/                                                   
+                                         \______/*/   
+
+/* Regular Theme (surCord by Vozer) */
+:root {
+  --surCordBackground: rgb(31, 30, 30);
+  --surCordBackground2: rgb(42, 40, 44);
+  --surCordTextBackground: rgb(30, 30, 30);
+  --surcordFriendsBackground: rgb(33, 31, 35); 
+  --surCordFriends: rgb(40, 38, 42);
+  --surCordActiveNow: rgba(88, 84, 85, 0.276);
+  --surCordGuilds: rgb(42, 40, 44);
+  --surCordTitleBar: rgb(55, 53, 55);
+  --surCordSearch: rgb(53, 51, 55);
+  --surCordHover: rgb(65, 63, 66);
+}
 
 /* AMOLED Theme (Pitch Black by Vozer) 
 :root {
@@ -143,19 +161,19 @@
   --surCordTitleBar: rgb(10, 10, 10);
   --surCordSearch: rgb(10,10,10);
   --surCordHover: var(--accent-selected);
-  }*/
-  
+}*/
 
-/* Regular Theme (surCord by Vozer) */
+/* Nord Theme - (Taken from Arctic Ice Studio & Sven Greb)
   :root {
-  --surCordBackground: rgb(31, 30, 30);
-  --surCordBackground2: rgb(42, 40, 44);
-  --surCordTextBackground: rgb(30, 30, 30);
-  --surcordFriendsBackground: rgb(33, 31, 35); 
-  --surCordFriends: rgb(40, 38, 42);
-  --surCordActiveNow: rgba(88, 84, 85, 0.276);
-  --surCordGuilds: rgb(42, 40, 44);
-  --surCordTitleBar: rgb(55, 53, 55);
-  --surCordSearch: rgb(53, 51, 55);
-  --surCordHover: rgb(65, 63, 66);
-  }
+    --surCordBackground: rgb(46, 52, 64);
+    --surCordBackground2: rgb(59, 66, 82);
+    --surCordTextBackground: rgb(76, 86, 106);
+    --surcordFriendsBackground: rgb(46, 52, 64); 
+    --surCordFriends: rgb(59, 66, 82);
+    --surCordActiveNow: rgb(67, 76, 94, .276);
+    --surCordGuilds: rgb(59, 66, 82);
+    --surCordTitleBar: rgb(76, 86, 106);
+    --surCordSearch: rgb(59, 66, 82);
+    --surCordHover: rgb(143, 188, 187, 0.200);
+}
+*/
