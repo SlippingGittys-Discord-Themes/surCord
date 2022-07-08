@@ -137,6 +137,15 @@ backdrop-filter: blur(10px);
         &::before {
             border-radius: 6px;
         }
+    &.mentioned-Tre-dv {
+            background-color: var(--accent-focused);
+            &::before {
+                background-color: var(--accent);
+            }
+            &:hover {
+                background-color: var(--accent-focused);
+            }
+        }
     &.replying-eZ7p5z, &.ephemeral-2nDdnn {
         background-color: var(--accent-focused);
         &::before {
