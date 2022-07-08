@@ -8,7 +8,7 @@
 /* Title Bar */
 .theme-dark { 
 .container-ZMc96U.themed-Hp1KC_, .header-3OsQeK{
-    background: rgb(55, 53, 55);
+    background: var(--surCordTitleBar);
     border-bottom: .5px solid black;
 }
     .communityInfoVisible-3zc5_s .header-3OsQeK, .communityInfoVisible-3zc5_s .header-3OsQeK:hover, .hasBanner-2IrYih .header-3OsQeK, .hasBanner-2IrYih .header-3OsQeK:hover {
@@ -53,7 +53,7 @@
 /* Search and other Text fields */
 .theme-dark {
 .searchBar-jGtisZ, .searchBar-3TnChZ .searchBarComponent-3N7dCG, .inner-2pOSmK, .wrapper-n2dlvs, .searchBar-2M9mRP, .input-2z42oC {
-    background-color: rgb(53, 51, 55);
+    background-color: var(--surCordSearch);
     border-radius: 4px;
     border: 1px solid rgb(97, 96, 99); 
 }

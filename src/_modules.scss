@@ -115,6 +115,9 @@
     -webkit-box-shadow: none;
     cursor: var(--cursor);
 }
+input[type='checkbox'] {
+  accent-color: var(--accent)
+}
 #app-mount .container-2nx-BQ .slider-32CRPX, #app-mount .checkboxWrapper-2fDzaA .slider-32CRPX {
     display: none;
 }
@@ -141,13 +144,13 @@ display:none;
 
 /* Color Pallete */
 .theme-dark {
-    --background-tertiary: rgb(42, 40, 44);
-    --background-secondary: rgb(42, 40, 44);
-    --background-secondary-alt: rgb(42, 40, 44);
-    --background-primary: rgb(31, 30, 30);
-    --channeltextarea-background: rgb(30, 30, 30);
+    --background-tertiary: var(--surCordBackground2);
+    --background-secondary: var(--surCordBackground2);
+    --background-secondary-alt: var(--surCordBackground2);
+    --background-primary: var(--surCordBackground);
+    --channeltextarea-background: var(--surCordTextBackground);
     --background-accent: var(--accent);
-    --background-modifier-hover: rgb(65, 63, 66);
+    --background-modifier-hover: var(--surCordHover);
     --background-modifier-active: rgb(30, 30, 30);
     --background-modifier-selected: var(--accent-selected);
     --deprecated-card-bg: #12141f63;
@@ -157,6 +160,8 @@ display:none;
     --toast-background: #000000 !important;
     --toast-header: #000000 !important;
     --toast-contents: #000000 !important;
+    --brand-experiment-500: var(--accent-selected);
+    --brand-experiment-560: var(--accent-selected);
 }
 
 .theme-light {
@@ -176,6 +181,8 @@ display:none;
   --toast-background: #ffffff !important;
   --toast-header: #ffffff !important;
   --toast-contents: #ffffff !important;
+  --brand-experiment-500: var(--accent-selected);
+  --brand-experiment-560: var(--accent-selected);
 
   .clickable-ZD7xvu .icon-2xnN2Y, .linkButtonIcon-7rsZcu  {
     color: var(--accent);
@@ -200,6 +207,9 @@ display:none;
   text-transform: none;
 }
 
+/* MWITTRIEN - EMOJIREPLACE - LICENCE https://github.com/mwittrien/BetterDiscordAddons/blob/master/LICENSE */
+/* Uncomment to enable Apple Emojis */
+//@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
 
 /* Links */
 :root {

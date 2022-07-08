@@ -127,3 +127,24 @@ backdrop-filter: blur(10px);
 .emptyChannelIcon-1YdEz2 {
     background-color: var(--accent);
 }
+
+/* Reply Highlight */
+
+#app-mount {
+    .message-2CShn3 {
+        margin-left: 5px;
+        border-radius: vaR(--accent-focused); // ARG, MATEY! :KarenPirate:
+        &::before {
+            border-radius: 6px;
+        }
+    &.replying-eZ7p5z, &.ephemeral-2nDdnn {
+        background-color: var(--accent-focused);
+        &::before {
+            background-color: var(--accent);
+        }
+        &:hover {
+            background-color: var(--accent-focused);
+        }
+    }
+}
+}
