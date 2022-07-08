@@ -3,9 +3,17 @@ CSS IS BORROWED FROM mwittrien AND IS LICENSED UNDER GPLv2.
 PLEASE SEE THE LICENSE HERE - 
 https://github.com/mwittrien/BetterDiscordAddons/blob/master/LICENSE
 
+CSS IS BORROW FROM aenoo AND IS LICENSED UNDER MIT.
+PLEASE SEE THE LICENSE HERE -
+https://github.com/aenoo/Discordicons/blob/main/LICENSE
+
 CREDITS: Mirco Wittrien
 VIEW THE ORIGINAL PROJECT HERE -
-https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css 
+https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css
+
+CREDITS: aenoo
+VIEW THE ORIGINAL PROJECT HERE -
+https://github.com/aenoo/Discordicons/blob/main/src/main.css
 
 EVERY SINGLE ICON USED IS BROUGHT TO YOU BY BOOTSTRAP'S ICONS - 
 PLEASE SEE THE LICENSE HERE - 
@@ -146,11 +154,98 @@ https://github.com/SlippingGitty/surCord/blob/main/src/fixations/_settingsicons.
   .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Payment Flow Modals-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Payment-Flow-Modals-tab i]::before {
     -webkit-mask: url("https://files.catbox.moe/0ilrsb.svg") center/contain no-repeat;
   }
-  
   .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Logout-tab i] svg {
     visibility: hidden;
   }
   .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Logout-tab i]::before {
     -webkit-mask: url("https://files.catbox.moe/adpywb.svg") center/contain no-repeat;
   }
-  
+  #bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before,
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-settings-tab::before,
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-general-tab" i]::before,
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="lightcord-tab" i]::before,
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="core-tab" i]::before,
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="settings-tab" i]::before {
+    -webkit-mask: url(https://files.catbox.moe/jqsy34.svg) center/contain no-repeat;
+  }
+  #bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::before,
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-emotes-tab::before,
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="emotes-tab" i]::before,
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="emoji-tab" i]::before {
+    -webkit-mask: url(https://files.catbox.moe/hxz7ln.svg) center/contain no-repeat;
+  }
+  #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::before,
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-customcss-tab::before,
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="customcss-tab" i]::before {
+    -webkit-mask: url(https://files.catbox.moe/c627al.svg) center/contain no-repeat;
+  }
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="plugins-tab" i]::before,
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-modulemanager-plugins-tab" i]::before {
+    -webkit-mask: url(https://files.catbox.moe/qcvcf7.svg) center/contain no-repeat;
+  }
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="themes-tab" i]::before,
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-modulemanager-themes-tab" i]::before {
+    -webkit-mask: url(https://files.catbox.moe/7v4gkz.svg) center/contain no-repeat;
+  }
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pluginrepo-tab" i]::before {
+    -webkit-mask: url(https://files.catbox.moe/j3s3of.svg) center/contain no-repeat;
+  }
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="themerepo-tab" i]::before {
+    -webkit-mask: url(https://files.catbox.moe/tq9tfk.svg) center/contain no-repeat;
+  }
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-updater-tab" i]::before {
+    -webkit-mask: url(https://files.catbox.moe/kcqv26.svg) center/contain no-repeat;
+  }
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="bdcompat-tab" i]::before {
+    -webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/betterdiscord.svg) center/contain no-repeat;
+  }
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Kernel-Packages-tab i]::before {
+    -webkit-mask: url("https://files.catbox.moe/ds6oce.svg") center/contain no-repeat;
+  }
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Kernel-Updates-tab i]::before {
+    -webkit-mask: url("https://files.catbox.moe/7dgx44.svg") center/contain no-repeat;
+  }
+  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Kernel-Snippets-tab i]::before {
+    -webkit-mask: url("https://files.catbox.moe/4ek8yc.svg") center/contain no-repeat;
+  }
+
+/*------------------------------------------------------------
+THE FOLLOWING CSS IS BORROWED FROM LUCISM.
+PLEASE SEE THE MESSAGE FROM THE KERNEL SERVER HERE - 
+https://canary.discord.com/channels/891039687785996328/896214131525443635/995074736973434952
+------------------------------------------------------------*/
+
+  .item-3XjbnG.themed-2-lozF[aria-controls="settings-tab"]::after {
+    content: "BetterDiscord";
+    position: absolute;
+    top: -35px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    color: var(--channels-default);
+    width: 90%;
+    border-top: 1px var(--background-modifier-accent) solid;
+    padding-top: 14px;
+    pointer-events: none;
+  }
+  .item-3XjbnG.themed-2-lozF[aria-controls="settings-tab"] {
+    overflow: visible !important;
+    margin-top: 42.5px;
+  }
+  .item-3XjbnG.themed-2-lozF[aria-controls="pc-modulemanager-plugins-tab"]::after {
+    content: "Powercord";
+    position: absolute;
+    top: -35px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    color: var(--channels-default);
+    width: 90%;
+    border-top: 1px var(--background-modifier-accent) solid;
+    padding-top: 14px;
+    pointer-events: none;
+  }
+  .item-3XjbnG.themed-2-lozF[aria-controls="pc-modulemanager-plugins-tab"] {
+    overflow: visible !important;
+    margin-top: 42.5px;
+  }
