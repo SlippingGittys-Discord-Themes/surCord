@@ -7,7 +7,7 @@
 
 /* Title Bar */
 .theme-dark { 
-.container-ZMc96U.themed-Hp1KC_, .header-3OsQeK{
+.container-ZMc96U.themed-Hp1KC_, .header-3OsQeK {
     background: var(--surCordTitleBar);
     border-bottom: .5px solid black;
 }
@@ -47,6 +47,10 @@
     .clickable-ZD7xvu .icon-2xnN2Y {
         color: rgba(115, 115, 115);
     }
+}
+
+ .searchBar-3TnChZ {
+    border-right: .5px solid black;
 }
 /* Search and other Text fields */
 .theme-dark {
