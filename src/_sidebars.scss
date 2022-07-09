@@ -11,12 +11,12 @@
 
 
 /* Channel Bars */
-.scroller-WSmht3, .scroller-1ox3I2, .container-1zzFcN { 
+.sidebar-1tnWFu, .container-1zzFcN { 
     border-right: .5px solid black;
 }
 
 .theme-light {
-    .scroller-WSmht3, .scroller-1ox3I2, .container-1zzFcN { 
+    .sidebar-1tnWFu, .container-1zzFcN { 
       border-right: .5px solid rgba(186, 186, 186, 0.386);
 }
 .item-3XjbnG .selected-g-kMVV .channelName-3KPsGw, .modeSelected-3DmyhH .channelName-3KPsGw {
@@ -24,24 +24,20 @@
 }
 }
 
-/* User Settings */
-.container-YkUktl {
+/* User Settings + VC Controls -- Fix by Lucism */
+.panels-3wFtMD {
+    border-radius: 20px;
+    margin-bottom: 18px;
+    margin-right: 5px;
+    margin-left: 2px;
     background: rgba(0, 0, 0, 0.436); 
     backdrop-filter: blur(10px);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid rgb(78, 78, 81); 
-    border-radius: 20px;
-    margin-bottom: 18px;
-    margin-right: 5px;
-    margin-left: 0px;
 }
-    .panels-3wFtMD {
-        background-color: #00000000;
-        border-right: .5px solid black;
-    }
 
 .theme-light {
-    .container-YkUktl {
+    .panels-3wFtMD {
         background: rgba(226, 221, 225, 0.89);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772); 
@@ -51,20 +47,8 @@
         margin-right: 5px;
         margin-left: 2px;
     }
-        .panels-3wFtMD {
-            background-color: #00000000;
-            border-right: .5px solid rgba(186, 186, 186, 0.386);
-        }
 }
 
-.searchBar-3TnChZ {
-    border-right: .5px solid black;
-}
-.theme-light {
-.searchBar-3TnChZ {
-    border-right: .5px solid rgba(186, 186, 186, 0.386);
-}
-}
 .interactiveSelected-29CP8y {
     background: var(--accent-selected) !important; 
     backdrop-filter: blur(20px);
@@ -150,26 +134,8 @@ div[aria-label="Text (Age-Restricted)"]>svg {
     margin-right: 0px;
 }
 
-/* Spotify Plugin */
-.powercord-spotify{
-    margin-bottom: 10px;
-    .spotify-extra-controls{
-        pointer-events: initial;
-        height: 32px;
-        opacity: 1;
-    }
-    .spotify-seek{
-        margin-top: 3px !important;
-        margin-right: 10px;
-        .spotify-seek-bar{
-            height: 4px;
-            .spotify-seek-bar-progress{
-                border-radius: 5px;
-            }
-        }
-        .spotify-seek-elements{
-            height: 12px;
-            opacity: 1;
-        }
-    }
+
+/* PC-Spotify */
+.fa, .fab, .fad, .fal, .far, .fas, .powercord-spotify .spotify-buttons button > div {
+    font-family: "Font Awesome 5 Pro" !important;
 }
