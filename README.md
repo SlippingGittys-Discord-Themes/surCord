@@ -31,9 +31,9 @@
 |:-:|:-:|:-:|:-:|
 | Vozer | Discord Extensions ORG | Bootstrap | BlueRedBlueYellow |
 
-| <a href="https://github.com/Loremly" target="_blank"> <img src="https://avatars.githubusercontent.com/u/86319836?v=4" alt="" width="96px" height="96px"> </a>
-|:-:|
-| Loremly |
+| <a href="https://github.com/Loremly" target="_blank"> <img src="https://avatars.githubusercontent.com/u/86319836?v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/Iucism" target="_blank"> <img src="https://avatars.githubusercontent.com/u/105166639?v=4" alt="" width="96px" height="96px"> </a>
+|:-:|:-:|
+| Loremly | Lucism |
 
 ___
 Support Server 💬: https://discord.gg/xWYMgbD28p
