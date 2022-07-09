@@ -39,11 +39,13 @@
     }
 .peopleColumn-1wMU14 {
     background: var(--surcordFriendsBackground); 
+    border-left: .5px solid black;
 }
 
 .theme-light {
     .peopleColumn-1wMU14 {
         background: var(--background-primary); 
+        border-left: .5px solid rgba(186, 186, 186, 0.386);
     }
     .peopleListItem-u6dGxF {
         background: rgba(226, 221, 225, 0.89);
