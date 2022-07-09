@@ -11,12 +11,12 @@
 
 
 /* Channel Bars */
-.sidebar-1tnWFu, .container-1zzFcN { 
+.sidebar-1tnWFu { 
     border-right: .5px solid black;
 }
 
 .theme-light {
-    .sidebar-1tnWFu, .container-1zzFcN { 
+    .sidebar-1tnWFu { 
       border-right: .5px solid rgba(186, 186, 186, 0.386);
 }
 .item-3XjbnG .selected-g-kMVV .channelName-3KPsGw, .modeSelected-3DmyhH .channelName-3KPsGw {
@@ -24,7 +24,7 @@
 }
 }
 
-/* User Settings + VC Controls -- Fix by Lucism */
+/* User Settings + VC Controls -- Fix by Lucism & Domi */
 .panels-3wFtMD {
     border-radius: 20px;
     margin-bottom: 18px;
@@ -101,33 +101,7 @@ div[aria-label="Text (Age-Restricted)"]>svg {
 }
 
 /* Voice Chat Controls */
-.wrapper-3Hk9OB .container-1zzFcN{
-    background: rgba(0, 0, 0, 0.436); 
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-    border: 1px solid rgb(78, 78, 81); 
-    border-radius: 20px;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 6px;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-.theme-light {
-    .wrapper-3Hk9OB .container-1zzFcN{
-        background: rgba(231, 234, 237, 0.436) !important; 
-        backdrop-filter: blur(20px);
-        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
-        border: 1px solid rgba(249, 249, 249, 0.772); 
-        border-radius: 20px;
-        margin-right: 15px;
-        margin-left: 15px;
-        margin-bottom: 6px;
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-}
-    .buttonContents-y1l-R8 {
+.buttonContents-y1l-R8 {
         font-size: 0px;
 }
 .buttonIcon-2Zsrs2.withText-2iJppd {
