@@ -100,6 +100,23 @@
   -webkit-app-region: no-drag;
 }
 
+.platform-win .typeWindows-2-g3UY:before {
+  content: "";
+  position: fixed;
+  height: 18px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  pointer-events: none;
+  -webkit-app-region: drag;
+}
+
+div.typeWindows-2-g3UY.titleBar-1it3bQ {
+ width: unset;
+  -webkit-app-region: unset;
+}
+
 /* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
 #app-mount .container-2nx-BQ .input-2XRLou,
 #app-mount .container-2nx-BQ .input-3xr72x,
