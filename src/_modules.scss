@@ -4,7 +4,6 @@
 ////////////////////////////////////////
 */
 
-
 /* LUCKFIRE - macOS Title Bar - LICENSE https://github.com/discord-extensions/macos-titlebar/blob/master/LICENSE */
 .platform-win .typeWindows-2-g3UY {
   z-index: 102;
@@ -42,6 +41,10 @@
 .platform-win .typeWindows-2-g3UY .winButton-3UMjdg svg {
   display: none;
 }
+.platform-win .title-17SveM,
+.platform-win .nicknames-10Sg6e {
+  -webkit-app-region: no-drag;
+}
 .platform-win.app-focused .typeWindows-2-g3UY:hover div.winButton-3UMjdg {
   background-position: center;
   background-size: 100%;
@@ -73,10 +76,12 @@
 .platform-win .sidebar-1tnWFu {
   border-radius: 0;
 }
-.platform-win .sidebar-1tnWFu .header-3OsQeK, .platform-win .sidebar-1tnWFu .searchBar-3TnChZ {
+.platform-win .sidebar-1tnWFu .header-3OsQeK,
+.platform-win .sidebar-1tnWFu .searchBar-3TnChZ {
   z-index: 103;
 }
-.platform-win .sidebar-1tnWFu .header-3OsQeK, .platform-win .sidebar-1tnWFu .searchBarComponent-3N7dCG {
+.platform-win .sidebar-1tnWFu .header-3OsQeK,
+.platform-win .sidebar-1tnWFu .searchBarComponent-3N7dCG {
   -webkit-app-region: no-drag;
 }
 .platform-win .sidebar-1tnWFu .searchBar-3TnChZ {
@@ -89,79 +94,88 @@
 .chat-2ZfjoI .container-ZMc96U {
   -webkit-app-region: drag;
 }
-.chat-2ZfjoI .container-ZMc96U .topic-11NuQZ, .chat-2ZfjoI .container-ZMc96U .title-17SveM, .chat-2ZfjoI .container-ZMc96U .nicknames-10Sg6e {
+.chat-2ZfjoI .container-ZMc96U .topic-11NuQZ,
+.chat-2ZfjoI .container-ZMc96U .title-17SveM,
+.chat-2ZfjoI .container-ZMc96U .nicknames-10Sg6e {
   -webkit-app-region: no-drag;
 }
 
-
 /* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
-#app-mount .container-2nx-BQ .input-2XRLou, #app-mount .container-2nx-BQ .input-3xr72x, #app-mount .checkboxWrapper-2fDzaA .input-2XRLou, #app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
-    margin: 0;
-    opacity: 1;
-    height: 14px !important;
-    width: 14px !important;
-    position: relative;
-    cursor: var(--cursor);
-    -webkit-appearance: checkbox;
-    appearance: checkbox;
+#app-mount .container-2nx-BQ .input-2XRLou,
+#app-mount .container-2nx-BQ .input-3xr72x,
+#app-mount .checkboxWrapper-2fDzaA .input-2XRLou,
+#app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
+  margin: 0;
+  opacity: 1;
+  height: 14px !important;
+  width: 14px !important;
+  position: relative;
+  cursor: var(--cursor);
+  -webkit-appearance: checkbox;
+  appearance: checkbox;
 }
-#app-mount .container-2nx-BQ, #app-mount .checkboxWrapper-2fDzaA {
-    width: auto;
-    border-radius: 0;
-    background: transparent !important;
-    display: flex;
-    align-items: center;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    cursor: var(--cursor);
+#app-mount .container-2nx-BQ,
+#app-mount .checkboxWrapper-2fDzaA {
+  width: auto;
+  border-radius: 0;
+  background: transparent !important;
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  cursor: var(--cursor);
 }
-input[type='checkbox'] {
-  accent-color: var(--accent)
+input[type="checkbox"] {
+  accent-color: var(--accent);
 }
-#app-mount .container-2nx-BQ .slider-32CRPX, #app-mount .checkboxWrapper-2fDzaA .slider-32CRPX {
-    display: none;
+#app-mount .container-2nx-BQ .slider-32CRPX,
+#app-mount .checkboxWrapper-2fDzaA .slider-32CRPX {
+  display: none;
 }
 .theme-dark .checkbox-f1HnKB {
-display:none;
+  display: none;
 }
 
 /* VOZER - Compact Powercord - LICENSE - https://github.com/SlippingGitty/Compact-Powercord/blob/main/LICENSE */
 .powercord-product {
-    padding: 9px;
-    margin-bottom: 13px;
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-  }
-  .powercord-product-header h4 {
-    font-size: 16px;
-  }
-  .powercord-product .divider-3LgWDL {
-    display: none;
-  }
-  .description, .powercord-product .metadata, .powercord-product-permissions, .powercord-product-footer {
-    margin-top: 4px;
-    font-size: 13px;
-  }
+  padding: 9px;
+  margin-bottom: 13px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+}
+.powercord-product-header h4 {
+  font-size: 16px;
+}
+.powercord-product .divider-3LgWDL {
+  display: none;
+}
+.description,
+.powercord-product .metadata,
+.powercord-product-permissions,
+.powercord-product-footer {
+  margin-top: 4px;
+  font-size: 13px;
+}
 
 /* Color Pallete */
 .theme-dark {
-    --background-tertiary: var(--surCordBackground2);
-    --background-secondary: var(--surCordBackground2);
-    --background-secondary-alt: var(--surCordBackground2);
-    --background-primary: var(--surCordBackground);
-    --channeltextarea-background: var(--surCordTextBackground);
-    --background-accent: var(--accent);
-    --background-modifier-hover: var(--surCordHover);
-    --background-modifier-active: rgb(30, 30, 30);
-    --background-modifier-selected: var(--accent-selected);
-    --deprecated-card-bg: #12141f63;
-    --background-floating: rgba(35, 35, 35, 0.771);
-    --deprecated-quickswitcher-input-background:#101320;
-    --elevation-low: none;
-    --toast-background: #000000 !important;
-    --toast-header: #000000 !important;
-    --toast-contents: #000000 !important;
-    --brand-experiment-500: var(--accent-selected);
-    --brand-experiment-560: var(--accent-selected);
+  --background-tertiary: var(--surCordBackground2);
+  --background-secondary: var(--surCordBackground2);
+  --background-secondary-alt: var(--surCordBackground2);
+  --background-primary: var(--surCordBackground);
+  --channeltextarea-background: var(--surCordTextBackground);
+  --background-accent: var(--accent);
+  --background-modifier-hover: var(--surCordHover);
+  --background-modifier-active: rgb(30, 30, 30);
+  --background-modifier-selected: var(--accent-selected);
+  --deprecated-card-bg: #12141f63;
+  --background-floating: rgba(35, 35, 35, 0.771);
+  --deprecated-quickswitcher-input-background: #101320;
+  --elevation-low: none;
+  --toast-background: #000000 !important;
+  --toast-header: #000000 !important;
+  --toast-contents: #000000 !important;
+  --brand-experiment-500: var(--accent-selected);
+  --brand-experiment-560: var(--accent-selected);
 }
 
 .theme-light {
@@ -171,12 +185,12 @@ display:none;
   --background-primary: rgb(231, 234, 237);
   --channeltextarea-background: rgb(213, 213, 213);
   --background-accent: var(--accent);
-  --background-modifier-hover: rgb(213,214,214);
+  --background-modifier-hover: rgb(213, 214, 214);
   --background-modifier-active: rgb(231, 231, 231);
   --background-modifier-selected: var(--accent-selected);
   --deprecated-card-bg: #12141f63;
   --background-floating: rgba(236, 236, 236, 0.771);
-  --deprecated-quickswitcher-input-background:rgba(237, 237, 237);
+  --deprecated-quickswitcher-input-background: rgba(237, 237, 237);
   --elevation-low: none;
   --toast-background: #ffffff !important;
   --toast-header: #ffffff !important;
@@ -184,14 +198,14 @@ display:none;
   --brand-experiment-500: var(--accent-selected);
   --brand-experiment-560: var(--accent-selected);
 
-  .clickable-ZD7xvu .icon-2xnN2Y, .linkButtonIcon-7rsZcu  {
+  .clickable-ZD7xvu .icon-2xnN2Y,
+  .linkButtonIcon-7rsZcu {
     color: var(--accent);
   }
 }
 
-
 /* Font */
-@import url('https://v1.fontapi.ir/css/SFProDisplay');
+@import url("https://v1.fontapi.ir/css/SFProDisplay");
 
 .platform-osx * {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
@@ -200,7 +214,8 @@ display:none;
   text-transform: none;
 }
 
-.platform-linux *, .platform-win *{
+.platform-linux *,
+.platform-win * {
   font-family: "SF Pro Display", sans-serif !important;
   text-rendering: optimizeLegibility !important;
   //font-weight: bold;
@@ -209,29 +224,34 @@ display:none;
 
 /* MWITTRIEN - EMOJIREPLACE - LICENCE https://github.com/mwittrien/BetterDiscordAddons/blob/master/LICENSE */
 /* Uncomment to enable Apple Emojis */
-//@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
 
 /* Links */
 :root {
---text-link: var(--accent);
+  --text-link: var(--accent);
 }
 
 /* Scrollbars */
-.scroller-kQBbkU, .auto-2K3UW5, .peopleColumn-1wMU14 {
+.scroller-kQBbkU,
+.auto-2K3UW5,
+.peopleColumn-1wMU14 {
   &::-webkit-scrollbar-track {
-      background-color: transparent;
+    background-color: transparent;
   }
 }
 
-.scroller-kQBbkU, .auto-2K3UW5, .thin-31rlnD, .peopleColumn-1wMU14 {
+.scroller-kQBbkU,
+.auto-2K3UW5,
+.thin-31rlnD,
+.peopleColumn-1wMU14 {
   &::-webkit-scrollbar-thumb {
-      background-color: rgb(139, 139, 139);
+    background-color: rgb(139, 139, 139);
   }
 }
 
 /* Add surCord Branding */
 .info-3pQQBb > span:first-child::after {
-  content: '\asurCord 06.2022';
+  content: "\asurCord 06.2022";
   color: var(--text-muted);
   white-space: pre;
   line-height: 17px !important;
@@ -239,4 +259,4 @@ display:none;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 12px;
   line-height: 16px;
-} 
+}
