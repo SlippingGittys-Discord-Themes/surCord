@@ -4,6 +4,54 @@
 ////////////////////////////////////////
 */
 
+/*
+ /$$$$$$        /$$       /$$                              
+/$$__  $$      | $$      | $$                              
+| $$  \ $$  /$$$$$$$  /$$$$$$$  /$$$$$$  /$$$$$$$   /$$$$$$$
+| $$$$$$$$ /$$__  $$ /$$__  $$ /$$__  $$| $$__  $$ /$$_____/
+| $$__  $$| $$  | $$| $$  | $$| $$  \ $$| $$  \ $$|  $$$$$$ 
+| $$  | $$| $$  | $$| $$  | $$| $$  | $$| $$  | $$ \____  $$
+| $$  | $$|  $$$$$$$|  $$$$$$$|  $$$$$$/| $$  | $$ /$$$$$$$/
+|__/  |__/ \_______/ \_______/ \______/ |__/  |__/|_______/ 
+*/
+
+/* Uncomment the `@use` to enable Radial Status */
+//@use 'fixations/additions/radialstatus.css';
+
+/* Uncomment the `@import url` to enable Apple Emojis */
+/* MWITTRIEN - EMOJIREPLACE - LICENCE https://github.com/mwittrien/BetterDiscordAddons/blob/master/LICENSE */
+//@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+
+
+/* Uncomment the font-weight to enable San Fransisco Bold */
+/*Designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.apple.com/fonts/ */
+@import url("https://v1.fontapi.ir/css/SFProDisplay");
+
+.platform-osx * {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+  text-rendering: optimizeLegibility !important;
+  //font-weight: bold;
+  text-transform: none;
+}
+
+.platform-linux *,
+.platform-win * {
+  font-family: "SF Pro Display", sans-serif !important;
+  text-rendering: optimizeLegibility !important;
+  //font-weight: bold;
+  text-transform: none;
+}
+/*
+ /$$      /$$                 /$$           /$$                    
+| $$$    /$$$                | $$          | $$                    
+| $$$$  /$$$$  /$$$$$$   /$$$$$$$ /$$   /$$| $$  /$$$$$$   /$$$$$$$
+| $$ $$/$$ $$ /$$__  $$ /$$__  $$| $$  | $$| $$ /$$__  $$ /$$_____/
+| $$  $$$| $$| $$  \ $$| $$  | $$| $$  | $$| $$| $$$$$$$$|  $$$$$$ 
+| $$\  $ | $$| $$  | $$| $$  | $$| $$  | $$| $$| $$_____/ \____  $$
+| $$ \/  | $$|  $$$$$$/|  $$$$$$$|  $$$$$$/| $$|  $$$$$$$ /$$$$$$$/
+|__/     |__/ \______/  \_______/ \______/ |__/ \_______/|_______/ 
+*/
+
 /* LUCKFIRE - macOS Title Bar - LICENSE https://github.com/discord-extensions/macos-titlebar/blob/master/LICENSE */
 .platform-win .typeWindows-2-g3UY {
   z-index: 102;
@@ -98,23 +146,6 @@
 .chat-2ZfjoI .container-ZMc96U .title-17SveM,
 .chat-2ZfjoI .container-ZMc96U .nicknames-10Sg6e {
   -webkit-app-region: no-drag;
-}
-
-.platform-win .typeWindows-2-g3UY:before {
-  content: "";
-  position: fixed;
-  height: 18px;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  pointer-events: none;
-  -webkit-app-region: drag;
-}
-
-div.typeWindows-2-g3UY.titleBar-1it3bQ {
- width: unset;
-  -webkit-app-region: unset;
 }
 
 /* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
@@ -221,28 +252,6 @@ input[type="checkbox"] {
   }
 }
 
-/* Font */
-@import url("https://v1.fontapi.ir/css/SFProDisplay");
-
-.platform-osx * {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
-  text-rendering: optimizeLegibility !important;
-  //font-weight: bold;
-  text-transform: none;
-}
-
-.platform-linux *,
-.platform-win * {
-  font-family: "SF Pro Display", sans-serif !important;
-  text-rendering: optimizeLegibility !important;
-  //font-weight: bold;
-  text-transform: none;
-}
-
-/* MWITTRIEN - EMOJIREPLACE - LICENCE https://github.com/mwittrien/BetterDiscordAddons/blob/master/LICENSE */
-/* Uncomment to enable Apple Emojis */
-//@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
-
 /* Links */
 :root {
   --text-link: var(--accent);
@@ -268,7 +277,7 @@ input[type="checkbox"] {
 
 /* Add surCord Branding */
 .info-3pQQBb > span:first-child::after {
-  content: "\asurCord 06.2022";
+  content: "\asurCord 07.2022";
   color: var(--text-muted);
   white-space: pre;
   line-height: 17px !important;
