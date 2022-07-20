@@ -20,114 +20,37 @@
                                                            */
 
 /* Blue */
-:root {
-  --accent: rgb(26, 129, 251);
-  --accent-hover: rgba(26, 129, 251, 0.977);
-  --accent-selected: rgb(26, 129, 251, 0.612);
-  --accent-focused: rgb(26, 129, 251, 0.200);
-}
+@use 'fixations/additions/accents/blue.scss';
 
-/* Red 
-:root {
-    --accent: rgb(237, 60, 68);
-    --accent-hover: rgb(237, 60, 68, 0.977);
-    --accent-selected: rgb(237, 60, 68, 0.612);
-    --accent-focused: rgb(237, 60, 68, 0.200);
-  } */
+/* Red */
+//@use 'fixations/additions/accents/red.scss'; 
 
-/* Yellow 
-:root {
-  --accent: rgb(	251, 192, 45);
-  --accent-hover: rgba(	251, 192, 45, 0.977);
-  --accent-selected: rgb(251, 192, 45, 0.612);
-  --accent-focused: rgb(251, 192, 45, 0.200);
-}
-*/
+/* Yellow */
+//@use 'fixations/additions/accents/yellow.scss';
 
-/* Pink 
-  :root {
-    --accent: rgb(248, 74, 156);
-    --accent-hover: rgba(248, 74, 156, 0.977);
-    --accent-selected: rgb(248, 74, 156, 0.612);
-    --accent-focused: rgb(248, 74, 156, 0.200);
-  } */
+/* Pink */
+//@use 'fixations/additions/accents/pink.scss';
 
-/* Material Blue 
-:root {
-  --accent: rgb(55, 0, 179);
-  --accent-hover: rgba(55, 0, 179, 0.977);
-  --accent-selected: rgb(55, 0, 179, 0.612);
-  --accent-focused: rgb(55, 0, 179, 0.2);
-}*/
+/* Material Blue */
+//@use 'fixations/additions/accents/materialblue.scss';
 
-/* Hatsune 
-:root {
-  --accent: rgb(0, 166, 166);
-  --accent-hover: rgb(255, 0, 128, 0.977);
-  --accent-selected: rgb(255, 0, 128, 0.612);
-  --accent-focused: rgb(255, 0, 128, 0.200);
-}*/
+/* Hatsune */
+//@use 'fixations/additions/accents/hatsune.scss';
 
-/* Nord Accents 
-:root {
-  --accent: rgba(129, 161, 193);
-  --accent-hover: rgb(67, 76, 94, 0.977);
-  --accent-selected: rgb(136, 192, 208, 0.612);
-  --accent-focused: rgb(143, 188, 187, 0.200);
-}*/
+/* Nord Accents */
+//@use 'fixations/additions/accents/nord.scss';
 
-/* Dracula Accent 
-:root {
-  --accent: rgb(121, 109, 165);
-  --accent-hover: rgba(121, 109, 165, 0.977);
-  --accent-selected: rgb(121, 109, 165, 0.612);
-  --accent-focused: rgb(121, 109, 165, 0.200);
-} */
+/* Dracula Accent */
+//@use 'fixations/additions/accents/dracula.scss';
 
-/* Fuoco 
-:root {
-  --accent: rgb(166, 31, 25);
-  --accent-hover: rgba(152, 28, 22, 0.977);
-  --accent-selected: rgb(166, 31, 25, 0.612);
-  --accent-focused: rgb(166, 31, 25, 0.2);
-}*/
+/* Fuoco */
+//@use 'fixations/additions/accents/fuoco.scss';
 
-/* Dark
-:root {
-  --accent: rgb(152,129,123)
-  --accent-hover: rgb(0,0,0);
-  --accent-selected: rgb(0,0,0);
-  --accent-focused: rgb(0, 0, 0, 0.200);
-}
-*/
+/* Dark */
+//@use 'fixations/additions/accents/dark.scss';
 
-/* Apple 
-:root {
-  --accent: rgba(14,157,219);
-  --accent-hover: rgba(251,185,56);
-  --accent-selected: rgba(246,129,41);
-  --accent-buttons: rgba(150,56,146);
-  --accent-focused: rgb(2150, 56, 146, 0.200);
-}
-.clickable-ZD7xvu .icon-2xnN2Y, .linkButtonIcon-7rsZcu  {
-  color: rgb(224,54,60) !important;
-}
-.iconWrapper-2awDjA .icon-2xnN2Y {
-  color: rgba(96,189,78);
-}
-.stickerIcon-3Jx5SE {
-  color: var(--accent);
-}
-.icon-1d5zch {
-  color: rgba(96,189,78);
-}
-.contents-3ca1mk .button-2fCJ0o .button-3BaQ4X {
-  color: rgb(224,54,60);
-}
-.buttonWrapper-3YFQGJ {
-  color: var(--accent);
-}
-*/
+/* Apple */
+//@use 'fixations/additions/accents/apple.scss';
 
 /*
  /$$$$$$$                      /$$                                                               /$$
@@ -143,99 +66,22 @@
                                          \______/*/
 
 /* Regular Theme (surCord by Vozer) */
-:root {
-  --surCordBackground: rgb(31, 30, 30);
-  --surCordBackground2: rgb(42, 40, 44);
-  --surCordTextBackground: rgb(30, 30, 30);
-  --surcordFriendsBackground: rgb(33, 31, 35);
-  --surCordFriends: rgb(40, 38, 42);
-  --surCordActiveNow: rgba(88, 84, 85, 0.276);
-  --surCordGuilds: rgb(42, 40, 44);
-  --surCordTitleBar: rgb(55, 53, 55);
-  --surCordSearch: rgb(53, 51, 55);
-  --surCordHover: rgb(65, 63, 66);
-}
+@use 'fixations/additions/themes/default.scss';
 
-/* AMOLED Theme (Pitch Black by Vozer) 
-:root {
---surCordBackground: rgb(0, 0, 0);
---surCordBackground2: rgb(0,0,0);
---surCordTextBackground: rgb(7,7,8);
---surcordFriendsBackground: rgb(0, 0, 0);
---surCordFriends: rgb(7,7,8);
---surCordActiveNow: rgba(10, 10, 10);
---surCordGuilds: rgb(0,0,0);
---surCordTitleBar: rgb(0, 0, 0);
---surCordSearch: rgb(7,7,8);
---surCordHover: var(--accent-selected);
-} */
+/* AMOLED Theme (Pitch Black by Vozer) */
+//@use 'fixations/additions/themes/amoled.scss';
 
-/* AMOLED Theme + Contrast (Taken from AMOLED-Cord by LuckFire) 
-:root {
-  --surCordBackground: rgb(0, 0, 0);
-  --surCordBackground2: rgb(10,10,10);
-  --surCordTextBackground: rgb(7,7,8);
-  --surcordFriendsBackground: rgb(0, 0, 0);
-  --surCordFriends: rgb(7,7,8);
-  --surCordActiveNow: rgba(10, 10, 10);
-  --surCordGuilds: rgb(10,10,10);
-  --surCordTitleBar: rgb(10, 10, 10);
-  --surCordSearch: rgb(10,10,10);
-  --surCordHover: var(--accent-selected);
-} */
+/* AMOLED Theme + Contrast (Taken from AMOLED-Cord by LuckFire) */
+//@use 'fixations/additions/themes/amoledcontrast.scss';
 
-/* Material Dark 
-:root {
-  --surCordBackground: rgb(19, 18, 18);
-  --surCordBackground2: rgb(30, 29, 29);
-  --surCordTextBackground: rgb(34, 34, 34);
-  --surcordFriendsBackground: rgb(18, 18, 18);
-  --surCordFriends: rgb(30, 29, 29);
-  --surCordActiveNow: rgb(46, 45, 45 0.276);
-  --surCordGuilds: rgb(30, 29, 29);
-  --surCordTitleBar: rgb(32, 31, 31);
-  --surCordSearch: rgb(34, 34, 34);
-  --surCordHover: rgb(45, 45, 45, 0.2);
-}*/
+/* Material Dark */
+//@use 'fixations/additions/themes/materialdark.scss';
 
-/* Nord Theme - (Taken from Arctic Ice Studio & Sven Greb) 
-  :root {
-    --surCordBackground: rgb(46, 52, 64);
-    --surCordBackground2: rgb(59, 66, 82);
-    --surCordTextBackground: rgb(76, 86, 106);
-    --surcordFriendsBackground: rgb(46, 52, 64); 
-    --surCordFriends: rgb(59, 66, 82);
-    --surCordActiveNow: rgb(67, 76, 94, .276);
-    --surCordGuilds: rgb(59, 66, 82);
-    --surCordTitleBar: rgb(76, 86, 106);
-    --surCordSearch: rgb(59, 66, 82);
-    --surCordHover: rgb(143, 188, 187, 0.200);
-} */
+/* Nord Theme - (Taken from Arctic Ice Studio & Sven Greb) */
+//@use 'fixations/additions/themes/nord.scss';
 
-/* Dracula Theme 
-:root {
-  --surCordBackground: rgb(34, 33, 44);
-  --surCordBackground2: rgb(43, 37, 63);
-  --surCordTextBackground: rgb(21, 19, 32);
-  --surcordFriendsBackground: rgb(11, 10, 16);
-  --surCordFriends: rgb(34, 33, 44);
-  --surCordActiveNow: rgb(43, 37, 63 .276);
-  --surCordGuilds: rgb(43, 37, 63);
-  --surCordTitleBar: rgb(21, 19, 32);
-  --surCordSearch: rgb(21, 19, 32);
-  --surCordHover: rgb(143, 188, 187, 0.200);
-}*/
+/* Dracula Theme */
+//@use 'fixations/additions/themes/dracula.scss';
 
-/* Fuoco Theme 
-:root {
-  --surCordBackground: rgb(33, 2, 1);
-  --surCordBackground2: rgb(66, 7, 6);
-  --surCordTextBackground: rgb(53, 14, 12);
-  --surcordFriendsBackground: rgb(66, 7, 6);
-  --surCordFriends: rgb(33, 2, 1);
-  --surCordActiveNow: rgb(33, 2, 1, .276);
-  --surCordGuilds: rgb(66, 7, 6);
-  --surCordTitleBar: rgb(66, 7, 6);
-  --surCordSearch: rgb(53, 14, 12);
-  --surCordHover: rgba(152, 29, 22, 0.200);
-}*/
+/* Fuoco Theme */
+//@use 'fixations/additions/themes/fuoco.scss';
