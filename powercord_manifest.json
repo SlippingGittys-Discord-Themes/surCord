@@ -4,5 +4,5 @@
     "license": "MIT",
     "theme": "./src/_index.scss",
     "author": "Vozer",
-    "description": "A Discord theme inspired by Human Design"
+    "description": "A Discord theme inspired by Human Design."
 }
