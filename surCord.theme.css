@@ -54,14 +54,17 @@ SOFTWARE.
 
 */
 
+/* Uncomment the `@import url` to enable Apple Emojis */
+/* MWITTRIEN - EMOJIREPLACE - LICENCE https://github.com/mwittrien/BetterDiscordAddons/blob/master/LICENSE
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+*/
+
 /*
 /////////////////////////
 //// Title Bar on macOS
 /////////////////////////
 */
 /* Title Bar */
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
-@import url("https://v1.fontapi.ir/css/SFProDisplay");
 .theme-dark .container-ZMc96U.themed-Hp1KC_,
 .theme-dark .header-3OsQeK {
   background: var(--surCordTitleBar);
@@ -569,10 +572,10 @@ div[aria-label="Text (Age-Restricted)"] > svg {
 | $$  | $$|  $$$$$$$|  $$$$$$$|  $$$$$$/| $$  | $$ /$$$$$$$/
 |__/  |__/ \_______/ \_______/ \______/ |__/  |__/|_______/ 
 */
-/* Uncomment the `@import url` to enable Apple Emojis */
-/* MWITTRIEN - EMOJIREPLACE - LICENCE https://github.com/mwittrien/BetterDiscordAddons/blob/master/LICENSE */
-/* Uncomment the font-weight to enable San Fransisco Bold */
+
 /*Designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.apple.com/fonts/ */
+@import url("https://v1.fontapi.ir/css/SFProDisplay");
+
 .platform-osx * {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
   text-rendering: optimizeLegibility !important;
