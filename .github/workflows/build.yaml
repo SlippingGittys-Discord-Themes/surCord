@@ -1,0 +1,30 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_css:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source Git branch
+        uses: actions/checkout@v2
+
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.4.9
+        with:
+          source: src/_index.scss
+          destination: src/source.css
+
+      - name: Add and Commit changes to build branch
+        run: |
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'GitHub Action'
+          git add .
+          git commit -m '[skip ci] Update compiled CSS files'
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
