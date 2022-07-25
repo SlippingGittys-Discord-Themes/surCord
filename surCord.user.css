@@ -10,6 +10,8 @@
 /* 
 -----------Source---------
 > This is the core of the entire theme
-> It is essential that you do not touch this url, unless you know what you are doing.
+> It is essential that you do not touch these urls, unless you know what you are doing.
 */
 @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/source.css');
+@import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/blue.css');
+@import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/default.css');
