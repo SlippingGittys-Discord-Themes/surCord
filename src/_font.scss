@@ -7,6 +7,7 @@
 .platform-osx * {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
   text-rendering: optimizeLegibility !important;
+  // font-weight: bold;
   text-transform: none;
 }
 
@@ -14,6 +15,7 @@
 .platform-win * {
   font-family: "SF Pro Display", sans-serif !important;
   text-rendering: optimizeLegibility !important;
+  // font-weight: bold;
   text-transform: none;
 }
 
