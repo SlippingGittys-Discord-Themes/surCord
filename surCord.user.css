@@ -7,14 +7,44 @@
     @version      1.0.0
     ==/UserStyle== */
 
-/* 
+/*
+----------Accents---------
+> Only one Accent can be uncommented at a time.
+> Feel free to contribute https://github.com/SlippingGittys-Discord-Themes/surCord/tree/main/src/fixations/additions/ Accents
+*/
+@import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/blue.css');
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/red.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/yellow.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/pink.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/materialblue.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/hatsune.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/nord.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/dracula.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/fuoco.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/dark.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/apple.css'); */
+
+/*
+----------Palettes---------
+> Only one Palette can be uncommenteed at a time.
+> Feel free to contribute https://github.com/SlippingGittys-Discord-Themes/surCord/tree/main/src/fixations/additions/themes
+*/
+@import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/default.css');
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/amoled.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/amoledc.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/materialdark.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/nordtheme.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/dracula.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/fuoco.css'); */
+/*
+    
+/*
 -----------Source---------
 > This is the core of the entire theme
-> It is essential that you do not touch these urls, unless you know what you are doing.
+> It is essential that you do not touch this url, unless you know what you are doing.
 */
 @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/source.css');
-@import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/blue.css');
-@import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/default.css');
+    
 /*
 -----------Font---------
 > Uncomment the font-weight to enable San Fransisco Bold
