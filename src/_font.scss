@@ -1,0 +1,22 @@
+/*
+-----------Font---------
+> Uncomment the font-weight to enable San Fransisco Bold
+> Designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.apple.com/fonts/ 
+*/
+
+.platform-osx * {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+  text-rendering: optimizeLegibility !important;
+  // font-weight: bold;
+  text-transform: none;
+}
+
+.platform-linux *,
+.platform-win * {
+  font-family: "SF Pro Display", sans-serif !important;
+  text-rendering: optimizeLegibility !important;
+  // font-weight: bold;
+  text-transform: none;
+}
+
+@import url("https://v1.fontapi.ir/css/SFProDisplay");
