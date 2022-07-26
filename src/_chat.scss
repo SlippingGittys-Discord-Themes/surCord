@@ -7,7 +7,7 @@
 /* Text Box */
 .scrollableContainer-15eg7h, .hasConnectedBar-1vN2JH, .preview-QJ3OG3 {
     border-radius: 20px;
-    border: 1px solid rgb(97, 96, 99); 
+    border: 1px solid var(--surCordBorder); 
   }
   .scrollableContainer-15eg7h:hover {
     box-shadow: 0 0 2px 2px var(--accent-selected);
@@ -25,16 +25,16 @@
   .theme-dark .autocomplete-3NRXG8 {
     background: rgba(41, 38, 39, 0.276);
     backdrop-filter: blur(20px);
-    border: 1px solid rgb(78, 78, 81); 
+    border: 1px solid var(--surCordBorder); 
     }
     .upload-vLbqu- {
         background: rgba(8, 4, 5, 0.429);
-        border: 1px solid rgb(78, 78, 81); 
+        border: 1px solid var(--surCordBorder); 
     }
     .actionBar-1ozugS .wrapper-2vIMkT {
         background: rgba(8, 4, 5, 0.429);
         backdrop-filter: blur(3px);
-        border: 1px solid rgb(78, 78, 81); 
+        border: 1px solid var(--surCordBorder); 
         border-radius: 50px;
     }
 .theme-light {
@@ -88,7 +88,7 @@ backdrop-filter: blur(10px);
 /* Embeds and MarkUp */
 .grid-1aWVsE, .markup-eYLPri code, .attachment-1PZZB2, .theme-dark .wrapperAudio-1Bzv_Z{
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-    border: 1px solid rgb(78, 78, 81); 
+    border: 1px solid var(--surCordBorder); 
     background: rgba(41, 38, 39, 0.276);
     font-family: 'SF Mono', SFMono-Regular, ui-monospace,
     'DejaVu Sans Mono', Menlo, Consolas, monospace;
@@ -109,7 +109,7 @@ backdrop-filter: blur(10px);
 .description-X8_53U, .userSelectNone-3AtPzf  {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-    border: 1px solid rgb(78, 78, 81); 
+    border: 1px solid var(--surCordBorder); 
     border-radius: 5px;
     background: rgba(41, 38, 39, 0.276);
 }

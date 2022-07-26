@@ -9,4 +9,5 @@
     --surCordTitleBar: rgb(10, 10, 10);
     --surCordSearch: rgb(10,10,10);
     --surCordHover: var(--accent-selected);
+    --surCordBorder: rgb(25,25,25);
   } 

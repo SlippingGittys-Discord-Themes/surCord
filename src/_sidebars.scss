@@ -33,7 +33,7 @@
     background: rgba(0, 0, 0, 0.436); 
     backdrop-filter: blur(10px);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-    border: 1px solid rgb(78, 78, 81); 
+    border: 1px solid var(--surCordBorder); 
 }
 
 .theme-light {
