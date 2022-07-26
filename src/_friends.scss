@@ -13,7 +13,7 @@
 .peopleListItem-u6dGxF {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
-    border: 1px solid rgb(78, 78, 81);
+    border: 1px solid var(--surCordBorder);
     border-radius: 5px;
     background: var(--surCordFriends);
     margin-bottom: 13px;
@@ -25,7 +25,7 @@
     box-shadow: 0 0 3px 1px rgba(26, 127, 251, 0.487);
     border-radius: 10px;
     transition: 0.3s;
-    border: 1px solid rgb(78, 78, 81);
+    border: 1px solid var(--surCordBorder);
     border-radius: 5px;
     background: rgba(41, 38, 39, 0.276);
     margin-bottom: 13px;
@@ -69,7 +69,7 @@
 .itemCard-3Etziu {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
-    border: 1px solid rgb(78, 78, 81);
+    border: 1px solid var(--surCordBorder);
     border-radius: 5px;
     background: var(--surCordActiveNow);
     margin-bottom: 13px;
@@ -77,7 +77,7 @@
     padding-left: 10px;
 }
 .section-3G9aLW:only-child {
-    border: 1px solid rgb(78, 78, 81);
+    border: 1px solid var(--surCordBorder);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
 }
 
@@ -103,7 +103,7 @@
     box-shadow: 0 0 3px 1px rgba(26, 127, 251, 0.487);
     border-radius: 10px;
     transition: 0.3s;
-    border: 1px solid rgb(78, 78, 81);
+    border: 1px solid var(--surCordBorder);
     border-radius: 5px;
     background: rgba(41, 38, 39, 0.276);
     margin-bottom: 15px;
@@ -117,7 +117,7 @@
 .addFriendInputWrapper-kkoSV9 {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
-    border: 1px solid rgb(78, 78, 81);
+    border: 1px solid var(--surCordBorder);
     border-radius: 5px;
     background: var(--surCordFriends);
     margin-bottom: 13px;
