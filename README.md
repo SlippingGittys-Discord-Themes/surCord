@@ -25,7 +25,7 @@
 
 * You can set surCord to use Apple's Emoji font by navigating to `/src/_modules.scss` and uncommenting `@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);`
 
-* You can uncomment `font-weight: bold` in your respective font sections to use **San Fransisco Display Bold**.  
+* You can uncomment `font-weight: bold;` in your respective font sections to use **San Fransisco Display Bold**.  
   
   ( **BD**: surCord.theme.css, **Powercord**: `/src/_font.scss`, **Stylus**: surCord.user.css )
 
