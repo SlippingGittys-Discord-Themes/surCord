@@ -10,20 +10,28 @@
 * BetterDiscord/BeautifulDiscord users can download [surCord.theme.css](https://raw.githubusercontent.com/SlippingGitty/surCord/main/surCord.theme.css) and either
   * Inject the CSS file with BeautifulDiscord
   * Place in the BetterDiscord themes folder
-* Powercord users:
+* Powercord users
   * Open a terminal in the themes folder and type `git clone https://github.com/SlippingGitty/surCord/`
 * Goosemod users
-  * Coming Soon!
+  * Coming Soon! (for now you can use topaz)
 * Stylus
   * Head [here](https://github.com/SlippingGitty/surCord/raw/main/surCord.user.css) to install.
 
 ### Extra info ℹ️
 
-* You can very easily [change the accent and theme color](https://cdn.discordapp.com/attachments/816373850647953439/984177819204603924/unknown.png) for surCord by navigating to `/src/_themeing.scss` and [uncommenting >>>one<<<](https://github.com/SlippingGitty/surCord/blob/main/src/_accents.scss) of the accent colors and one of the background colors. 
+* You can very easily [change the accent and theme color](https://cdn.discordapp.com/attachments/816373850647953439/984177819204603924/unknown.png) for surCord by navigating to `/src/_theming.scss` and [uncommenting **>>>one<<<**](https://github.com/SlippingGittys-Discord-Themes/surCord/blob/main/src/_theming.scss) of the accent colors and one of the background colors.  
+  
+  BD and Stylus can uncomment these in surCord.theme.css / surCord.user.css
 
-* You can set surCord to use Apple's Emoji font by navigating to `/src/_modulals.scss` and uncommenting `@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);`
+* You can set surCord to use Apple's Emoji font by navigating to `/src/_modules.scss` and uncommenting `@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);`
 
-* You can follow [this guide](https://github.com/SlippingGitty/surCord/issues/9) to set surCord's font to **San Fransisco Display Bold**.
+* You can uncomment `font-weight: bold` in your respective font sections to use **San Fransisco Display Bold**.  
+  
+  ( **BD**: surCord.theme.css, **Powercord**: `/src/_font.scss`, **Stylus**: surCord.user.css )
+
+* Stylus users need to toggle "Patch CSP to allow style assets"  
+  
+  ![stylus setting](/assets/stylussettingneeded.png)
 
 ## Devs, Contributors, and other Creditors:
 
