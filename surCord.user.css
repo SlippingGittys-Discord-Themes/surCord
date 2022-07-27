@@ -23,6 +23,8 @@
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/fuoco.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/dark.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/apple.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/pluto.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/joker.css'); */
 
 /*
 ----------Palettes---------
@@ -51,15 +53,7 @@
 > Designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.apple.com/fonts/ 
 */
 
-.platform-osx * {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
-  text-rendering: optimizeLegibility !important;
-  /* font-weight: bold; */
-  text-transform: none;
-}
-
-.platform-linux *,
-.platform-win * {
+* {
   font-family: "SF Pro Display", sans-serif !important;
   text-rendering: optimizeLegibility !important;
   /* font-weight: bold; */
