@@ -8,6 +8,7 @@
 ..ゞノ　 ~じ'ﾌ~ﾙ'ノ
 */
 
+
 /*
   /$$$$$$                                            /$$    
  /$$__  $$                                          | $$    
@@ -46,17 +47,14 @@
 /* Fuoco */
 //@use 'fixations/additions/accents/fuoco.css';
 
+/* Tokyo Night */
+//@use 'fixations/additions/accents/tokyo.css';
+
 /* Dark */
 //@use 'fixations/additions/accents/dark.css';
 
 /* Apple */
 //@use 'fixations/additions/accents/apple.css';
-
-/* Pluto */
-//@use 'fixations/additions/accents/pluto.css';
-
-/* Joker */
-//@use 'fixations/additions/accents/joker.css';
 
 /*
  /$$$$$$$                      /$$                                                               /$$
@@ -75,7 +73,7 @@
 @use 'fixations/additions/themes/default.css';
 
 /* AMOLED Theme (Pitch Black by Vozer) */
-//@use 'fixations/additions/themes/amoled.css';
+// @use 'fixations/additions/themes/amoled.css';
 
 /* AMOLED Theme + Contrast (Taken from AMOLED-Cord by LuckFire) */
 //@use 'fixations/additions/themes/amoledc.css';
@@ -91,3 +89,6 @@
 
 /* Fuoco Theme */
 //@use 'fixations/additions/themes/fuoco.css';
+
+/* Tokyo Night Theme */
+//@use 'fixations/additions/themes/tokyonight.css';
