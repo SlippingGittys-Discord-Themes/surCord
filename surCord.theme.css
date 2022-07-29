@@ -16,7 +16,7 @@
    cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 09 hours, 15 mins 
  .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 20 (plugins) 
  XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: Powercord, BetterDiscord, BeautifulDiscord,
-;MMMMMMMMMMMMMMMMMMMMMMMM:              Goosemod, Stylus
+;MMMMMMMMMMMMMMMMMMMMMMMM:              Astra, Goosemod, Stylus 
 :MMMMMMMMMMMMMMMMMMMMMMMM:       DE: ImagineAPlace
 .MMMMMMMMMMMMMMMMMMMMMMMMX.      WM: Vozer
  kMMMMMMMMMMMMMMMMMMMMMMMMWd.    WM Theme: Blurple
@@ -27,14 +27,13 @@
        .cooc,.    .,coo:.       
 */
 
-
 /*
 ----------Accents---------
 > Only one Accent can be uncommented at a time.
 > Feel free to contribute https://github.com/SlippingGittys-Discord-Themes/surCord/tree/main/src/fixations/additions/ Accents
 */
 
-@import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/blue.css');
+  @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/blue.css'); 
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/red.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/yellow.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/pink.css'); */
@@ -43,10 +42,9 @@
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/nord.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/dracula.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/fuoco.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/tokyo.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/dark.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/apple.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/pluto.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/joker.css'); */
 
 /*
 ----------Palettes---------
@@ -54,13 +52,14 @@
 > Feel free to contribute https://github.com/SlippingGittys-Discord-Themes/surCord/tree/main/src/fixations/additions/themes
 */
 
-@import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/default.css');
+ @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/default.css'); 
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/amoled.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/amoledc.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/materialdark.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/nordtheme.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/dracula.css'); */
 /* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/fuoco.css'); */
+/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/tokyonight.css'); */
 
 /*
 -----------Source---------
