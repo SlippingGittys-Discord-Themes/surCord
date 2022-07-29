@@ -14,19 +14,24 @@
 .item-3mHhwr .item-3XjbnG .themed-2-lozF[aria-controls="add_friend-tab"] {
   background-color: var(--accent-hover) !important;
 }
+.clickable-ZD7xvu .icon-2xnN2Y,
+.linkButtonIcon-7rsZcu {
+  color: rgb(255, 158, 100) !important;
+}
 .contents-3ca1mk .button-2fCJ0o .button-3BaQ4X {
   color: rgb(80, 111, 170);
 }
 .circleIcon-3489FI {
   color: rgba(189, 182, 44, 0.61) !important;
 }
-.clickable-ZD7xvu .icon-2xnN2Y,
-.linkButtonIcon-7rsZcu {
-  color: #ff9e64 !important;
-}
 .name-28HaxV,
 .membersGroup-2eiWxl {
   color: rgb(86, 95, 137);
+}
+.addButtonIcon-3rJeaD,
+.modeUnread-3Cxepe .icon-2W8DHg,
+.unreadRelevant-2f-VSK {
+  color: rgba(51, 152, 148) !important;
 }
 .messageContent-2t3eCI,
 .modeConnected-NrO4cP .name-28HaxV,
@@ -45,15 +50,12 @@
 .modeUnread-3Cxepe:hover .icon-2W8DHg,
 .mainContent-uDGa6R .overflow-1wOqNV,
 .mainContent-uDGa6R {
-  color: #73daca !important;
+  color: rgb(114, 218, 202) !important;
 }
 .theme-dark .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH,
 .theme-dark .unreadMentionsIndicatorBottom-3RJMnQ .unreadMentionsBar-ZXXoOH,
 .theme-dark .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH,
 .numberBadge-37OJ3S,
-.newBadge-1bHewI,
-.addButtonIcon-3rJeaD,
-.modeUnread-3Cxepe .icon-2W8DHg,
-.unreadRelevant-2f-VSK {
+.newBadge-1bHewI {
   background: rgba(51, 152, 148) !important;
 }
