@@ -1,6 +1,73 @@
 :root {
-    --accent: rgba(129, 161, 193);
-    --accent-hover: rgb(67, 76, 94, 0.977);
-    --accent-selected: rgb(136, 192, 208, 0.612);
-    --accent-focused: rgb(143, 188, 187, 0.200);
-  }
+  --accent: rgba(129, 161, 193);
+  --accent-hover: rgb(67, 76, 94, 0.977);
+  --accent-selected: rgb(136, 192, 208, 0.612);
+  --accent-focused: rgb(143, 188, 187, 0.2);
+}
+.iconWrapper-2awDjA .icon-2xnN2Y,
+.stickerIcon-3Jx5SE,
+.icon-1d5zch,
+.circleIcon-3489FI,
+.buttonWrapper-3YFQGJ {
+  color: rgb(215, 222, 233);
+}
+.item-3mHhwr .item-3XjbnG .themed-2-lozF[aria-controls="add_friend-tab"] {
+  background-color: var(--accent-hover) !important;
+}
+.content-1jQy2l,
+.membersWrap-3NUR2t {
+  border-left: 0.5px solid rgb(50, 50, 50);
+}
+.container-ZMc96U.themed-Hp1KC_,
+.header-3OsQeK {
+  border-bottom: 0.5px solid rgb(50, 50, 50) !important;
+}
+.searchBar-3TnChZ {
+  border-right: 0.5px solid rgb(50, 50, 50);
+}
+.clickable-ZD7xvu .icon-2xnN2Y,
+.linkButtonIcon-7rsZcu {
+  color: rgb(215, 222, 233) !important;
+}
+.contents-3ca1mk .button-2fCJ0o .button-3BaQ4X {
+  color: rgb(80, 111, 170);
+}
+.circleIcon-3489FI {
+  color: rgb(120, 136, 162) !important;
+}
+.name-28HaxV,
+.membersGroup-2eiWxl {
+  color: rgb(98, 110, 132);
+}
+.addButtonIcon-3rJeaD,
+.modeUnread-3Cxepe .icon-2W8DHg,
+.unreadRelevant-2f-VSK {
+  color: rgb(131, 190, 186) !important;
+}
+.messageContent-2t3eCI,
+.modeConnected-NrO4cP .name-28HaxV,
+.modeConnected-NrO4cP:hover .name-28HaxV,
+.modeSelected-3DmyhH .name-28HaxV,
+.modeSelected-3DmyhH:hover .name-28HaxV,
+.modeUnread-3Cxepe .name-28HaxV,
+.modeUnread-3Cxepe:hover .name-28HaxV,
+.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
+.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+  color: rgba(215, 222, 333) !important;
+}
+.modeSelected-3DmyhH .icon-2W8DHg,
+.modeSelected-3DmyhH:hover .icon-2W8DHg,
+.modeUnread-3Cxepe .icon-2W8DHg,
+.modeUnread-3Cxepe:hover .icon-2W8DHg,
+.mainContent-uDGa6R .overflow-1wOqNV,
+.mainContent-uDGa6R {
+  color: rgb(215, 222, 233) !important;
+}
+.theme-dark .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH,
+.theme-dark .unreadMentionsIndicatorBottom-3RJMnQ .unreadMentionsBar-ZXXoOH,
+.theme-dark .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH,
+.numberBadge-37OJ3S,
+.unreadRelevant-2f-VSK,
+.newBadge-1bHewI {
+  background: rgba(106, 120, 144) !important;
+}
