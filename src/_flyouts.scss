@@ -80,6 +80,7 @@
 }
     .role-2TIOKu {
         border: 1px solid var(--surCordBorder); 
+        border-radius: 10px;
     }
     .input-2z42oC {
         border-radius: 50px;
@@ -350,3 +351,17 @@
     background-color: transparent;
   }
   
+/* Powercord/Replugged Notifications */
+  .powercord-toast, .powercord-toast .contents .inner {
+    background: rgba(0, 0, 0, 0.436); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid var(--surCordBorder); 
+    border-radius: 5px;
+  }
+
+  .powercord-toast .header {
+    background: var(--surCordTitleBar);
+    border-bottom: .5px solid black;
+    font-family: "Font Awesome 5 Pro" !important;
+  }
