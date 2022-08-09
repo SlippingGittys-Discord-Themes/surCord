@@ -90,10 +90,11 @@
     backdrop-filter: blur(10px);
     }
 
-/* Text Feilds */
+/* Text Fields */
 .inputDefault-3FGxgL {
     border-radius: 20px;
-    border: 1px solid rgb(97, 96, 99); 
+    border: 1px solid var(--surCordBorder); 
+    padding: 10px;
 }
 
 
