@@ -74,6 +74,9 @@
 > Designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.apple.com/fonts/ 
 */
 
+/* Uncomment the line below to use Apple's Emoji font */
+/* @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css); */
+
 .platform-osx * {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
   text-rendering: optimizeLegibility !important;

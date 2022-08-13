@@ -27,9 +27,12 @@
 
 * You can uncomment `font-weight: bold;` in your respective font sections to use **San Fransisco Display Bold**.  
   
-  ( **BD**: surCord.theme.css, **Powercord**: `/src/_font.scss`, **Stylus**: surCord.user.css )
+  - **BD:** surCord.theme.css 
+  - **Powercord:** `/src/_font.scss` 
+  - **Stylus:** surCord.user.css
 
-* Stylus users need to toggle "Patch CSP to allow style assets"  
+* Stylus users on Firefox have to be on version 102 or later and toggle "Patch CSP to allow style assets"  
+  Chromium browsers shall be fine by default on any recent version.
   
   ![stylus setting](/assets/stylussettingneeded.png)
 
