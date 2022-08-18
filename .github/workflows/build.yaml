@@ -22,7 +22,7 @@ jobs:
           git config --local user.email 'action@github.com'
           git config --local user.name 'GitHub Action'
           git add .
-          git commit -m '[skip ci] Update compiled CSS files'
+          git commit -m '[GH:A] Build CSS'
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
