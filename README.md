@@ -1,7 +1,7 @@
 <h1 align="center">surCord</h1>
 <p align="center">Hello. Again. </p>
 
-# ![screenshot](https://files.catbox.moe/6bk9lv.png)
+# ![screenshot](https://raw.githubusercontent.com/SlippingGittys-Discord-Themes/surCord/main/assets/Untitled.png)
 
 ## How to use 📖
 
