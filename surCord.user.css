@@ -59,9 +59,9 @@
 @import url("https://raw.githubusercontent.com/czarhex/SanFranciscoFontCSS/main/SFFont.css");
 
 * {
-  --font-primary: "SF Pro Display",sans-serif;
-  --font-display: "SF Pro Display",sans-serif;
-  --font-headline: "SF Pro Display",sans-serif;
+  --font-primary: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
+  --font-display: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
+  --font-headline: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
   --font-code: "SF Mono",mono,monospace;
   text-rendering: optimizeLegibility;
   /* font-weight: bold; */
