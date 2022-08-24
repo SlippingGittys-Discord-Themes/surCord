@@ -56,7 +56,7 @@
 /* Uncomment the line below to use Apple's Emoji font */
 /* @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css); */
 
-@import url("https://raw.githubusercontent.com/czarhex/SanFranciscoFontCSS/main/SFFont.css");
+@import url("https://rawcdn.githack.com/czarhex/SanFranciscoFontCSS/a4610187cea84b884f8c054d7118aff1496a9b01/SFFont.css");
 
 * {
   --font-primary: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
