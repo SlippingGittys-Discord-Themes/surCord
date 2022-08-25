@@ -42,9 +42,9 @@
 |:-:|:-:|:-:|:-:|
 | Vozer | Discord Extensions ORG | Bootstrap | BlueRedBlueYellow |
 
-| <a href="https://github.com/Loremly" target="_blank"> <img src="https://avatars.githubusercontent.com/u/86319836?v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/Iucism" target="_blank"> <img src="https://avatars.githubusercontent.com/u/105166639?v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/LeafyLuigi" target="_blank"> <img src="https://avatars.githubusercontent.com/u/13402990?v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/LuckFire" target="_blank"> <img src="https://avatars.githubusercontent.com/u/39076891?v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/czarhex" target="_blank"> <img src="https://avatars.githubusercontent.com/u/76652465?v=4" alt="" width="96px" height="96px"> </a>
+| <a href="https://github.com/Loremly" target="_blank"> <img src="https://avatars.githubusercontent.com/u/86319836?v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/Iucism" target="_blank"> <img src="https://avatars.githubusercontent.com/u/105166639?v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/LeafyLuigi" target="_blank"> <img src="https://avatars.githubusercontent.com/u/13402990?v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/LuckFire" target="_blank"> <img src="https://avatars.githubusercontent.com/u/39076891?v=4" alt="" width="96px" height="96px"> </a> | <a href="https://github.com/yurifuko" target="_blank"> <img src="https://avatars.githubusercontent.com/u/76652465?v=4" alt="" width="96px" height="96px"> </a>
 |:-:|:-:|:-:|:-:|:-:|
-| Loremly | Lucism | LeafyLuigi | LuckFire | Czarhex |
+| Loremly | Lucism | LeafyLuigi | LuckFire | Yurifuko |
 
 ___
 Support Server 💬: https://discord.gg/xWYMgbD28p
