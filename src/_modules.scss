@@ -268,6 +268,11 @@ input[type="checkbox"] {
   background-color: rgb(225, 225, 225);
 }
 
+/* Server home page */
+.theme-dark .background-fkKrXt {
+  background-color: var(--surCordBackground);
+}
+
 /* Add surCord Branding */
 .info-3pQQBb > span:first-child::after {
   content: "\asurCord 08.2022";
