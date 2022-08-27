@@ -10,7 +10,7 @@
 * BetterDiscord/BeautifulDiscord users can download [surCord.theme.css](https://raw.githubusercontent.com/SlippingGitty/surCord/main/surCord.theme.css) and either
   * Inject the CSS file with BeautifulDiscord
   * Place in the BetterDiscord themes folder
-* Powercord users
+* Replugged/Powercord users
   * Open a terminal in the themes folder and type `git clone https://github.com/SlippingGitty/surCord/`
 * Goosemod users
   * Coming Soon! (for now you can use topaz)
@@ -28,7 +28,7 @@
 * You can uncomment `font-weight: bold;` in your respective font sections to use **San Fransisco Display Bold**.  
   
   - **BD:** surCord.theme.css 
-  - **Powercord:** `/src/_font.scss` 
+  - **Replugged/Powercord:** `/src/_font.scss` 
   - **Stylus:** surCord.user.css
 
 * Stylus users on Firefox have to be on version 102 or later and toggle "Patch CSP to allow style assets"  
