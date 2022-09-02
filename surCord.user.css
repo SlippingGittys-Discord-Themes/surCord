@@ -50,7 +50,7 @@
 /*
 -----------Font---------
 > Uncomment the font-weight to enable San Fransisco Bold
-> Designed by Apple in California - SAN FRANSISCO DISPLAY - https://developer.apple.com/fonts/ 
+> Designed by Apple in California - https://developer.apple.com/fonts/ 
 */
 
 /* Uncomment the line below to use Apple's Emoji font */
@@ -62,7 +62,7 @@
   --font-headline: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
   --font-code: "SF Mono",mono,monospace;
   text-rendering: optimizeLegibility;
-  text-transform: none;
+  text-transform: none !important;
 
   /* font-weight: bold !important; */
 }
