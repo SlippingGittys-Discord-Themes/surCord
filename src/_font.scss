@@ -6,13 +6,17 @@
 
 @import url("https://rawcdn.githack.com/yurifuko/AppleFontsCSS/63d11c4a50ce8ee001f70870bbe4f2752983848d/Apple-fonts.css");
 
+code, .codeBlockText-28BOxV, .codeLine-2C-9aH, .markup-eYLPri code.inline, .after_inlineCode-2_JXPm, .before_inlineCode-1zngJj, .inlineCode-ERyvy_ {
+  font-family: "SF Mono",mono,monospace;
+}
+
 * {
   --font-primary: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
   --font-display: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
   --font-headline: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
-  --font-code: "SF Mono",mono,monospace;
   text-rendering: optimizeLegibility;
   text-transform: none !important;
+  letter-spacing: 0.015em;
 
   // font-weight: bold !important;
 }
