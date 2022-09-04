@@ -374,3 +374,50 @@
     border-bottom: .5px solid black;
     font-family: "Font Awesome 5 Pro" !important;
   }
+
+/* Create a Server */
+.theme-dark {
+    .layer-1Ixpg3 {
+        .subtitle-3m-md1,
+        .title-1_TkpU,
+        .optionHeader-27AHfD,
+        .footerTitle-3Bslxi,
+        .text-PdAsFQ,
+        .subtitle-1cc8Nz,
+        .title-OdeD-o,
+        .text-sm-medium-3Pz3rB,
+        .text-sm-normal-3Zj3Iv,
+        .contents-3ca1mk,
+        .subtitle-bIoUVX,
+        .title-2Giw-4 {
+            color: white !important;
+        }
+    }
+    .container-x8Y1ix {
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
+        border: 1px solid var(--surCordBorder);
+        border-radius: 5px;
+        background: var(--surCordFriends);
+        margin-bottom: 13px;
+        margin-top: 13px;
+        padding-left: 10px;
+    }
+}
+
+/* Nitro Payments */
+.theme-dark {
+.root-2s1-ri > * {
+    background: rgba(0, 0, 0, 0.436);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+}
+.tier2HeaderBackground-2XINxm {
+    background-image: none;
+}
+.directionRow-2Iu2A9 {
+    left: 0px;
+}
+.breadcrumbsWrapper--2LhnQ {
+    padding: 23px 0;
+}
+}
