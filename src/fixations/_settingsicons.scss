@@ -3,17 +3,17 @@ CSS IS BORROWED FROM mwittrien AND IS LICENSED UNDER GPLv2.
 PLEASE SEE THE LICENSE HERE - 
 https://github.com/mwittrien/BetterDiscordAddons/blob/master/LICENSE
 
-CSS IS BORROW FROM aenoo AND IS LICENSED UNDER MIT.
+CSS IS BORROW FROM CorellanStoma AND IS LICENSED UNDER MIT.
 PLEASE SEE THE LICENSE HERE -
-https://github.com/aenoo/Discordicons/blob/main/LICENSE
+https://github.com/CreArts-Community/Settings-Icons/blob/master/license
 
 CREDITS: Mirco Wittrien
 VIEW THE ORIGINAL PROJECT HERE -
 https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css
 
-CREDITS: aenoo
+CREDITS: CorellanStoma
 VIEW THE ORIGINAL PROJECT HERE -
-https://github.com/aenoo/Discordicons/blob/main/src/main.css
+https://github.com/CreArts-Community/Settings-Icons
 
 EVERY SINGLE ICON USED IS BROUGHT TO YOU BY BOOTSTRAP'S ICONS - 
 PLEASE SEE THE LICENSE HERE - 
@@ -23,193 +23,162 @@ GPLv2 REQUIRES THAT I MUST DISCLOSE THE SOURCE CODE -
 https://github.com/SlippingGitty/surCord/blob/main/src/fixations/_settingsicons.scss
 -------------------------------------------------------------*/
 
-#app-mount .sidebarRegion-1VBisG {
-  flex-basis: 250px !important;
-}
-#app-mount .sidebar-nqHbhN,
-#app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
-  width: 250px !important;
+:root {
+  --usesettingsicons: calc(var(--settingsicons, 1) / (var(--settingsicons, 1) + 0.00000000000000000000001));
+  --settingsiconssize: 18px;
+  --settingsiconsgap: 14px;
 }
 
-#bd-settings-sidebar .ui-tab-bar-item,
+body #app-mount .sidebarRegion-1VBisG {
+  flex-basis: calc(218px + (var(--usesettingsicons) * (var(--settingsiconssize) + var(--settingsiconsgap)))) !important;
+}
+body #app-mount .sidebar-nqHbhN,
+body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
+  width: calc(218px + (var(--usesettingsicons) * (var(--settingsiconssize) + var(--settingsiconsgap)))) !important;
+}
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG {
   display: flex;
   align-items: center;
 }
-#bd-settings-sidebar .ui-tab-bar-item::before,
+
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG::before {
   content: "";
-  position: relative;
   flex: 0 0 auto;
-  width: 18px;
-  height: 18px;
-  margin-right: 14px;
+  width: calc(var(--usesettingsicons) * var(--settingsiconssize));
+  height: calc(var(--usesettingsicons) * var(--settingsiconssize));
+  margin-right: calc(var(--usesettingsicons) * var(--settingsiconssize) / 2);
   background: currentColor;
   z-index: 2;
-  -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/unknownIcon.svg") center/contain no-repeat;
+  -webkit-mask: url(https://files.catbox.moe/wpokej.svg)
+    center/contain no-repeat;
 }
 
-.bd-server-search ~ .item-3XjbnG::before {
-  display: none;
-}
-
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG .icon-3FU6Ir,
-.sidebar-nqHbhN .side-2ur1Qk .premiumLabel-V52REm svg {
-  transform: scaleX(0);
-}
-
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="My Account-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="My-Account-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="MyAccount"]::before {
   -webkit-mask: url("https://files.catbox.moe/p6b1jw.svg") center/contain no-repeat;
 }
 
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Profile Customization-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Profile-Customization-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="ProfileCustomization"]::before {
   -webkit-mask: url("https://files.catbox.moe/dyy0ok.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Privacy & Safety-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Privacy-&-Safety-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="PrivacynSafety"]::before {
   -webkit-mask: url("https://files.catbox.moe/vr9w4c.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Authorized Apps-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Authorized-Apps-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="AuthorizedApps"]::before {
   -webkit-mask: url("https://files.catbox.moe/m127ru.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Connections-tab" i]::before {
+.powercord .sidebar-nqHbhN .item-3XjbnG[data-item-id="Sessions"]::before {
+  -webkit-mask: url("https://files.catbox.moe/gvqoxf.svg") center/contain no-repeat;
+}
+.powercord .sidebar-nqHbhN .item-3XjbnG[data-item-id="Passport"]::before {
   -webkit-mask: url("https://files.catbox.moe/a9t91c.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Friend-Requests-tab" i]::before {
+.powercord .sidebar-nqHbhN .item-3XjbnG[data-item-id="FriendRequests"]::before {
   -webkit-mask: url("https://raw.githubusercontent.com/SlippingGitty/slippinggitty.github.io/57d4b6545276d8a834feb04bc178f61647477a5d/css/person-plus.svg")
     center/contain no-repeat;
 }
 
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord Nitro-tab" i] svg,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord-Nitro-tab" i] svg {
-  visibility: hidden;
-}
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord Nitro-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord-Nitro-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="DiscordNitro"]::before {
   -webkit-mask: url("https://files.catbox.moe/j5tr3k.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro Server Boost-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro-Server-Boost-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="NitroServerBoost"]::before {
   -webkit-mask: url("https://files.catbox.moe/e1u9f7.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Subscriptions-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="Subscriptions"]::before {
   -webkit-mask: url("https://files.catbox.moe/wwmrnj.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Library Inventory-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Library-Inventory-tab" i]::before {
+.powercord .sidebar-nqHbhN .item-3XjbnG[data-item-id="LibraryInventory"]::before {
   -webkit-mask: url("https://files.catbox.moe/6cjrtq.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Billing-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="Billing"]::before {
   -webkit-mask: url("https://files.catbox.moe/zx6e9f.svg") center/contain no-repeat;
 }
 
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Appearance-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="Appearance"]::before {
   -webkit-mask: url("https://files.catbox.moe/z3ppxr.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Accessibility-tab" i]::before {
+.powercord .sidebar-nqHbhN .item-3XjbnG[data-item-id="Accessibility"]::before {
   -webkit-mask: url("https://files.catbox.moe/jhjoyb.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Voice & Video-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Voice-&-Video-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="VoicenVideo"]::before {
   -webkit-mask: url("https://files.catbox.moe/3s9ic9.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Text & Images-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Text-&-Images-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="TextnImages"]::before {
   -webkit-mask: url("https://files.catbox.moe/l3xmtk.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Notifications-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="Notifications"]::before {
   -webkit-mask: url("https://files.catbox.moe/c5tdti.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Keybinds-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="Keybinds"]::before {
   -webkit-mask: url("https://files.catbox.moe/snbac4.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Language-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="Language"]::before {
   -webkit-mask: url("https://files.catbox.moe/10vnma.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Windows-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="Windows"]::before {
   -webkit-mask: url("https://raw.githubusercontent.com/SlippingGitty/slippinggitty.github.io/main/css/windows.svg")
     center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Streamer Mode-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Streamer-Mode-tab" i]::before {
-  -webkit-mask: url("https://files.catbox.moe/gvqoxf.svg") center/contain no-repeat;
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="StreamerMode"]::before {
+  -webkit-mask: url("https://files.catbox.moe/pwj4gn.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Advanced-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="Advanced"]::before {
   -webkit-mask: url("https://files.catbox.moe/kt12lp.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Activity-Privacy-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="ActivityPrivacy"]::before {
   -webkit-mask: url("https://files.catbox.moe/23m5c0.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Game Activity-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Game-Activity-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="GameActivity"]::before {
   -webkit-mask: url("https://files.catbox.moe/tbjlv2.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Overlay-tab" i]::before {
+.powercord .sidebar-nqHbhN .item-3XjbnG[data-item-id="Overlay"]::before {
   -webkit-mask: url("https://files.catbox.moe/jge67v.svg") center/contain no-repeat;
 }
 
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ChangeLog-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Change Log-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Change-Log-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="changelog"]::before {
   -webkit-mask: url("https://files.catbox.moe/sj27v5.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hypesquad Online-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hypesquad-Online-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="HypesquadOnline"]::before {
   -webkit-mask: url("https://files.catbox.moe/96e0b4.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Experiments-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="Experiments"]::before {
   -webkit-mask: url("https://files.catbox.moe/dxp9nb.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Developer Options-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Developer-Options-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="DeveloperOptions"]::before {
   -webkit-mask: url("https://files.catbox.moe/9059bo.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hotspot Options-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hotspot-Options-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="HotspotOptions"]::before {
   -webkit-mask: url("https://files.catbox.moe/7h83jp.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Dismissible Content Options-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Dismissible-Content-Options-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="DismissibleContentOptions"]::before {
   -webkit-mask: url("https://files.catbox.moe/qgpkgl.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Payment Flow Modals-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Payment-Flow-Modals-tab" i]::before {
+.powercord .sidebar-nqHbhN .item-3XjbnG[data-item-id="PaymentFlowModals"]::before {
   -webkit-mask: url("https://files.catbox.moe/0ilrsb.svg") center/contain no-repeat;
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Logout-tab" i] svg {
   visibility: hidden;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Logout-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="logout"]::before {
   -webkit-mask: url("https://files.catbox.moe/adpywb.svg") center/contain no-repeat;
 }
-#bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-settings-tab::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-general-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="lightcord-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="core-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="settings-tab" i]::before {
+
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="pc-general"]::before {
   -webkit-mask: url(https://files.catbox.moe/jqsy34.svg) center/contain no-repeat;
 }
+
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-emotes-tab::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="emotes-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="emoji-tab" i]::before {
   -webkit-mask: url(https://files.catbox.moe/hxz7ln.svg) center/contain no-repeat;
 }
-#bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-customcss-tab::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="customcss-tab" i]::before {
+.powercord .sidebar-nqHbhN .item-3XjbnG[data-item-id="pc-moduleManager-css"]::before {
   -webkit-mask: url(https://files.catbox.moe/c627al.svg) center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="plugins-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-modulemanager-plugins-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="pc-moduleManager-plugins"]::before {
   -webkit-mask: url(https://files.catbox.moe/qcvcf7.svg) center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="themes-tab" i]::before,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-modulemanager-themes-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="pc-moduleManager-themes"]::before {
   -webkit-mask: url(https://files.catbox.moe/7v4gkz.svg) center/contain no-repeat;
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pluginrepo-tab" i]::before {
@@ -218,60 +187,6 @@ https://github.com/SlippingGitty/surCord/blob/main/src/fixations/_settingsicons.
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="themerepo-tab" i]::before {
   -webkit-mask: url(https://files.catbox.moe/tq9tfk.svg) center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-updater-tab" i]::before {
+.sidebar-nqHbhN .item-3XjbnG[data-item-id="pc-updater"]::before {
   -webkit-mask: url(https://files.catbox.moe/kcqv26.svg) center/contain no-repeat;
-}
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="bdcompat-tab" i]::before {
-  -webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/betterdiscord.svg)
-    center/contain no-repeat;
-}
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Kernel-Packages-tab" i]::before {
-  -webkit-mask: url("https://files.catbox.moe/ds6oce.svg") center/contain no-repeat;
-}
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Kernel-Updates-tab" i]::before {
-  -webkit-mask: url("https://files.catbox.moe/7dgx44.svg") center/contain no-repeat;
-}
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Kernel-Snippets-tab" i]::before {
-  -webkit-mask: url("https://files.catbox.moe/4ek8yc.svg") center/contain no-repeat;
-}
-
-/*------------------------------------------------------------
-THE FOLLOWING CSS IS BORROWED FROM LUCISM.
-PLEASE SEE THE MESSAGE FROM THE KERNEL SERVER HERE - 
-https://canary.discord.com/channels/891039687785996328/896214131525443635/995074736973434952
-------------------------------------------------------------*/
-
-.item-3XjbnG.themed-2-lozF[aria-controls="settings-tab"]::after {
-  content: "BetterDiscord";
-  position: absolute;
-  top: -35px;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 16px;
-  color: var(--channels-default);
-  width: 90%;
-  border-top: 1px var(--background-modifier-accent) solid;
-  padding-top: 14px;
-  pointer-events: none;
-}
-.item-3XjbnG.themed-2-lozF[aria-controls="settings-tab"] {
-  overflow: visible !important;
-  margin-top: 42.5px;
-}
-.item-3XjbnG.themed-2-lozF[aria-controls="pc-modulemanager-plugins-tab"]::after {
-  content: "Powercord";
-  position: absolute;
-  top: -35px;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 16px;
-  color: var(--channels-default);
-  width: 90%;
-  border-top: 1px var(--background-modifier-accent) solid;
-  padding-top: 14px;
-  pointer-events: none;
-}
-.item-3XjbnG.themed-2-lozF[aria-controls="pc-modulemanager-plugins-tab"] {
-  overflow: visible !important;
-  margin-top: 42.5px;
 }
