@@ -1,0 +1,39 @@
+:root {
+    --accent: rgb(238, 66, 57);
+    --accent-hover: rgba(40, 239, 246, 0.952);
+    --accent-selected: rgba(40, 239, 246, 0.692);
+    --accent-focused: rgba(237, 60, 69, 0.733);
+  }
+  .clickable-ZD7xvu .icon-2xnN2Y, .linkButtonIcon-7rsZcu  {
+    color: var(--accent-hover) !important;
+  }
+  .iconWrapper-2awDjA .icon-2xnN2Y {
+    color: var(--accent-hover);
+  }
+  .stickerIcon-3Jx5SE {
+    color: var(--accent-hover);
+  }
+  .icon-1d5zch {
+    color: var(--accent-hover);
+  }
+  .contents-3ca1mk .button-2fCJ0o .button-3BaQ4X {
+    color: var(--accent-hover);
+  }
+  .buttonWrapper-3YFQGJ {
+    color: var(--accent-hover);
+  }
+  .theme-dark .button-12Fmur {
+    color: var(--accent-hover) !important;
+  }
+.theme-dark {
+  --text-normal: rgba(227, 255, 255, 0.849);
+}
+.theme-light {
+  --text-normal: rgba(26, 60, 61, 0.849);
+}
+.theme-dark .channelName-3KPsGw, .theme-dark .searchBarComponent-3N7dCG, .theme-dark .public-DraftEditorPlaceholder-inner, .icon-18rqoe {
+  color: rgba(148, 251, 255, 0.849) !important;
+}
+.theme-dark .name-2m3Cms {
+  color: rgba(169, 247, 250, 0.849);
+}
