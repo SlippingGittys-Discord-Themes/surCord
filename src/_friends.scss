@@ -23,7 +23,6 @@
 .peopleListItem-u6dGxF:hover {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 3px 1px var(--accent);
-    border-radius: 10px;
     transition: 0.3s;
     border: 1px solid var(--surCordBorder);
     background: var(--surCordFriends);
@@ -33,8 +32,14 @@
     margin-top: 13px;
 }
 .peopleListItem-u6dGxF.active-2UF8Zh {
-    background: var(--surCordFriends);
+    background: rgba(41, 38, 39, 0.276);
     margin-top: 13px;
+    border: 1px solid var(--surCordBorder);
+    box-shadow: 0 0 3px 1px var(--accent);
+    border-radius: 5px;
+}
+.peopleListItem-u6dGxF.active-2UF8Zh+.peopleListItem-u6dGxF, .peopleListItem-u6dGxF:hover+.peopleListItem-u6dGxF {
+    border: 1px solid var(--surCordBorder);
 }
 .actions-YHvpIT {
     padding-right: 10px;
