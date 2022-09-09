@@ -22,13 +22,18 @@
 }
 .peopleListItem-u6dGxF:hover {
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 3px 1px rgba(26, 127, 251, 0.487);
+    box-shadow: 0 0 3px 1px var(--accent);
     border-radius: 10px;
     transition: 0.3s;
     border: 1px solid var(--surCordBorder);
+    background: var(--surCordFriends);
     border-radius: 5px;
     background: rgba(41, 38, 39, 0.276);
     margin-bottom: 13px;
+    margin-top: 13px;
+}
+.peopleListItem-u6dGxF.active-2UF8Zh {
+    background: var(--surCordFriends);
     margin-top: 13px;
 }
 .actions-YHvpIT {
