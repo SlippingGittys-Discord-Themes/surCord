@@ -51,6 +51,9 @@
     background: var(--surcordFriendsBackground);
     border-left: 0.5px solid black;
 }
+.highlight-3DSi7b {
+    background-color: var(--accent-selected) !important;
+}
 
 .theme-light {
     .peopleColumn-1wMU14 {
@@ -67,11 +70,17 @@
         margin-top: 13px;
         padding-left: 10px;
     }
+    .peopleListItem-u6dGxF:hover, .peopleListItem-u6dGxF.active-2UF8Zh {
+        box-shadow: 0 0 3px 1px var(--accent);
+    }
     .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
     .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
     .interactiveSelected-29CP8y,
     .interactiveSelected-29CP8y .linkButtonIcon-7rsZcu {
         color: white;
+    }
+    .peopleListItem-u6dGxF.active-2UF8Zh+.peopleListItem-u6dGxF, .peopleListItem-u6dGxF:hover+.peopleListItem-u6dGxF {
+        border: 1px solid rgba(249, 249, 249, 0.772);
     }
 }
 
