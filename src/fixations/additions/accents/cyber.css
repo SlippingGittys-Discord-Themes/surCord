@@ -1,7 +1,13 @@
-:root {
-    --accent: rgb(238, 66, 57);
+.theme-dark {
+    --accent: rgb(255, 0, 60);
     --accent-hover: rgba(40, 239, 246, 0.952);
-    --accent-selected: rgba(40, 239, 246, 0.692);
+    --accent-selected: rgba(40, 239, 246, 0.438);
+    --accent-focused: rgba(237, 60, 69, 0.733);
+  }
+.theme-light {
+    --accent: rgb(255, 0, 60);
+    --accent-hover: rgba(255, 0, 60, 0.952);
+    --accent-selected: rgba(10, 168, 173, 0.616);
     --accent-focused: rgba(237, 60, 69, 0.733);
   }
   .clickable-ZD7xvu .icon-2xnN2Y, .linkButtonIcon-7rsZcu  {
@@ -35,5 +41,13 @@
   color: rgba(148, 251, 255, 0.849) !important;
 }
 .theme-dark .name-2m3Cms {
-  color: rgba(169, 247, 250, 0.849);
+  color: rgb(169, 247, 250);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent) !important;
+}
+
+.item-2LIpTv {
+  background-color: var(--accent-focused) !important;
 }
