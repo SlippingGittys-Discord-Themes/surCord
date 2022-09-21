@@ -1,0 +1,40 @@
+:root {
+  --surCordBackground: rgb(22,21,26);
+  --surCordBackground2: rgb(27, 26, 31);
+  --surCordTextBackground: rgb(21, 20, 25);
+  --surcordFriendsBackground: rgb(20, 20, 22);
+  --surCordFriends: rgb(27, 26, 31);
+  --surCordActiveNow: rgb(46, 45, 45 0.276);
+  --surCordGuilds: rgb(27, 26, 31);
+  --surCordTitleBar: rgb(27, 26, 31);
+  --surCordSearch: rgb(21, 20, 25);
+  --surCordHover: var(--accent-focused);
+  --surCordBorder: rgb(78,78,81);
+}
+
+/*
+                  ▄▄▄▄▄▄▄
+                    ▀▄▄▄▀
+                  ▄▄▄▄
+                  ▀ ▀▄▀
+                  ▄▀▀▄
+                  ▀▀▀▀▀▀▀
+▄ ▄         ▄ ▄    ▀▀▄▀▀
+█ █ ▄ ▄ ▄ ▄ █ █  ▀▀▀▀▀▀▀
+█ █ █ █ █ █ █ █    ▄▀▀▀▀
+▀ ▜ █ ▙ ▄ ▖         ▀▀▀▀
+█ █ █ █ ■  ▀ ▀▀▀▀▀
+▄ ▟ █ ▛ ▀ ▘        ▄▀▀▀▀
+█ █ █ █ █ █ █ █  ▀▀▀▀▀▀▀
+█ █ ▀ ▀ ▀ ▀ █ █  █▄▄▄▄▄▄
+▀ ▀         ▀ ▀  ▀
+▗ █ █ ▙ ▟ █ █ ▖
+█ █ ▀ █ █ ▀ █ █
+█ █   █ █   █ █
+█ █ █ █ █ █ █ █
+█ █ ▀ ▀ ▀ ▀ █ █
+▀ ▀         ▀ ▀
+█ █         █ █
+█ █ █ █ █ █ █ █
+█ █ ▀ ▀ ▀ ▀ █ █
+▀ ▀         ▀ ▀*/
