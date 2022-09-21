@@ -44,11 +44,14 @@
 /* Dracula Accent */
 //@use 'fixations/additions/accents/dracula.css';
 
-/* Fuoco */
+/* Fuoco Accent */
 //@use 'fixations/additions/accents/fuoco.css';
 
-/* Tokyo Night */
+/* Tokyo Night Accent */
 //@use 'fixations/additions/accents/tokyo.css';
+
+/* Thinkpad x30 Accent */
+//@use 'fixations/additions/accents/x30.css';
 
 /* Dark */
 //@use 'fixations/additions/accents/dark.css';
@@ -82,7 +85,7 @@
 @use 'fixations/additions/themes/default.css';
 
 /* AMOLED Theme (Pitch Black by Vozer) */
-// @use 'fixations/additions/themes/amoled.css';
+//@use 'fixations/additions/themes/amoled.css';
 
 /* AMOLED Theme + Contrast (Taken from AMOLED-Cord by LuckFire) */
 //@use 'fixations/additions/themes/amoledc.css';
@@ -101,3 +104,6 @@
 
 /* Tokyo Night Theme */
 //@use 'fixations/additions/themes/tokyonight.css';
+
+/* Thinkpad Theme */
+//@use 'fixations/additions/themes/thinkpad.css';
