@@ -12,8 +12,6 @@
   * Place in the BetterDiscord themes folder
 * Replugged/Powercord users
   * Open a terminal in the themes folder and type `git clone https://github.com/SlippingGitty/surCord/`
-* Goosemod users
-  * Coming Soon! (for now you can use topaz)
 * Stylus
   * Head [here](https://github.com/SlippingGitty/surCord/raw/main/surCord.user.css) to install.
 
