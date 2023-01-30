@@ -1,0 +1,6 @@
+:root {
+  --accent: rgb(93, 181, 76);
+  --accent-hover: rgba(93, 181, 76, 0.977);
+  --accent-selected: rgb(93, 181, 76, 0.612);
+  --accent-focused: rgb(93, 181, 76, 0.200);
+}
