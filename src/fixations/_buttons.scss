@@ -6,7 +6,12 @@
 
 
 /* Buttons */
-.button-2b4VEQ.buttonSize-3QlBTl, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ, .full-motion .button-1_oXub, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .navButtonActive-1EqC5l {
+.button-2b4VEQ.buttonSize-3QlBTl,
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
+.popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ,
+.full-motion .button-1_oXub,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N,
+.navButtonActive-1EqC5l {
     background-color: var(--accent);
     color: white;
     border-radius: 50px;
@@ -27,14 +32,14 @@
     background-color: var(--accent);
     color: white;
 }
-.lookFilled-yCfaCM.colorRed-rQXKgM {
-    background: linear-gradient(to bottom, rgb(238, 52, 48) 0%,rgb(238, 52, 48) 50%,rgba(205, 43, 40, 0.999) 100%);
-    border-radius: 50px;
-    border: 1px solid rgb(182, 0, 0); 
+.lookFilled-1H2Jvj.colorRed-2VFhM4 {
+  background: linear-gradient(to bottom, rgb(238, 52, 48) 0%, rgb(238, 52, 48) 50%, rgba(205, 43, 40, 0.999) 100%);
+  border-radius: 50px;
+  border: 1px solid rgb(182, 0, 0);
 }
-.lookOutlined-3yKVGo.colorRed-rQXKgM {
-    background: linear-gradient(to bottom, rgb(255, 4, 0) 0%,rgb(255, 4, 0) 50%,rgba(255, 4, 0, 0.999) 100%);
-    border-radius: 50px;
+.lookOutlined-3RTC7c.colorRed-2VFhM4  {
+  background: linear-gradient(to bottom, rgb(255, 4, 0) 0%, rgb(255, 4, 0) 50%, rgba(255, 4, 0, 0.999) 100%);
+  border-radius: 50px;
 }
 .lookFilled-yCfaCM.colorGreen-3y-Z79 {
     background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87)) ;
