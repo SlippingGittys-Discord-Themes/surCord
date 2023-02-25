@@ -1,0 +1,1 @@
+{"id":"dev.vozer.surCord","name":"surCord","description":"A Discord Theme inspired by macOS & Human Interface Guidelines.","author":{"name":"vozer","discordID":"359175647257690113","github":"slippinggitty"},"version":"1.0.0","updater":{"type":"github","id":"SlippingGittys-Discord-Themes/surCord"},"license":"MIT","type":"replugged-theme","main":"surCord.theme.css"}
