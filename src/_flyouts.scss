@@ -157,37 +157,38 @@
     }
 
 /* Context & Status Menus */
-.menu-1QACrS {
-        background: none;
-    }
-    .menu-1QACrS::after {
-        content: '';
-        position: absolute;
-        inset: 0;
-        z-index: -1;
-        border-radius: inherit;
-        background: rgba(0, 0, 0, 0.436); 
-        backdrop-filter: blur(10px);
-        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-        border: 1px solid var(--surCordBorder); 
-        border-radius: 5px;
-    }
+.menu-2TXYjN {
+  background: none;
+}
+.menu-2TXYjN::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: rgba(0, 0, 0, 0.436); 
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+  border: 1px solid var(--surCordBorder); 
+  border-radius: 5px;
+}
+
 .theme-light {
-    .menu-1QACrS::after {
-        content: '';
-        position: absolute;
-        inset: 0;
-        z-index: -1;
-        border-radius: inherit;
-        background: rgba(226, 221, 225, 0.89);
-        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
-        border: 1px solid rgba(249, 249, 249, 0.772); 
-        backdrop-filter: blur(10px);
-        border-radius: 5px;
-    }
-    .label-2gNW3x {
-        color: black;
-    }
+  .menu-2TXYjN::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      border-radius: inherit;
+      background: rgba(226, 221, 225, 0.89);
+      box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+      border: 1px solid rgba(249, 249, 249, 0.772); 
+      backdrop-filter: blur(10px);
+      border-radius: 5px;
+  }
+  .label-2gNW3x {
+      color: black;
+  }
 }
 .wrapper-2vIMkT {
     background: rgba(0, 0, 0, 0.436); 
