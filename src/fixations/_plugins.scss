@@ -24,6 +24,21 @@
     }
 }
 
+/* ---------- Samfundev plugins ------------ */
+/* ChannelTabs */
+.theme-dark .channelTabs-tab.channelTabs-selected {
+  border-radius: 1px;
+  border-bottom: solid 1px black;
+  border-top: solid 0px black;
+  background: var(--surCordBackground2) !important;
+}
+
+.theme-dark .channelTabs-tab {
+  background: var(--surCordBackground) !important;
+  border-bottom: solid 1px black;
+  border-top: solid 1px black;
+  border-right: solid .1px rgba(199, 199, 199, 0.236);
+}
 
 /* ---------- Cumcord plugins ------------ */
 
