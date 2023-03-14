@@ -49,6 +49,14 @@
         left: 6px;
     }
 
+/* Various Popouts */
+.theme-dark .rootWithShadow-2hdL2J, .theme-dark .footerSeparator-3U8YsT {
+  background: rgba(0, 0, 0, 0.436) !important; 
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+  border: 1px solid var(--surCordBorder); 
+  border-radius: 5px;
+}
 
 /* Quick Switcher */
 .quickswitcher-pKcM9U {
@@ -354,6 +362,9 @@
 /* Footers */
 .footer-31IekZ {
     background-color: transparent;
+}
+.footerSeparator-3U8YsT {
+  border: white  solid 0px !important;
 }
 
 /* Notes area */
