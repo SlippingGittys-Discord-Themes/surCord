@@ -134,8 +134,9 @@
 }
 
 /* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
-#app-mount .container-2nx-BQ .input-2XRLou,
-#app-mount .container-2nx-BQ .input-3xr72x,
+/* epic */
+#app-mount .container-1QtPKm, .input-125oad,
+#app-mount .container-1QtPKm, .input-125oad,
 #app-mount .checkboxWrapper-2fDzaA .input-2XRLou,
 #app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
   margin: 0;
@@ -147,7 +148,7 @@
   -webkit-appearance: checkbox;
   appearance: checkbox;
 }
-#app-mount .container-2nx-BQ,
+#app-mount  .container-1QtPKm,
 #app-mount .checkboxWrapper-2fDzaA {
   width: auto;
   border-radius: 0;
@@ -161,8 +162,8 @@
 input[type="checkbox"] {
   accent-color: var(--accent);
 }
-#app-mount .container-2nx-BQ .slider-32CRPX,
-#app-mount .checkboxWrapper-2fDzaA .slider-32CRPX {
+#app-mount .container-1QtPKm .slider-HJFN2i,
+#app-mount .checkboxWrapper-2fDzaA .slider-HJFN2i {
   display: none;
 }
 .theme-dark .checkbox-f1HnKB {
