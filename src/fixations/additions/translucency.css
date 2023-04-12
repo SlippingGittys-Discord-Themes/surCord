@@ -1,0 +1,15 @@
+.theme-dark {
+  --background-tertiary: #2f31364b;
+}
+.theme-light {
+  --background-tertiary: #ffffff7e;
+}
+.theme-dark .appMount-2yBXZl, .theme-dark .app-2CXKsg, .theme-dark .bg-1QIAus, .theme-dark .scroller-3X7KbA, .theme-dark .guilds-2JjMmN, .theme-dark .channelName-3w2Y3c, .theme-dark .sidebar-1tnWFu, .theme-dark .privateChannels-oVe7HL, .theme-dark .searchBar-3TnChZ, .theme-dark .scroller-WSmht3, .theme-dark .container-1NXEtd, .theme-dark .header-3OsQeK,  .theme-dark .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+  background: transparent !important;
+}
+.theme-light .appMount-2yBXZl, .theme-light .app-2CXKsg, .theme-light .bg-1QIAus, .theme-light .scroller-3X7KbA, .theme-light .guilds-2JjMmN, .theme-light .channelName-3w2Y3c, .theme-light .sidebar-1tnWFu, .theme-light .privateChannels-oVe7HL, .theme-light .searchBar-3TnChZ, .theme-light .scroller-WSmht3, .theme-light .container-1NXEtd, .theme-light .header-3OsQeK,  .theme-light .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+  background: transparent !important;
+}
+.theme-dark .header-3OsQeK {
+  border-bottom: none;
+}
