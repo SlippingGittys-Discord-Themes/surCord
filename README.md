@@ -39,4 +39,4 @@ to use **San Fransisco Display Bold**. *(Or specify your own weight, 100-900; bo
 
 See [here.](https://github.com/SlippingGittys-Discord-Themes/surCord/graphs/contributors)
 
-#### Support Server : https://discord.gg/na2GdxtD
+#### Support Server : https://discord.gg/7FQQTf8gGj
