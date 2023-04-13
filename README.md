@@ -17,7 +17,7 @@
 ### Browser 
  * [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGittys-Discord-Themes/surCord/raw/main/surCord.user.css)
  
-## Vencord & Translucenty
+## Vencord & Translucenty (macOS only)
 
 <details>
 <summary>Information on enabling translucency</summary>
