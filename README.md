@@ -52,6 +52,7 @@ Albeit not out of the box, (and very much intentionally so), this theme supports
 
 ```
    
+   ##### Also see [Acorn, an Accord inspired theme based on surCord made specifically for Vencord + macOS](https://github.com/SlippingGitty/Acorn) 
 </details>
  
 ## Extra info
