@@ -17,16 +17,18 @@
 ### Browser 
  * [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGittys-Discord-Themes/surCord/raw/main/surCord.user.css)
  
-## Vencord & Translucenty (macOS only)
+## Translucenty (Add on offically maintained on macOS only)
 
 <details>
 <summary>Information on enabling translucency</summary>
+
+### Check out [this issue](https://github.com/SlippingGittys-Discord-Themes/surCord/issues/42) if you use Windows. [Mica for Everyone](https://github.com/MicaForEveryone/MicaForEveryone) is known to play decently, but be very spotty.
 
 Albeit not out of the box, (and very much intentionally so), this theme supports translucency in some areas. 
 
 ![image](https://user-images.githubusercontent.com/76500838/231657975-018e1649-0cb0-4d3f-ad74-5698e305dc76.png)
 
-### You can achieve the same look by doing as follows:
+### You can achieve the same look on Vencord/macOS by doing as follows:
 
 * Go to Settings > Vencord, then toggle "Enable Translucent Window".
 
