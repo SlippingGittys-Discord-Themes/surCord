@@ -1,11 +1,20 @@
+
 /*------------------------------------------------------------
 CSS IS BORROWED FROM mwittrien AND IS LICENSED UNDER GPLv2.
 PLEASE SEE THE LICENSE HERE - 
 https://github.com/mwittrien/BetterDiscordAddons/blob/master/LICENSE
 
+CSS IS BORROWED FROM Saltssaumure AND IS LICENSED UNDER GPLv2.
+PLEASE SEE THE LICENSE HERE -
+https://github.com/MiniDiscordThemes/SettingsIcons/blob/main/LICENSE
+
 CREDITS: Mirco Wittrien
 VIEW THE ORIGINAL PROJECT HERE -
 https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css
+
+CREDITS: Saltssaumure
+VIEW THE ORIGINAL PROJECT HERE -
+https://github.com/MiniDiscordThemes/SettingsIcons
 
 EVERY SINGLE ICON USED IS BROUGHT TO YOU BY BOOTSTRAP'S ICONS - 
 PLEASE SEE THE LICENSE HERE - 
@@ -47,8 +56,8 @@ https://github.com/SlippingGitty/surCord/blob/main/src/fixations/_settingsicons.
 	--settingsicons-activityprivacy: url(https://files.catbox.moe/23m5c0.svg);
 	--settingsicons-games: url(https://files.catbox.moe/tbjlv2.svg);
 	--settingsicons-overlay: url(https://files.catbox.moe/jge67v.svg);
-	--settingsicons-bd-settings: url(https://files.catbox.moe/jqsy34.svg);
-	--settingsicons-bd-changelog: url(https://files.catbox.moe/3746bg.svg);
+	--settingsicons-bd-settings: url(https://files.catbox.moe/wpokej.svg);
+	--settingsicons-bd-changelog: url(https://files.catbox.moe/wpokej.svg);
 	--settingsicons-bd-customcss: url(https://files.catbox.moe/c627al.svg);
 	--settingsicons-bd-plugins: url(https://files.catbox.moe/qcvcf7.svg);
 	--settingsicons-bd-themes: url(https://files.catbox.moe/7v4gkz.svg);
@@ -64,6 +73,13 @@ https://github.com/SlippingGitty/surCord/blob/main/src/fixations/_settingsicons.
 	--settingsicons-textplayground: url(https://files.catbox.moe/wpokej.svg);
 	--settingsicons-textcomponent: url(https://files.catbox.moe/wpokej.svg);
 	--settingsicons-logout: url(https://files.catbox.moe/adpywb.svg);
+
+	--si-vencordsettings: url(https://files.catbox.moe/jqsy34.svg);
+    --si-vencordplugins: url(https://files.catbox.moe/xlqp8w.svg);
+    --si-vencordthemes: url(https://files.catbox.moe/7v4gkz.svg);
+    --si-vencordupdater: url(https://files.catbox.moe/d0puok.svg);
+    --si-vencordcloud: url(https://files.catbox.moe/h9ngyq.svg);
+    --si-vencordsettingssync: url(https://files.catbox.moe/m1zwok.svg);
 }
 
 body #app-mount .sidebarRegion-1VBisG:has(.socialLinks-3ywLUf) {
@@ -352,4 +368,65 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 svg path[d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"] {
 	d: path("m 14.695239,1.9999995 c -0.172564,0 -0.345192,0.065287 -0.476856,0.1969323 L 8.8655558,7.5499113 16.449678,15.134249 21.802505,9.7812686 c 0.263327,-0.26329 0.263327,-0.690404 0,-0.953738 L 20.790203,7.8168279 C 20.561354,7.5879722 20.201783,7.553571 19.934142,7.7354508 l -2.127134,1.4452558 1.437076,-2.1418429 c 0.179492,-0.2675152 0.144859,-0.6250542 -0.083,-0.852831 L 16.965593,3.9921086 C 16.762949,3.7894605 16.453901,3.7358929 16.195788,3.8602778 l -0.379206,0.183912 0.18228,-0.4036299 C 16.114073,3.3850021 16.058716,3.0852515 15.860524,2.8870088 L 15.172095,2.1969318 C 15.040454,2.065287 14.867803,1.9999995 14.695239,1.9999995 Z M 7.8695296,8.5459656 6.3201554,10.095384 c -0.1264491,0.126453 -0.1969268,0.298047 -0.1969268,0.47687 0,0.178823 0.070432,0.350462 0.1969268,0.476869 l 1.4696269,1.46967 c 0.2831508,0.283158 0.4212717,0.6744 0.3775785,1.072548 -0.043647,0.397879 -0.264001,0.749537 -0.6021726,0.965131 -4.3184211,2.752831 -4.7209389,3.155335 -4.8531868,3.287631 -0.9493352,0.949318 -0.9493352,2.494468 0,3.443875 0.9502792,0.950307 2.4954758,0.948419 3.443777,0 0.1323379,-0.132296 0.5349645,-0.535005 3.2875377,-4.853324 0.215049,-0.337372 0.5670569,-0.556823 0.9651039,-0.600563 0.399307,-0.04356 0.790042,0.09352 1.072518,0.375962 l 1.469627,1.469669 c 0.263283,0.26329 0.690429,0.26329 0.953712,0 l 1.549374,-1.549419 z M 4.4762048,18.571614 c 0.2439024,0 0.4877049,0.0922 0.6737825,0.278309 0.3722002,0.372165 0.3722002,0.975393 0,1.347604 -0.3722002,0.372211 -0.9754096,0.372211 -1.347565,0 -0.3722,-0.372211 -0.3722,-0.975439 0,-1.347604 0.1861001,-0.186105 0.4298801,-0.278309 0.6737825,-0.278309 z");
+}
+
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy[data-tab-id=VencordSettings]::before {
+    -webkit-mask: var(--si-vencordsettings) center/contain no-repeat !important;
+    mask: var(--si-vencordsettings) center/contain no-repeat !important
+}
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy[data-tab-id=VencordPlugins]::before {
+    -webkit-mask: var(--si-vencordplugins) center/contain no-repeat !important;
+    mask: var(--si-vencordplugins) center/contain no-repeat !important
+}
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy[data-tab-id=VencordThemes]::before {
+    -webkit-mask: var(--si-vencordthemes) center/contain no-repeat;
+    mask: var(--si-vencordthemes) center/contain no-repeat
+}
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy[data-tab-id=VencordUpdater]::before {
+    -webkit-mask: var(--si-vencordupdater) center/contain no-repeat;
+    mask: var(--si-vencordupdater) center/contain no-repeat
+}
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy[data-tab-id=VencordCloud]::before {
+    -webkit-mask: var(--si-vencordcloud) center/contain no-repeat;
+    mask: var(--si-vencordcloud) center/contain no-repeat
+}
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy[data-tab-id=VencordSettingsSync]::before {
+    -webkit-mask: var(--si-vencordsettingssync) center/contain no-repeat;
+    mask: var(--si-vencordsettingssync) center/contain no-repeat
+}
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy[data-tab-id=VencordSettings]::before {
+    -webkit-mask: var(--si-vencordsettings) center/contain no-repeat !important;
+    mask: var(--si-vencordsettings) center/contain no-repeat !important
+}
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy[data-tab-id=VencordPlugins]::before {
+    -webkit-mask: var(--si-vencordplugins) center/contain no-repeat !important;
+    mask: var(--si-vencordplugins) center/contain no-repeat !important
+}
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy[data-tab-id=VencordThemes]::before {
+    -webkit-mask: var(--si-vencordthemes) center/contain no-repeat;
+    mask: var(--si-vencordthemes) center/contain no-repeat
+}
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy[data-tab-id=VencordUpdater]::before {
+    -webkit-mask: var(--si-vencordupdater) center/contain no-repeat;
+    mask: var(--si-vencordupdater) center/contain no-repeat
+}
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy[data-tab-id=VencordCloud]::before {
+    -webkit-mask: var(--si-vencordcloud) center/contain no-repeat;
+    mask: var(--si-vencordcloud) center/contain no-repeat
+}
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy[data-tab-id=VencordSettingsSync]::before {
+    -webkit-mask: var(--si-vencordsettingssync) center/contain no-repeat;
+    mask: var(--si-vencordsettingssync) center/contain no-repeat
 }
