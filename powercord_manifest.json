@@ -1,8 +1,0 @@
-{
-    "name": "surCord",
-    "version": "1.0.0",
-    "license": "MIT",
-    "theme": "./src/_index.scss",
-    "author": "Vozer",
-    "description": "A Discord theme inspired by Human Design."
-}
