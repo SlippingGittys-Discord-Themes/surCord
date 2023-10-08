@@ -8,8 +8,7 @@
 ### Discord App
 
 * BetterDiscord, Vencord, and Openasar users can grab the [surCord.theme.css](hhttps://raw.githubusercontent.com/SlippingGittys-Discord-Themes/surCord/main/surCord.theme.css) file and either
-  * Place the file in the BetterDiscord themes folder
-  * Follow the instructions on Vencord's themes tab
+  * Place the file in the BetterDiscord or Vencord themes folder
   * Copy the text in the file, and paste it in Openasar's quick CSS text field
 
 ### Browser 
