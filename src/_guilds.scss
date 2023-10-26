@@ -4,102 +4,102 @@
 ///////////////////////
 */
 .theme-dark {
-    .guilds-2JjMmN .scroller-3X7KbA,
-    .wrapper-1_HaEi {
+    .guilds__2b93a .scroller__3d071,
+    .wrapper_a7e7a8 {
         background-color: var(--surCordGuilds);
     }
-    .platform-osx .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH,
-    .unreadMentionsIndicatorBottom-3RJMnQ .unreadMentionsBar-ZXXoOH,
-    .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH {
+    .platform-osx .unreadMentionsIndicatorTop_ada847 .unreadMentionsBar__0d02a,
+    .unreadMentionsIndicatorBottom_fdb943 .unreadMentionsBar__0d02a,
+    .unreadMentionsIndicatorTop_ada847 .unreadMentionsBar__0d02a {
         background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87));
         backdrop-filter: blur(5px);
     }
-    .expandedFolderBackground-1kSAf6 {
+    .expandedFolderBackground__1bec6 {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid var(--surCordBorder);
         border-radius: 15px;
         background: rgba(41, 38, 39, 0.276);
     }
-    .closedFolderIconWrapper-3tRb2d {
+    .closedFolderIconWrapper__7321f {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid var(--surCordBorder);
         border-radius: 15px;
         background: rgba(41, 38, 39, 0.276);
     }
-    .expandedFolderBackground-1kSAf6.collapsed-uGXEbi,
-    .expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT {
+    .expandedFolderBackground__1bec6.collapsed__0a270,
+    .expandedFolderBackground__1bec6.collapsed__0a270.hover__043de {
         display: none;
     }
-    .folder-241Joy,
-    .folder-241Joy:hover {
+    .folder__17546,
+    .folder__17546:hover {
         background-color: #00000000;
     }
-    .item-2LIpTv {
+    .item_f9d377 {
         width: 8px;
         border-radius: 5px 5px 5px 5px;
         margin-left: 0px;
         background-color: rgb(145, 138, 152);
     }
-    .circleIconButton-1VxDrg {
+    .circleIconButton_d8df29 {
         backdrop-filter: blur(20px);
         border: 1px solid var(--surCordBorder);
         border-radius: 15px;
         background: rgba(39, 38, 41, 0.276);
         color: var(--accent-selected);
     }
-    .circleIconButton-1VxDrg:hover {
+    .circleIconButton_d8df29:hover {
         background: rgba(99, 81, 199, 0.276);
         color: var(--accent-selected);
     }
 }
 
 .theme-light {
-    .guilds-2JjMmN .scroller-3X7KbA,
-    .wrapper-1_HaEi {
+    .guilds__2b93a .scroller__3d071,
+    .wrapper_a7e7a8 {
         background-color: rgb(225, 225, 225);
     }
-    .platform-osx .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH,
-    .unreadMentionsIndicatorBottom-3RJMnQ .unreadMentionsBar-ZXXoOH {
+    .platform-osx .unreadMentionsIndicatorTop_ada847 .unreadMentionsBar__0d02a,
+    .unreadMentionsIndicatorBottom_fdb943 .unreadMentionsBar__0d02a {
         background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87));
     }
-    .expandedFolderBackground-1kSAf6 {
+    .expandedFolderBackground__1bec6 {
         backdrop-filter: blur(20px);
         background: rgba(226, 221, 225, 0.89);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772);
         border-radius: 15px;
     }
-    .closedFolderIconWrapper-3tRb2d {
+    .closedFolderIconWrapper__7321f {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid rgb(186, 186, 186);
         border-radius: 15px;
         background: rgba(207, 222, 222, 0.276);
     }
-    .expandedFolderBackground-1kSAf6.collapsed-uGXEbi,
-    .expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT {
+    .expandedFolderBackground__1bec6.collapsed__0a270,
+    .expandedFolderBackground__1bec6.collapsed__0a270.hover__043de {
         display: none;
     }
-    .folder-241Joy,
-    .folder-241Joy:hover {
+    .folder__17546,
+    .folder__17546:hover {
         background-color: #00000000;
     }
-    .item-2LIpTv {
+    .item_f9d377 {
         width: 8px;
         border-radius: 5px 5px 5px 5px;
         margin-left: 0px;
         background-color: rgb(145, 138, 152);
     }
-    .circleIconButton-1VxDrg {
+    .circleIconButton_d8df29 {
         background: rgba(231, 234, 237, 0.436) !important;
         backdrop-filter: blur(20px);
         border: 1px solid rgb(186, 186, 186);
         border-radius: 15px;
         color: var(--accent-selected);
     }
-    .circleIconButton-1VxDrg:hover {
+    .circleIconButton_d8df29:hover {
         background: rgba(99, 81, 199, 0.276);
         color: var(--accent-selected);
     }

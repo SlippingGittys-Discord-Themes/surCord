@@ -7,75 +7,75 @@
 
 /* Title Bar */
 .theme-dark { 
-.container-ZMc96U.themed-Hp1KC_, .header-3OsQeK {
+.container__11d72.themed_b152d4, .header__104ca {
     background: var(--surCordTitleBar);
     border-bottom: .5px solid black;
 }
-    .communityInfoVisible-3zc5_s .header-3OsQeK, .communityInfoVisible-3zc5_s .header-3OsQeK:hover, .hasBanner-2IrYih .header-3OsQeK, .hasBanner-2IrYih .header-3OsQeK:hover {
+    .communityInfoVisible_b0482d .header__104ca, .communityInfoVisible_b0482d .header__104ca:hover, .hasBanner_e78601 .header__104ca, .hasBanner_e78601 .header__104ca:hover {
       border-bottom: .5px solid rgba(0, 0, 0, 0);
       background-color: transparent !important;
     }
-    .communityInfoPill-2Mll66 {
+    .communityInfoPill_d3f445 {
         display: none;
     }
- .children-3xh0VB:after {
+ .children__32014:after {
     background: rgba(0, 0, 0, 0);
 }
-    .title-17SveM {
+    .title__9e2b0 {
         font-weight: 750;
     }
 }
 .theme-light {
- .container-ZMc96U.themed-Hp1KC_, .header-3OsQeK{
+ .container__11d72.themed_b152d4, .header__104ca{
         background: rgba(231, 234, 237) !important; 
         border-bottom: .5px solid rgba(186, 186, 186, 0.386);
     }
-        .communityInfoVisible-3zc5_s .header-3OsQeK, .communityInfoVisible-3zc5_s .header-3OsQeK:hover, .hasBanner-2IrYih .header-3OsQeK, .hasBanner-2IrYih .header-3OsQeK:hover {
+        .communityInfoVisible_b0482d .header__104ca, .communityInfoVisible_b0482d .header__104ca:hover, .hasBanner_e78601 .header__104ca, .hasBanner_e78601 .header__104ca:hover {
           border-bottom: .5px solid rgba(0, 0, 0, 0);
           background-color: transparent !important;
         }
-        .communityInfoPill-2Mll66 {
+        .communityInfoPill_d3f445 {
             display: none;
         }
-     .children-3xh0VB:after {
+     .children__32014:after {
         background: rgba(0, 0, 0, 0);
     }
-        .title-17SveM {
+        .title__9e2b0 {
             font-weight: 750;
             color: rgba(73, 73, 73);
         }
-    .clickable-ZD7xvu .icon-2xnN2Y {
+    .clickable_d23a1a .icon__4cb88 {
         color: rgba(115, 115, 115);
     }
 }
 
- .searchBar-3TnChZ {
+ .searchBar_e4ea2a {
     border-right: .5px solid black;
 }
 .theme-light {
-.searchBar-3TnChZ {
+.searchBar_e4ea2a {
     border-right: .5px solid rgba(186, 186, 186, 0.386)
 }
 }
 
 /* Search and other Text fields */
 .theme-dark {
-.searchBar-jGtisZ, .searchBar-3TnChZ .searchBarComponent-3N7dCG, .inner-2pOSmK, .wrapper-n2dlvs, .searchBar-2M9mRP, .input-2z42oC {
+.searchBar_e0c60b, .searchBar_e4ea2a .searchBarComponent__22760, .inner__999f6, .wrapper_dcecd7, .searchBar__8f956, .input__95bc4 {
     background-color: var(--surCordSearch);
     border-radius: 4px;
     border: 1px solid var(--surCordBorder); 
 }
-.searchBar-jGtisZ:hover, .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover, .wrapper-n2dlvs:hover,  .inner-2pOSmK:hover, .searchBar-2M9mRP:hover, .input-2z42oC:hover, .searchBar-2aylmZ:hover {
+.searchBar_e0c60b:hover, .searchBar_e4ea2a .searchBarComponent__22760:hover, .wrapper_dcecd7:hover,  .inner__999f6:hover, .searchBar__8f956:hover, .input__95bc4:hover, .searchBar_ff8800:hover {
     box-shadow: 0 0 3px 3px var(--accent-focused);
 }
 }
 .theme-light {
-    .searchBar-jGtisZ, .searchBar-3TnChZ .searchBarComponent-3N7dCG, .inner-2pOSmK, .wrapper-n2dlvs, .searchBar-2M9mRP, .input-2z42oC {
+    .searchBar_e0c60b, .searchBar_e4ea2a .searchBarComponent__22760, .inner__999f6, .wrapper_dcecd7, .searchBar__8f956, .input__95bc4 {
         background-color: rgb(238, 238, 238);
         border-radius: 4px;
         border: 1px solid rgb(217, 217, 217); 
     }
-    .searchBar-jGtisZ:hover, .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover, .wrapper-n2dlvs:hover,  .inner-2pOSmK:hover, .searchBar-2M9mRP:hover, .input-2z42oC:hover, .searchBar-2aylmZ:hover {
+    .searchBar_e0c60b:hover, .searchBar_e4ea2a .searchBarComponent__22760:hover, .wrapper_dcecd7:hover,  .inner__999f6:hover, .searchBar__8f956:hover, .input__95bc4:hover, .searchBar_ff8800:hover {
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
     }
 }

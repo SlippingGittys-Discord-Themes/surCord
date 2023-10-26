@@ -5,27 +5,27 @@
 */
 
 /* Discord Logo */
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+.wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
     background-color: var(--accent);
 }
 
 
 /* Channel Bars */
-.content-1jQy2l { 
+.content__1a4fe { 
     border-left: .5px solid black;
 }
 
 .theme-light {
-.item-3XjbnG .selected-g-kMVV .channelName-3KPsGw, .modeSelected-3DmyhH .channelName-3KPsGw {
+.item-3XjbnG .selected-g-kMVV .channelName-3KPsGw, .modeSelected__487d6 .channelName-3KPsGw {
     color: white;
 }
-.content-1jQy2l { 
+.content__1a4fe { 
     border-left: .5px solid rgba(186, 186, 186, 0.386);
 }
 }
 
 /* User Settings + VC Controls -- Fix by Lucism & Domi */
-.panels-3wFtMD {
+.panels__58331 {
     border-radius: 20px;
     margin-bottom: 18px;
     margin-right: 5px;
@@ -37,7 +37,7 @@
 }
 
 .theme-light {
-    .panels-3wFtMD {
+    .panels__58331 {
         background: rgba(226, 221, 225, 0.89);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772); 
@@ -49,87 +49,87 @@
     }
 }
 
-.interactiveSelected-29CP8y {
+.interactiveSelected_ec846b {
     background: var(--accent-selected) !important; 
     backdrop-filter: blur(20px);
 }
 
-.withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {
+.withTagAsButton_cc125f:hover, .withTagless__98b7d:hover {
     border-radius: 16px;
 }
 
-.container-1zzFcN, .container-YkUktl {
+.container_d667ff, .container_ca50b9 {
   border-radius: 20px;
 }
 
-.container-1CH86i, .container-1CH86i .avatar-19siqs {
+.container_ca50b9, .container_ca50b9 .avatar_f8541f {
   border-radius: 20px;
 }
 
-.theme-dark .container-YkUktl {
+.theme-dark .container_ca50b9 {
   background: rgba(0, 0, 0, 0);
 }
 
-.avatar-1EWyVD {
+.avatar_f8541f {
     left: .7px;
 }
 
 /* Channels */
-.modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg, .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg, .mainContent-uDGa6R .overflow-1wOqNV, .mainContent-uDGa6R {
+.modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4, .modeUnread_f74c03 .icon_eff5d4, .modeUnread_f74c03:hover .icon_eff5d4, .mainContent_a0b319 .overflow__87fe8, .mainContent_a0b319 {
     color: white;
 }
-.iconContainer-21RCa3[aria-label="Text (Age-Restricted)"]>svg {
+.iconContainer__3f9b0[aria-label="Text (Age-Restricted)"]>svg {
     color: #ff5252 !important;
 }
-.icon-2W8DHg, .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+.icon_eff5d4, .modeSelected__487d6 .wrapper__7bcde, .modeSelected__487d6:hover .wrapper__7bcde {
     color: var(--accent);
 }
-.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+.modeSelected__487d6 .wrapper__7bcde, .modeSelected__487d6:hover .wrapper__7bcde {
     background-color: var(--accent) !important;
 }
-.modeUnread-3Cxepe .icon-2W8DHg  {
+.modeUnread_f74c03 .icon_eff5d4  {
        color: rgb(44, 192, 90); 
 }
-.actionIcon-2sw4Sl {
+.actionIcon_d679b5 {
     color: rgb(255, 255, 255);
 }
-.addButtonIcon-3rJeaD {
+.addButtonIcon_b776b3 {
     border-radius: 50%; 
     color: rgb(44, 192, 90);
 }
-.unreadRelevant-2f-VSK {
+.unreadRelevant__44f9e {
     background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87)) ;
     width: 8px;
     border-radius: 5px 5px 5px 5px; 
 }
 
 .theme-light {
-    .mainContent-uDGa6R .overflow-1wOqNV {
+    .mainContent_a0b319 .overflow__87fe8 {
         color:black;
     }
 }
 
 /* Members Side Bar */
-.membersWrap-3NUR2t {
+.membersWrap__90226 {
     border-left: .5px solid rgb(0, 0, 0); 
 }
 
 .theme-light {
-    .membersWrap-3NUR2t {
+    .membersWrap__90226 {
         border-left: .5px solid rgba(186, 186, 186, 0.386); 
     }
 }
 
 /* Voice Chat Controls */
-.buttonContents-y1l-R8 {
+.buttonContents__387ff {
         font-size: 0px;
 }
-.buttonIcon-2Zsrs2.withText-2iJppd {
+.buttonIcon__80d32.withText__66931 {
     margin-right: 0px;
 }
 
 /* User Area */
-.avatarWrapper-1B9FTW {
+.avatarWrapper_ba5175 {
     margin-right: 0px;
 }
 
