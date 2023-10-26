@@ -6,20 +6,20 @@
 
 
 /* Buttons */
-.button-2b4VEQ.buttonSize-3QlBTl,
-.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
-.popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ,
-.full-motion .button-1_oXub,
-.lookFilled-1H2Jvj.colorBrand-2M3O3N,
-.navButtonActive-1EqC5l {
+.button__8ec71.buttonSize_b01b54,
+.lookFilled__19298.colorPrimary__6ed40,
+.popoutBannerPremium__942db .pencilContainer_d4ce8d,
+.full-motion .button_ddf91e,
+.lookFilled__19298.colorBrand_b2253e,
+.navButtonActive__735cb {
     background-color: var(--accent);
     color: white;
     border-radius: 50px;
 }
-.popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ {
+.popoutBannerPremium__942db .pencilContainer_d4ce8d {
     border: 1px solid rgb(255, 255, 255); 
 }
-.button-2b4VEQ.buttonSize-3QlBTl:hover, .actionButton-3-B2x-:hover, .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover, .popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ:hover {
+.button__8ec71.buttonSize_b01b54:hover, .actionButton__23182:hover, .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover, .popoutBannerPremium__942db .pencilContainer_d4ce8d:hover {
     background-color: var(--accent-hover);
     border-radius: 10px;
     transition: 0.3s;
@@ -28,16 +28,16 @@
     border-radius: 10px;
     transition: 0.3s;
 }
-.actionButton-3-B2x- {
+.actionButton__23182 {
     background-color: var(--accent);
     color: white;
 }
-.lookFilled-1H2Jvj.colorRed-2VFhM4 {
+.lookFilled__19298.colorRed_d6b062 {
   background: linear-gradient(to bottom, rgb(238, 52, 48) 0%, rgb(238, 52, 48) 50%, rgba(205, 43, 40, 0.999) 100%);
   border-radius: 50px;
   border: 1px solid rgb(182, 0, 0);
 }
-.lookOutlined-3RTC7c.colorRed-2VFhM4  {
+.lookOutlined__46d54.colorRed_d6b062  {
   background: linear-gradient(to bottom, rgb(255, 4, 0) 0%, rgb(255, 4, 0) 50%, rgba(255, 4, 0, 0.999) 100%);
   border-radius: 50px;
 }
@@ -45,11 +45,11 @@
     background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87)) ;
     border-radius: 50px;
 }
-.numberBadge-37OJ3S, .newBadge-1bHewI {
+.numberBadge__50328, .newBadge__7c6b4 {
     background: linear-gradient(to bottom, rgb(238, 52, 48) 0%,rgb(238, 52, 48) 50%,rgba(238, 52, 48, 0.999) 100%);
     font-size: 10px;
   }
-  .iconBackgroundTierNone-3M21Zn, .iconBackgroundTierOne-1S68CI, .iconBackgroundTierThree-2hfNBO, .iconBackgroundTierTwo-2XoNXD {
+  .iconBackgroundTierNone__800b6, .iconBackgroundTierOne_df8d8c, .iconBackgroundTierThree__1c0d5, .iconBackgroundTierTwo__1792c {
       color: var(--accent);
   }
 
