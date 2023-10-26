@@ -5,12 +5,12 @@
   --background-tertiary: #ffffff1d;
 }
 
-.theme-dark .appMount-2yBXZl, .theme-dark .app-2CXKsg, .theme-dark .bg-1QIAus, .theme-dark .scroller-3X7KbA, .theme-dark .guilds-2JjMmN, .theme-dark .channelName-3w2Y3c, .theme-dark .sidebar-1tnWFu, .theme-dark .privateChannels-oVe7HL, .theme-dark .searchBar-3TnChZ, .theme-dark .scroller-WSmht3, .theme-dark .container-1NXEtd, .theme-dark .header-3OsQeK,  .theme-dark .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+.theme-dark .appMount_fae9dd, .theme-dark .app__00c92, .theme-dark .bg__7adbf, .theme-dark .scroller__3d071, .theme-dark .guilds__2b93a, .theme-dark .channelName-3w2Y3c, .theme-dark .sidebar_ded4b5, .theme-dark .privateChannels__93473, .theme-dark .searchBar_e4ea2a, .theme-dark .scroller__4b984, .theme-dark .container__590e2, .theme-dark .header__104ca,  .theme-dark .searchBar_e4ea2a .searchBarComponent__22760 {
   background: transparent !important;
 }
-.theme-light .appMount-2yBXZl, .theme-light .app-2CXKsg, .theme-light .bg-1QIAus, .theme-light .scroller-3X7KbA, .theme-light .guilds-2JjMmN, .theme-light .channelName-3w2Y3c, .theme-light .sidebar-1tnWFu, .theme-light .privateChannels-oVe7HL, .theme-light .searchBar-3TnChZ, .theme-light .scroller-WSmht3, .theme-light .container-1NXEtd, .theme-light .header-3OsQeK,  .theme-light .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+.theme-light .appMount_fae9dd, .theme-light .app__00c92, .theme-light .bg__7adbf, .theme-light .scroller__3d071, .theme-light .guilds__2b93a, .theme-light .channelName-3w2Y3c, .theme-light .sidebar_ded4b5, .theme-light .privateChannels__93473, .theme-light .searchBar_e4ea2a, .theme-light .scroller__4b984, .theme-light .container__590e2, .theme-light .header__104ca,  .theme-light .searchBar_e4ea2a .searchBarComponent__22760 {
   background: transparent !important;
 }
-.theme-dark .header-3OsQeK, .theme-light .header-3OsQeK {
+.theme-dark .header__104ca, .theme-light .header__104ca {
   border-bottom: none;
 }
