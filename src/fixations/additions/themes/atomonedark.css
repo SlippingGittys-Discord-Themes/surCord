@@ -1,0 +1,13 @@
+:root {
+  --surCordBackground: #282c34;
+  --surCordBackground2: #3a3f4b;
+  --surCordTextBackground: #2f343f;
+  --surcordFriendsBackground: #1e2228;
+  --surCordFriends: #3a3f4b;
+  --surCordActiveNow: rgba(171, 178, 191, 0.3);
+  --surCordGuilds: #2f343f;
+  --surCordTitleBar: #282c34;
+  --surCordSearch: #2f343f;
+  --surCordHover: rgba(171, 178, 191, 0.1);
+  --surCordBorder: #3f444a;
+}
