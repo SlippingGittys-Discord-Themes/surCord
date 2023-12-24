@@ -10,9 +10,12 @@
 * BetterDiscord, Vencord, and Openasar users can grab the [surCord.theme.css](hhttps://raw.githubusercontent.com/SlippingGittys-Discord-Themes/surCord/main/surCord.theme.css) file and either
   * Place the file in the BetterDiscord or Vencord themes folder
   * Copy the text in the file, and paste it in Openasar's quick CSS text field
-
+ 
 ### Browser 
  * [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGittys-Discord-Themes/surCord/raw/main/surCord.user.css)
+
+## Temporary Icon Fix w/ Experiments
+<img width="856" alt="image" src="https://github.com/SlippingGittys-Discord-Themes/surCord/assets/76500838/3d4cd16c-d6aa-4c3b-8c9f-6df65462d186">
  
 ## Translucenty (Addon offically maintained on macOS only)
 
