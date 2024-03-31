@@ -4,70 +4,70 @@
   --accent-selected: rgb(136, 192, 208, 0.612);
   --accent-focused: rgb(143, 188, 187, 0.2);
 }
-.iconWrapper-2awDjA .icon-2xnN2Y,
-.stickerIcon-3Jx5SE,
-.icon-1d5zch,
-.circleIcon-3489FI,
-.buttonWrapper-3YFQGJ {
+.iconWrapper_de6cd1 .icon_ae0b42,
+.stickerIcon__3ceda,
+.icon__27d76,
+.circleIcon_b62ef0,
+.buttonWrapper_bd4bd7 {
   color: rgb(215, 222, 233);
 }
-.item-3mHhwr .item-3XjbnG .themed-2-lozF[aria-controls="add_friend-tab"] {
+.item_e4ca95 .item-3XjbnG .themed-2-lozF[aria-controls="add_friend-tab"] {
   background-color: var(--accent-hover) !important;
 }
-.content-1jQy2l,
-.membersWrap-3NUR2t {
+.content__01e65,
+.membersWrap__5ca6b {
   border-left: 0.5px solid rgb(50, 50, 50);
 }
-.container-ZMc96U.themed-Hp1KC_,
-.header-3OsQeK {
+.container__26baa.themed_b152d4,
+.header__77c95 {
   border-bottom: 0.5px solid rgb(50, 50, 50) !important;
 }
-.searchBar-3TnChZ {
+.searchBar__621ec {
   border-right: 0.5px solid rgb(50, 50, 50);
 }
-.clickable-ZD7xvu .icon-2xnN2Y,
-.linkButtonIcon-7rsZcu {
+.clickable_ce0925 .icon_ae0b42,
+.linkButtonIcon_cff89e {
   color: rgb(215, 222, 233) !important;
 }
-.contents-3ca1mk .button-2fCJ0o .button-3BaQ4X {
+.contents-3ca1mk .button__437ce .button__493d9 {
   color: rgb(80, 111, 170);
 }
-.circleIcon-3489FI {
+.circleIcon_b62ef0 {
   color: rgb(120, 136, 162) !important;
 }
-.name-28HaxV,
-.membersGroup-2eiWxl {
+.name__4eb92,
+.membersGroup_cad095 {
   color: rgb(98, 110, 132);
 }
-.addButtonIcon-3rJeaD,
-.modeUnread-3Cxepe .icon-2W8DHg,
-.unreadRelevant-2f-VSK {
+.addButtonIcon_d9a52c,
+.modeUnreadImportant__35358 .icon__67ab4,
+.unreadImportant_e8bb44 {
   color: rgb(131, 190, 186) !important;
 }
-.messageContent-2t3eCI,
-.modeConnected-NrO4cP .name-28HaxV,
-.modeConnected-NrO4cP:hover .name-28HaxV,
-.modeSelected-3DmyhH .name-28HaxV,
-.modeSelected-3DmyhH:hover .name-28HaxV,
-.modeUnread-3Cxepe .name-28HaxV,
-.modeUnread-3Cxepe:hover .name-28HaxV,
-.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
-.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+.messageContent_abea64,
+.modeConnected__52a8f .name__4eb92,
+.modeConnected__52a8f:hover .name__4eb92,
+.modeSelected__473f1 .name__4eb92,
+.modeSelected__473f1:hover .name__4eb92,
+.modeUnreadImportant__35358 .name__4eb92,
+.modeUnreadImportant__35358:hover .name__4eb92,
+.notInteractive_e31551.modeConnected__52a8f .name__4eb92,
+.notInteractive_e31551.modeSelected__473f1 .name__4eb92 {
   color: rgba(215, 222, 333) !important;
 }
-.modeSelected-3DmyhH .icon-2W8DHg,
-.modeSelected-3DmyhH:hover .icon-2W8DHg,
-.modeUnread-3Cxepe .icon-2W8DHg,
-.modeUnread-3Cxepe:hover .icon-2W8DHg,
-.mainContent-uDGa6R .overflow-1wOqNV,
-.mainContent-uDGa6R {
+.modeSelected__473f1 .icon__67ab4,
+.modeSelected__473f1:hover .icon__67ab4,
+.modeUnreadImportant__35358 .icon__67ab4,
+.modeUnreadImportant__35358:hover .icon__67ab4,
+.mainContent__2333c .overflow__993fa,
+.mainContent__2333c {
   color: rgb(215, 222, 233) !important;
 }
-.theme-dark .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH,
-.theme-dark .unreadMentionsIndicatorBottom-3RJMnQ .unreadMentionsBar-ZXXoOH,
-.theme-dark .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH,
-.numberBadge-37OJ3S,
-.unreadRelevant-2f-VSK,
-.newBadge-1bHewI {
+.theme-dark .unreadMentionsIndicatorTop__153ad .unreadMentionsBar__8cd45,
+.theme-dark .unreadMentionsIndicatorBottom__9351c .unreadMentionsBar__8cd45,
+.theme-dark .unreadMentionsIndicatorTop__153ad .unreadMentionsBar__8cd45,
+.numberBadge__40d6f,
+.unreadImportant_e8bb44,
+.newBadge__4f501 {
   background: rgba(106, 120, 144) !important;
 }
