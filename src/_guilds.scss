@@ -4,32 +4,32 @@
 ///////////////////////
 */
 .theme-dark {
-    .guilds__2b93a .scroller__3d071,
-    .wrapper_a7e7a8 {
+    .guilds__2b93a .scroller_de945b,
+    .wrapper__216eb {
         background-color: var(--surCordGuilds);
     }
-    .platform-osx .unreadMentionsIndicatorTop_ada847 .unreadMentionsBar__0d02a,
-    .unreadMentionsIndicatorBottom_fdb943 .unreadMentionsBar__0d02a,
-    .unreadMentionsIndicatorTop_ada847 .unreadMentionsBar__0d02a {
+    .platform-osx .unreadMentionsIndicatorTop__153ad .unreadMentionsBar__8cd45,
+    .unreadMentionsIndicatorBottom__9351c .unreadMentionsBar__8cd45,
+    .unreadMentionsIndicatorTop__153ad .unreadMentionsBar__8cd45 {
         background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87));
         backdrop-filter: blur(5px);
     }
-    .expandedFolderBackground__1bec6 {
+    .expandedFolderBackground_b1385f {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid var(--surCordBorder);
         border-radius: 15px;
         background: rgba(41, 38, 39, 0.276);
     }
-    .closedFolderIconWrapper__7321f {
+    .closedFolderIconWrapper__722d5 {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid var(--surCordBorder);
         border-radius: 15px;
         background: rgba(41, 38, 39, 0.276);
     }
-    .expandedFolderBackground__1bec6.collapsed__0a270,
-    .expandedFolderBackground__1bec6.collapsed__0a270.hover__043de {
+    .expandedFolderBackground_b1385f.collapsed__98ad5,
+    .expandedFolderBackground_b1385f.collapsed__98ad5.hover__043de {
         display: none;
     }
     .folder__17546,
@@ -42,44 +42,44 @@
         margin-left: 0px;
         background-color: rgb(145, 138, 152);
     }
-    .circleIconButton_d8df29 {
+    .circleIconButton__05cf2 {
         backdrop-filter: blur(20px);
         border: 1px solid var(--surCordBorder);
         border-radius: 15px;
         background: rgba(39, 38, 41, 0.276);
         color: var(--accent-selected);
     }
-    .circleIconButton_d8df29:hover {
+    .circleIconButton__05cf2:hover {
         background: rgba(99, 81, 199, 0.276);
         color: var(--accent-selected);
     }
 }
 
 .theme-light {
-    .guilds__2b93a .scroller__3d071,
-    .wrapper_a7e7a8 {
+    .guilds__2b93a .scroller_de945b,
+    .wrapper__216eb {
         background-color: rgb(225, 225, 225);
     }
-    .platform-osx .unreadMentionsIndicatorTop_ada847 .unreadMentionsBar__0d02a,
-    .unreadMentionsIndicatorBottom_fdb943 .unreadMentionsBar__0d02a {
+    .platform-osx .unreadMentionsIndicatorTop__153ad .unreadMentionsBar__8cd45,
+    .unreadMentionsIndicatorBottom__9351c .unreadMentionsBar__8cd45 {
         background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87));
     }
-    .expandedFolderBackground__1bec6 {
+    .expandedFolderBackground_b1385f {
         backdrop-filter: blur(20px);
         background: rgba(226, 221, 225, 0.89);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772);
         border-radius: 15px;
     }
-    .closedFolderIconWrapper__7321f {
+    .closedFolderIconWrapper__722d5 {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid rgb(186, 186, 186);
         border-radius: 15px;
         background: rgba(207, 222, 222, 0.276);
     }
-    .expandedFolderBackground__1bec6.collapsed__0a270,
-    .expandedFolderBackground__1bec6.collapsed__0a270.hover__043de {
+    .expandedFolderBackground_b1385f.collapsed__98ad5,
+    .expandedFolderBackground_b1385f.collapsed__98ad5.hover__043de {
         display: none;
     }
     .folder__17546,
@@ -92,14 +92,14 @@
         margin-left: 0px;
         background-color: rgb(145, 138, 152);
     }
-    .circleIconButton_d8df29 {
+    .circleIconButton__05cf2 {
         background: rgba(231, 234, 237, 0.436) !important;
         backdrop-filter: blur(20px);
         border: 1px solid rgb(186, 186, 186);
         border-radius: 15px;
         color: var(--accent-selected);
     }
-    .circleIconButton_d8df29:hover {
+    .circleIconButton__05cf2:hover {
         background: rgba(99, 81, 199, 0.276);
         color: var(--accent-selected);
     }
