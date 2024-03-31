@@ -28,72 +28,72 @@
 
 /* Buttons, Icons, Scrollers, Titles, and Text */
 
-.iconWrapper-2awDjA .icon-2xnN2Y,
-.stickerIcon-3Jx5SE,
-.icon-1d5zch,
-.circleIcon-3489FI,
-.buttonWrapper-3YFQGJ {
+.iconWrapper_de6cd1 .icon_ae0b42,
+.stickerIcon__3ceda,
+.icon__27d76,
+.circleIcon_b62ef0,
+.buttonWrapper_bd4bd7 {
   color: var(--accent-keys);
 }
-.item-3mHhwr .item-3XjbnG .themed-2-lozF[aria-controls="add_friend-tab"] {
+.item_e4ca95 .item-3XjbnG .themed-2-lozF[aria-controls="add_friend-tab"] {
   background-color: var(--accent-hover) !important;
 }
-.clickable-ZD7xvu .icon-2xnN2Y,
-.linkButtonIcon-7rsZcu {
+.clickable_ce0925 .icon_ae0b42,
+.linkButtonIcon_cff89e {
   color: var(--accent-titles) !important;
 }
-.contents-3ca1mk .button-2fCJ0o .button-3BaQ4X {
+.contents-3ca1mk .button__437ce .button__493d9 {
   color: var(--accent-keys);
 }
-.circleIcon-3489FI {
+.circleIcon_b62ef0 {
   color: var(--accent-keys-light) !important;
 }
-.name-28HaxV,
-.membersGroup-2eiWxl {
+.name__4eb92,
+.membersGroup_cad095 {
   color: var(--accent-keys);
 }
-.addButtonIcon-3rJeaD,
-.modeUnread-3Cxepe .icon-2W8DHg,
-.unreadRelevant-2f-VSK {
+.addButtonIcon_d9a52c,
+.modeUnreadImportant__35358 .icon__67ab4,
+.unreadImportant_e8bb44 {
   color: var(--accent-titles) !important;
 }
-.messageContent-2t3eCI,
-.modeConnected-NrO4cP .name-28HaxV,
-.modeConnected-NrO4cP:hover .name-28HaxV,
-.modeSelected-3DmyhH .name-28HaxV,
-.modeSelected-3DmyhH:hover .name-28HaxV,
-.modeUnread-3Cxepe .name-28HaxV,
-.modeUnread-3Cxepe:hover .name-28HaxV,
-.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
-.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+.messageContent_abea64,
+.modeConnected__52a8f .name__4eb92,
+.modeConnected__52a8f:hover .name__4eb92,
+.modeSelected__473f1 .name__4eb92,
+.modeSelected__473f1:hover .name__4eb92,
+.modeUnreadImportant__35358 .name__4eb92,
+.modeUnreadImportant__35358:hover .name__4eb92,
+.notInteractive_e31551.modeConnected__52a8f .name__4eb92,
+.notInteractive_e31551.modeSelected__473f1 .name__4eb92 {
   color: var(--accent-titles) !important;
 }
-.modeSelected-3DmyhH .icon-2W8DHg,
-.modeSelected-3DmyhH:hover .icon-2W8DHg,
-.modeUnread-3Cxepe .icon-2W8DHg,
-.modeUnread-3Cxepe:hover .icon-2W8DHg,
-.mainContent-uDGa6R .overflow-1wOqNV,
-.mainContent-uDGa6R {
+.modeSelected__473f1 .icon__67ab4,
+.modeSelected__473f1:hover .icon__67ab4,
+.modeUnreadImportant__35358 .icon__67ab4,
+.modeUnreadImportant__35358:hover .icon__67ab4,
+.mainContent__2333c .overflow__993fa,
+.mainContent__2333c {
   color: var(--accent-titles) !important;
 }
-.theme-dark .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH,
-.theme-dark .unreadMentionsIndicatorBottom-3RJMnQ .unreadMentionsBar-ZXXoOH,
-.theme-dark .unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH,
-.numberBadge-37OJ3S,
-.unreadRelevant-2f-VSK,
-.newBadge-1bHewI {
+.theme-dark .unreadMentionsIndicatorTop__153ad .unreadMentionsBar__8cd45,
+.theme-dark .unreadMentionsIndicatorBottom__9351c .unreadMentionsBar__8cd45,
+.theme-dark .unreadMentionsIndicatorTop__153ad .unreadMentionsBar__8cd45,
+.numberBadge__40d6f,
+.unreadImportant_e8bb44,
+.newBadge__4f501 {
   background:var(--accent) !important;
 }
-.attachButtonPlus-3IYelE {
+.attachButtonPlus_fd0021 {
   fill:var(--accent-fob) !important;
 }
-.button-f2h6uQ .contents-3ca1mk {
+.button__581d0 .contents-3ca1mk {
   fill: var(--accent-fob) !important; 
 --button--underline-color: rgba(222, 0, 0, 0);
   background-image: linear-gradient(
 0deg,transparent,transparent 1px,var(--button--underline-color) 0,var(--button--underline-color) 2px,transparent 0);
 }
-.scroller-kQBbkU::-webkit-scrollbar-thumb, .auto-2K3UW5::-webkit-scrollbar-thumb, .thin-31rlnD::-webkit-scrollbar-thumb, .peopleColumn-1wMU14::-webkit-scrollbar-thumb {
+.scroller_e412fe::-webkit-scrollbar-thumb, .auto-2K3UW5::-webkit-scrollbar-thumb, .thin_b1c063::-webkit-scrollbar-thumb, .peopleColumn__0c784::-webkit-scrollbar-thumb {
   background-color: var(--accent-fob);
 }
 
@@ -124,6 +124,6 @@
     fill: rgb(255, 255, 255);
 } */
 
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15, .wrapper__8436d:hover .childWrapper_a6ce15 {
     background-color: rgb(22,21,26);
 }
