@@ -5,21 +5,21 @@
     --accent-buttons: rgba(150,56,146);
     --accent-focused: rgb(215, 56, 146, 0.200);
   }
-  .clickable-ZD7xvu .icon-2xnN2Y, .linkButtonIcon-7rsZcu  {
+  .clickable_ce0925 .icon_ae0b42, .linkButtonIcon_cff89e  {
     color: rgb(224,54,60) !important;
   }
-  .iconWrapper-2awDjA .icon-2xnN2Y {
+  .iconWrapper_de6cd1 .icon_ae0b42 {
     color: rgba(96,189,78);
   }
-  .stickerIcon-3Jx5SE {
+  .stickerIcon__3ceda {
     color: var(--accent);
   }
-  .icon-1d5zch {
+  .icon__27d76 {
     color: rgba(96,189,78);
   }
-  .contents-3ca1mk .button-2fCJ0o .button-3BaQ4X {
+  .contents-3ca1mk .button__437ce .button__493d9 {
     color: rgb(224,54,60);
   }
-  .buttonWrapper-3YFQGJ {
+  .buttonWrapper_bd4bd7 {
     color: var(--accent);
   }
