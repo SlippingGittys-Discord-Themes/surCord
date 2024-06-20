@@ -4,102 +4,102 @@
 ///////////////////////
 */
 .theme-dark {
-    .guilds__2b93a .scroller_de945b,
-    .wrapper__216eb {
+    .guilds_a4d4d9 .scroller_fea3ef,
+    .wrapper_fea3ef {
         background-color: var(--surCordGuilds);
     }
-    .platform-osx .unreadMentionsIndicatorTop__153ad .unreadMentionsBar__8cd45,
-    .unreadMentionsIndicatorBottom__9351c .unreadMentionsBar__8cd45,
-    .unreadMentionsIndicatorTop__153ad .unreadMentionsBar__8cd45 {
+    .platform-osx .unreadMentionsIndicatorTop_fea3ef .unreadMentionsBar_fea3ef,
+    .unreadMentionsIndicatorBottom_fea3ef .unreadMentionsBar_fea3ef,
+    .unreadMentionsIndicatorTop_fea3ef .unreadMentionsBar_fea3ef {
         background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87));
         backdrop-filter: blur(5px);
     }
-    .expandedFolderBackground_b1385f {
+    .expandedFolderBackground_bc7085 {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid var(--surCordBorder);
         border-radius: 15px;
         background: rgba(41, 38, 39, 0.276);
     }
-    .closedFolderIconWrapper__722d5 {
+    .closedFolderIconWrapper_bc7085 {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid var(--surCordBorder);
         border-radius: 15px;
         background: rgba(41, 38, 39, 0.276);
     }
-    .expandedFolderBackground_b1385f.collapsed__98ad5,
-    .expandedFolderBackground_b1385f.collapsed__98ad5.hover__043de {
+    .expandedFolderBackground_bc7085.collapsed_bc7085,
+    .expandedFolderBackground_bc7085.collapsed_bc7085.hover_bc7085 {
         display: none;
     }
-    .folder__17546,
-    .folder__17546:hover {
+    .folder_bc7085,
+    .folder_bc7085:hover {
         background-color: #00000000;
     }
-    .item_f9d377 {
+    .item_fd07a3 {
         width: 8px;
         border-radius: 5px 5px 5px 5px;
         margin-left: 0px;
         background-color: rgb(145, 138, 152);
     }
-    .circleIconButton__05cf2 {
+    .circleIconButton_db6521 {
         backdrop-filter: blur(20px);
         border: 1px solid var(--surCordBorder);
         border-radius: 15px;
         background: rgba(39, 38, 41, 0.276);
         color: var(--accent-selected);
     }
-    .circleIconButton__05cf2:hover {
+    .circleIconButton_db6521:hover {
         background: rgba(99, 81, 199, 0.276);
         color: var(--accent-selected);
     }
 }
 
 .theme-light {
-    .guilds__2b93a .scroller_de945b,
-    .wrapper__216eb {
+    .guilds_a4d4d9 .scroller_fea3ef,
+    .wrapper_fea3ef {
         background-color: rgb(225, 225, 225);
     }
-    .platform-osx .unreadMentionsIndicatorTop__153ad .unreadMentionsBar__8cd45,
-    .unreadMentionsIndicatorBottom__9351c .unreadMentionsBar__8cd45 {
+    .platform-osx .unreadMentionsIndicatorTop_fea3ef .unreadMentionsBar_fea3ef,
+    .unreadMentionsIndicatorBottom_fea3ef .unreadMentionsBar_fea3ef {
         background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87));
     }
-    .expandedFolderBackground_b1385f {
+    .expandedFolderBackground_bc7085 {
         backdrop-filter: blur(20px);
         background: rgba(226, 221, 225, 0.89);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772);
         border-radius: 15px;
     }
-    .closedFolderIconWrapper__722d5 {
+    .closedFolderIconWrapper_bc7085 {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid rgb(186, 186, 186);
         border-radius: 15px;
         background: rgba(207, 222, 222, 0.276);
     }
-    .expandedFolderBackground_b1385f.collapsed__98ad5,
-    .expandedFolderBackground_b1385f.collapsed__98ad5.hover__043de {
+    .expandedFolderBackground_bc7085.collapsed_bc7085,
+    .expandedFolderBackground_bc7085.collapsed_bc7085.hover_bc7085 {
         display: none;
     }
-    .folder__17546,
-    .folder__17546:hover {
+    .folder_bc7085,
+    .folder_bc7085:hover {
         background-color: #00000000;
     }
-    .item_f9d377 {
+    .item_fd07a3 {
         width: 8px;
         border-radius: 5px 5px 5px 5px;
         margin-left: 0px;
         background-color: rgb(145, 138, 152);
     }
-    .circleIconButton__05cf2 {
+    .circleIconButton_db6521 {
         background: rgba(231, 234, 237, 0.436) !important;
         backdrop-filter: blur(20px);
         border: 1px solid rgb(186, 186, 186);
         border-radius: 15px;
         color: var(--accent-selected);
     }
-    .circleIconButton__05cf2:hover {
+    .circleIconButton_db6521:hover {
         background: rgba(99, 81, 199, 0.276);
         color: var(--accent-selected);
     }
