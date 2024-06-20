@@ -34,7 +34,7 @@
 */
 
 /* LUCKFIRE - macOS Title Bar - LICENSE https://github.com/discord-extensions/macos-titlebar/blob/master/LICENSE */
-.platform-win .typeWindows_e41dab {
+.platform-win .typeWindows_a934d8 {
   z-index: 102;
   position: absolute;
   flex-direction: row;
@@ -47,7 +47,7 @@
   padding-left: 3px;
   -webkit-app-region: drag;
 }
-.platform-win .typeWindows_e41dab .wordmark__5b8c9 {
+.platform-win .typeWindows_a934d8 .wordmark_a934d8 {
   top: 11px;
   left: 11px;
   width: 52px;
@@ -55,10 +55,10 @@
   padding: 0;
   -webkit-app-region: no-drag;
 }
-.platform-win .typeWindows_e41dab .wordmark__5b8c9 g {
+.platform-win .typeWindows_a934d8 .wordmark_a934d8 g {
   display: none;
 }
-.platform-win .typeWindows_e41dab .winButton_f17fb6 {
+.platform-win .typeWindows_a934d8 .winButton_a934d8 {
   width: 12px;
   height: 12px;
   margin-left: 8px;
@@ -67,29 +67,29 @@
   background-size: 0;
   -webkit-app-region: no-drag;
 }
-.platform-win .typeWindows_e41dab .winButton_f17fb6 svg {
+.platform-win .typeWindows_a934d8 .winButton_a934d8 svg {
   display: none;
 }
-.platform-win.app-focused .typeWindows_e41dab:hover div.winButton_f17fb6 {
+.platform-win.app-focused .typeWindows_a934d8:hover div.winButton_a934d8 {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.platform-win.app-focused .typeWindows_e41dab .winButtonClose__6396d {
+.platform-win.app-focused .typeWindows_a934d8 .winButtonClose_a934d8 {
   background-color: #ff5c57;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUuMjkyODkgNkwyLjgxODAxIDMuNTI1MTNMMy41MjUxMiAyLjgxODAyTDUuOTk5OTkgNS4yOTI4OUw4LjQ3NDg3IDIuODE4MDJMOS4xODE5NyAzLjUyNTEzTDYuNzA3MSA2TDkuMTgxOTcgOC40NzQ4N0w4LjQ3NDg3IDkuMTgxOThMNS45OTk5OSA2LjcwNzExTDMuNTI1MTIgOS4xODE5OEwyLjgxODAxIDguNDc0ODdMNS4yOTI4OSA2WiIgZmlsbD0iI0EyMDAwOCIvPgo8L3N2Zz4=);
 }
-.platform-win.app-focused .typeWindows_e41dab .winButtonMinMax_caf9c8:nth-child(2n) {
+.platform-win.app-focused .typeWindows_a934d8 .winButtonMinMax_a934d8:nth-child(2n) {
   background-color: #fdbd3d;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDUuMzk5OTlIMlY2LjU5OTk5SDEwVjUuMzk5OTlaIiBmaWxsPSIjQjM3MTFBIi8+Cjwvc3ZnPg==);
 }
-.platform-win.app-focused .typeWindows_e41dab .winButtonMinMax_caf9c8:nth-child(3n) {
+.platform-win.app-focused .typeWindows_a934d8 .winButtonMinMax_a934d8:nth-child(3n) {
   order: 3;
   background-color: #26c84b;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuMzkyOTMgMy4wMDg5M0wzLjAwODg3IDcuMzkyOTlMMi44MTc5NSAyLjgxODAxTDcuMzkyOTMgMy4wMDg5M1oiIGZpbGw9IiMwMjZBMTUiLz4KPHBhdGggZD0iTTQuNjA2OTUgOC45OTEwMUw4Ljk5MTAxIDQuNjA2OTVMOS4xODE5MyA5LjE4MTkzTDQuNjA2OTUgOC45OTEwMVogIiBmaWxsPSIjMDI2QTE1Ii8+Cjwvc3ZnPg==);
 }
 
-.guilds__2b93a {
+.guilds_a4d4d9 {
   margin-top: 29px;
 }
 
@@ -99,48 +99,48 @@
   border-radius: 0;
 }
 
-.standardSidebarView__12528 {
+.standardSidebarView_c25c6d {
   z-index: unset;
 }
-.standardSidebarView__12528 .sidebarRegionScroller__8113e {
+.standardSidebarView_c25c6d .sidebarRegionScroller_c25c6d {
   z-index: 103;
 }
-.standardSidebarView__12528 .contentRegion__08eba {
+.standardSidebarView_c25c6d .contentRegion_c25c6d {
   z-index: 103;
 }
-.standardSidebarView__12528 .contentColumn__5f80b {
+.standardSidebarView_c25c6d .contentColumn_c25c6d {
   -webkit-app-region: no-drag;
 }
 
-.platform-win .sidebar_e031be {
+.platform-win .sidebar_a4d4d9 {
   border-radius: 0;
 }
-.platform-win .sidebar_e031be .header__77c95, .platform-win .sidebar_e031be .searchBar__621ec {
+.platform-win .sidebar_a4d4d9 .header_fd6364, .platform-win .sidebar_a4d4d9 .searchBar_f0963d {
   z-index: 103;
 }
-.platform-win .sidebar_e031be .header__77c95, .platform-win .sidebar_e031be .searchBarComponent__8f95f {
+.platform-win .sidebar_a4d4d9 .header_fd6364, .platform-win .sidebar_a4d4d9 .searchBarComponent_f0963d {
   -webkit-app-region: no-drag;
 }
-.platform-win .sidebar_e031be .searchBar__621ec {
+.platform-win .sidebar_a4d4d9 .searchBar_f0963d {
   -webkit-app-region: drag;
 }
 
-.chat__52833 {
+.chat_a7d72e {
   z-index: 103;
 }
 
-.container__26baa {
+.container_e44302 {
   z-index: 103;
   -webkit-app-region: drag;
 }
-.container__26baa .topic__16ae3, .container__26baa .title_d4ba1a, .container__26baa .nicknames__12efb > div, .container__26baa .item_e4ca95 {
+.container_e44302 .topic_bf3bbb, .container_e44302 .title_a7d72e, .container_e44302 .nicknames__12efb > div, .container_e44302 .item_c2739c {
   -webkit-app-region: no-drag;
 }
 
 /* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
 /* epic */
-#app-mount .container__2ed72, .input__3e05b,
-#app-mount .container__2ed72, .input__3e05b,
+#app-mount .container_cebd1c, .input_cebd1c,
+#app-mount .container_cebd1c, .input_cebd1c,
 #app-mount .checkboxWrapper-2fDzaA .input-2XRLou,
 #app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
   margin: 0;
@@ -152,7 +152,7 @@
   -webkit-appearance: checkbox;
   appearance: checkbox;
 }
-#app-mount  .container__2ed72,
+#app-mount  .container_cebd1c,
 #app-mount .checkboxWrapper-2fDzaA {
   width: auto;
   border-radius: 0;
@@ -166,8 +166,8 @@
 input[type="checkbox"] {
   accent-color: var(--accent);
 }
-#app-mount .container__2ed72 .slider__41d94,
-#app-mount .checkboxWrapper-2fDzaA .slider__41d94 {
+#app-mount .container_cebd1c .slider_cebd1c,
+#app-mount .checkboxWrapper-2fDzaA .slider_cebd1c {
   display: none;
 }
 .theme-dark .checkbox-f1HnKB {
@@ -183,7 +183,7 @@ input[type="checkbox"] {
 .powercord-product-header h4 {
   font-size: 16px;
 }
-.powercord-product .divider__93faf {
+.powercord-product .divider_b8ab18 {
   display: none;
 }
 .description,
@@ -236,8 +236,8 @@ input[type="checkbox"] {
   --brand-experiment-500: var(--accent-selected);
   --brand-experiment-560: var(--accent-selected);
 
-  .clickable_ce0925 .icon_ae0b42,
-  .linkButtonIcon_cff89e {
+  .clickable_e44302 .icon_e44302,
+  .linkButtonIcon_c91bad {
     color: var(--accent);
   }
 }
@@ -248,28 +248,28 @@ input[type="checkbox"] {
 }
 
 /* Scrollbars */
-.scroller_e412fe,
+.scroller_e2e187,
 .auto-2K3UW5,
-.peopleColumn__0c784 {
+.peopleColumn_c2739c {
   &::-webkit-scrollbar-track {
     background-color: transparent;
   }
 }
 
-.scroller_e412fe,
+.scroller_e2e187,
 .auto-2K3UW5,
-.thin_b1c063,
-.peopleColumn__0c784 {
+.thin_eed6a8,
+.peopleColumn_c2739c {
   &::-webkit-scrollbar-thumb {
     background-color: rgb(139, 139, 139);
   }
 }
 
 /* Explore public servers */
-.theme-dark .pageWrapper_c182d3 {
+.theme-dark .pageWrapper_a3a4ce {
   background-color: var(--surCordBackground2);
 }
-.theme-light .pageWrapper_c182d3 {
+.theme-light .pageWrapper_a3a4ce {
   background-color: rgb(225, 225, 225);
 }
 
@@ -289,7 +289,7 @@ input[type="checkbox"] {
 }
 
 /* Add surCord Branding */
-.info__755e1 > span:first-child::after {
+.info_c5a741 > span:first-child::after {
   content: "\asurCord 10.2023";
   color: var(--text-muted);
   white-space: pre;
