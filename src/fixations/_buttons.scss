@@ -6,20 +6,20 @@
 
 
 /* Buttons */
-.button_f73214.buttonSize_d3cc45,
-.lookFilled__950dd.colorPrimary_ebe632,
-.popoutBannerPremium__84487 .pencilContainer_ae6d25,
+.button_b9fe76.buttonSize_b9fe76,
+.lookFilled_dd4f85.colorPrimary_dd4f85,
+.popoutBannerPremium_c3e427 .pencilContainer_c3e427,
 .full-motion .button__292b6,
-.lookFilled__950dd.colorBrand__27d57,
-.navButtonActive__0c878 {
+.lookFilled_dd4f85.colorBrand_dd4f85,
+.navButtonActive_af5dbb {
     background-color: var(--accent);
     color: white;
     border-radius: 50px;
 }
-.popoutBannerPremium__84487 .pencilContainer_ae6d25 {
+.popoutBannerPremium_c3e427 .pencilContainer_c3e427 {
     border: 1px solid rgb(255, 255, 255); 
 }
-.button_f73214.buttonSize_d3cc45:hover, .actionButton__2b4bb:hover, .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover, .popoutBannerPremium__84487 .pencilContainer_ae6d25:hover {
+.button_b9fe76.buttonSize_b9fe76:hover, .actionButton_e01b91:hover, .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover, .popoutBannerPremium_c3e427 .pencilContainer_c3e427:hover {
     background-color: var(--accent-hover);
     border-radius: 10px;
     transition: 0.3s;
@@ -28,16 +28,16 @@
     border-radius: 10px;
     transition: 0.3s;
 }
-.actionButton__2b4bb {
+.actionButton_e01b91 {
     background-color: var(--accent);
     color: white;
 }
-.lookFilled__950dd.colorRed__5a617 {
+.lookFilled_dd4f85.colorRed_dd4f85 {
   background: linear-gradient(to bottom, rgb(238, 52, 48) 0%, rgb(238, 52, 48) 50%, rgba(205, 43, 40, 0.999) 100%);
   border-radius: 50px;
   border: 1px solid rgb(182, 0, 0);
 }
-.lookOutlined__014b5.colorRed__5a617  {
+.lookOutlined_dd4f85.colorRed_dd4f85  {
   background: linear-gradient(to bottom, rgb(255, 4, 0) 0%, rgb(255, 4, 0) 50%, rgba(255, 4, 0, 0.999) 100%);
   border-radius: 50px;
 }
@@ -49,7 +49,7 @@
     background: linear-gradient(to bottom, rgb(238, 52, 48) 0%,rgb(238, 52, 48) 50%,rgba(238, 52, 48, 0.999) 100%);
     font-size: 10px;
   }
-  .iconBackgroundTierNone__38426, .iconBackgroundTierOne__019cb, .iconBackgroundTierThree__6ad51, .iconBackgroundTierTwo__4f3b5 {
+  .iconBackgroundTierNone_d4a69b, .iconBackgroundTierOne_d4a69b, .iconBackgroundTierThree_d4a69b, .iconBackgroundTierTwo_d4a69b {
       color: var(--accent);
   }
 
