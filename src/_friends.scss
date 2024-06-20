@@ -5,12 +5,12 @@
 */
 
 /* Friends List Options */
-.tabBar__73938 .item_e4ca95 {
+.tabBar_c2739c .item_c2739c {
     border-radius: 50px;
 }
 
 /* Friends themselves */
-.peopleListItem_dab480 {
+.peopleListItem_d51464 {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid var(--surCordBorder);
@@ -20,7 +20,7 @@
     margin-top: 13px;
     padding-left: 10px;
 }
-.peopleListItem_dab480:hover {
+.peopleListItem_d51464:hover {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 3px 1px var(--accent);
     transition: 0.3s;
@@ -31,36 +31,36 @@
     margin-bottom: 13px;
     margin-top: 13px;
 }
-.peopleListItem_dab480.active__6b8ff {
+.peopleListItem_d51464.active_d51464 {
     background: rgba(41, 38, 39, 0.276);
     margin-top: 13px;
     border: 1px solid var(--surCordBorder);
     box-shadow: 0 0 3px 1px var(--accent);
     border-radius: 5px;
 }
-.peopleListItem_dab480.active__6b8ff+.peopleListItem_dab480, .peopleListItem_dab480:hover+.peopleListItem_dab480 {
+.peopleListItem_d51464.active_d51464+.peopleListItem_d51464, .peopleListItem_d51464:hover+.peopleListItem_d51464 {
     border: 1px solid var(--surCordBorder);
 }
-.actions_bd37ed {
+.actions_e05dae {
     padding-right: 10px;
 }
-.actionButton__2b4bb {
+.actionButton_e01b91 {
     margin-right: 13px;
 }
-.peopleColumn__0c784 {
+.peopleColumn_c2739c {
     background: var(--surcordFriendsBackground);
     border-left: 0.5px solid black;
 }
-.highlight__57b9f {
+.highlight_e01b91 {
     background-color: var(--accent-selected) !important;
 }
 
 .theme-light {
-    .peopleColumn__0c784 {
+    .peopleColumn_c2739c {
         background: var(--background-primary);
         border-left: 0.5px solid rgba(186, 186, 186, 0.386);
     }
-    .peopleListItem_dab480 {
+    .peopleListItem_d51464 {
         background: rgba(226, 221, 225, 0.89);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772);
@@ -70,22 +70,22 @@
         margin-top: 13px;
         padding-left: 10px;
     }
-    .peopleListItem_dab480:hover, .peopleListItem_dab480.active__6b8ff {
+    .peopleListItem_d51464:hover, .peopleListItem_d51464.active_d51464 {
         box-shadow: 0 0 3px 1px var(--accent);
     }
     .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
     .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
-    .interactiveSelected__689f0,
-    .interactiveSelected__689f0 .linkButtonIcon_cff89e {
+    .interactiveSelected_c91bad,
+    .interactiveSelected_c91bad .linkButtonIcon_c91bad {
         color: white;
     }
-    .peopleListItem_dab480.active__6b8ff+.peopleListItem_dab480, .peopleListItem_dab480:hover+.peopleListItem_dab480 {
+    .peopleListItem_d51464.active_d51464+.peopleListItem_d51464, .peopleListItem_d51464:hover+.peopleListItem_d51464 {
         border: 1px solid rgba(249, 249, 249, 0.772);
     }
 }
 
 /* Active Now */
-.itemCard_b64118 {
+.itemCard_f02fcf {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid var(--surCordBorder);
@@ -95,13 +95,13 @@
     margin-top: 13px;
     padding-left: 10px;
 }
-.section__253ec:only-child {
+.section_cd82a7:only-child {
     border: 1px solid var(--surCordBorder);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
 }
 
 .theme-light {
-    .itemCard_b64118 {
+    .itemCard_f02fcf {
         background: rgba(216, 215, 216, 0.89);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772);
@@ -110,14 +110,14 @@
         margin-top: 13px;
         padding-left: 10px;
     }
-    .section__253ec:only-child {
+    .section_cd82a7:only-child {
         background: rgba(226, 221, 225, 0.89);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772);
         backdrop-filter: blur(10px);
     }
 }
-.itemCard_b64118:hover {
+.itemCard_f02fcf:hover {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 3px 1px rgba(26, 127, 251, 0.487);
     border-radius: 10px;
@@ -130,10 +130,10 @@
 }
 
 /* Add Friend Text Box*/
-.addFriendInputWrapper__2b30b .inputDefault-3FGxgL {
+.addFriendInputWrapper_de812f .inputDefault-3FGxgL {
     border: 1px solid rgba(97, 96, 99, 0);
 }
-.addFriendInputWrapper__2b30b {
+.addFriendInputWrapper_de812f {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid var(--surCordBorder);
