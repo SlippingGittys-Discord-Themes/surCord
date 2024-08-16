@@ -74,6 +74,20 @@
     left: .7px;
 }
 
+.container_adcaac, .container_b2ca13 {
+  border-radius: 0px;
+}
+
+.button_adcaac .buttonColor_adcaac, .button_adcaac.buttonColor_adcaac {
+  border-radius: 15px !important;
+}
+
+.theme-dark .panel_bf1a22 {
+  background: var(--bg-overlay-1, var(--background-secondary-alt));
+  border-radius: 15px 15px 1px 1px;
+  border: .1px var(--surCordBorder) solid;
+}
+
 /* Channels */
 .modeSelected_d8bfb3 .icon_d8bfb3, .modeSelected_d8bfb3:hover .icon_d8bfb3, .modeUnreadImportant_d8bfb3 .icon_d8bfb3, .modeUnreadImportant_d8bfb3:hover .icon_d8bfb3, .mainContent_a08117 .overflow_a82120, .mainContent_a08117 {
     color: white;
