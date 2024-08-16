@@ -24,7 +24,7 @@
 }
 }
 
-/* User Settings + VC Controls -- Fix by Lucism & Domi */
+/* User Settings + VC Controls */
 .panels_a4d4d9 {
     border-radius: 20px;
     margin-bottom: 18px;
@@ -86,6 +86,11 @@
   background: var(--bg-overlay-1, var(--background-secondary-alt));
   border-radius: 15px 15px 1px 1px;
   border: .1px var(--surCordBorder) solid;
+}
+
+/* Muted Icons in VC/User Box */
+.theme-dark .panels_a4d4d9 .button_adca65 svg {
+  fill: var(--interactive-normal);
 }
 
 /* Channels */
