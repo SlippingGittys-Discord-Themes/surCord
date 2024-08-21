@@ -12,6 +12,15 @@
   .scrollableContainer_d0696b:hover {
     box-shadow: 0 0 2px 2px var(--accent-selected);
   }
+
+[class="buttonContainer_df39bd app-launcher-entrypoint"] {
+  border: 2px solid var(--surCordBorder);
+  border-radius: 50%;
+}
+[class="buttonContainer_df39bd app-launcher-entrypoint"]:hover {
+  box-shadow: 0 0 2px 2px var(--accent-selected);
+}
+
 .theme-light {
     .scrollableContainer_d0696b, .hasConnectedBar_d0696b, .preview_a614a7 {
         border-radius: 20px;
