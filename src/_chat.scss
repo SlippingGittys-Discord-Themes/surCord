@@ -14,9 +14,11 @@
   }
 
 [class="buttonContainer_df39bd app-launcher-entrypoint"] {
-  border: 2px solid var(--surCordBorder);
-  border-radius: 50%;
+  border: 1px solid var(--surCordBorder);
+  border-radius: 39%;
+  background-color: var(--bg-overlay-3, var(--channeltextarea-background));
 }
+
 [class="buttonContainer_df39bd app-launcher-entrypoint"]:hover {
   box-shadow: 0 0 2px 2px var(--accent-selected);
 }
