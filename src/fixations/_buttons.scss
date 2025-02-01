@@ -6,12 +6,12 @@
 
 
 /* Buttons */
-.button_a71a1c.buttonSize_a71a1c,
-.lookFilled_dd4f85.colorPrimary_dd4f85,
+.button_d5f3cd.buttonSize_d5f3cd,
+.lookFilled__201d5.colorPrimary__201d5,
 .popoutBannerPremium_c3e427 .pencilContainer_c3e427,
 .full-motion .button__292b6,
-.lookFilled_dd4f85.colorBrand_dd4f85,
-.navButtonActive_af5dbb {
+.lookFilled__201d5.colorBrand__201d5,
+.navButtonActive__08434 {
     background-color: var(--accent);
     color: white;
     border-radius: 50px;
@@ -19,7 +19,7 @@
 .popoutBannerPremium_c3e427 .pencilContainer_c3e427 {
     border: 1px solid rgb(255, 255, 255); 
 }
-.button_a71a1c.buttonSize_a71a1c:hover, .actionButton_e01b91:hover, .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover, .popoutBannerPremium_c3e427 .pencilContainer_c3e427:hover {
+.button_d5f3cd.buttonSize_d5f3cd:hover, .actionButton_f8fa06:hover, .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover, .popoutBannerPremium_c3e427 .pencilContainer_c3e427:hover {
     background-color: var(--accent-hover);
     border-radius: 10px;
     transition: 0.3s;
@@ -28,16 +28,16 @@
     border-radius: 10px;
     transition: 0.3s;
 }
-.actionButton_e01b91 {
+.actionButton_f8fa06 {
     background-color: var(--accent);
     color: white;
 }
-.lookFilled_dd4f85.colorRed_dd4f85 {
+.lookFilled__201d5.colorRed__201d5 {
   background: linear-gradient(to bottom, rgb(238, 52, 48) 0%, rgb(238, 52, 48) 50%, rgba(205, 43, 40, 0.999) 100%);
   border-radius: 50px;
   border: 1px solid rgb(182, 0, 0);
 }
-.lookOutlined_dd4f85.colorRed_dd4f85  {
+.lookOutlined__201d5.colorRed__201d5  {
   background: linear-gradient(to bottom, rgb(255, 4, 0) 0%, rgb(255, 4, 0) 50%, rgba(255, 4, 0, 0.999) 100%);
   border-radius: 50px;
 }
@@ -49,7 +49,7 @@
     background: linear-gradient(to bottom, rgb(238, 52, 48) 0%,rgb(238, 52, 48) 50%,rgba(238, 52, 48, 0.999) 100%);
     font-size: 10px;
   }
-  .iconBackgroundTierNone_d4a69b, .iconBackgroundTierOne_d4a69b, .iconBackgroundTierThree_d4a69b, .iconBackgroundTierTwo_d4a69b {
+  .iconBackgroundTierNone__97677, .iconBackgroundTierOne__97677, .iconBackgroundTierThree__97677, .iconBackgroundTierTwo__97677 {
       color: var(--accent);
   }
 

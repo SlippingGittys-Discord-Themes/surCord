@@ -82,22 +82,22 @@ https://github.com/SlippingGitty/surCord/blob/main/src/fixations/_settingsicons.
     --si-vencordsettingssync: url(https://files.catbox.moe/m1zwok.svg);
 }
 
-body #app-mount .sidebarRegion_c25c6d:has(.socialLinks_c44e94) {
+body #app-mount .sidebarRegion__23e6b:has(.socialLinks__7df54) {
 	flex-basis: calc(218px + (var(--use-settingsicons) * (var(--settingsicons-size) + var(--settingsicons-gap)))) !important;
 }
-body #app-mount .sidebar_c25c6d:has(.socialLinks_c44e94),
-body #app-mount .layer_d4b6c5  ~ .layer_d4b6c5  .sidebar_c25c6d:has(.socialLinks_c44e94) {
+body #app-mount .sidebar__23e6b:has(.socialLinks__7df54),
+body #app-mount .layer__960e4  ~ .layer__960e4  .sidebar__23e6b:has(.socialLinks__7df54) {
 	width: calc(218px + (var(--use-settingsicons) * (var(--settingsicons-size) + var(--settingsicons-gap)))) !important;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0 {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026 {
 	display: flex;
 	align-items: center;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0 > div {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026 > div {
 	flex: 1 1 auto;
 }
 
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026::before {
 	content: "";
 	flex: 0 0 auto;
 	width: calc(var(--use-settingsicons) * var(--settingsicons-size));
@@ -108,257 +108,257 @@ body #app-mount .layer_d4b6c5  ~ .layer_d4b6c5  .sidebar_c25c6d:has(.socialLinks
 	-webkit-mask: var(--settingsicons-default) center/contain no-repeat;
 }
 
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(2)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="my-account-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(2)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="my-account-tab" i]::before {
 	-webkit-mask: var(--settingsicons-myaccount) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(3)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="profile-customization-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(3)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="profile-customization-tab" i]::before {
 	-webkit-mask: var(--settingsicons-profile) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(4)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="privacy-&-safety-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(4)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="privacy-&-safety-tab" i]::before {
 	-webkit-mask: var(--settingsicons-privacy) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(5)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="family-center-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(5)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="family-center-tab" i]::before {
 	-webkit-mask: var(--settingsicons-family) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(6)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="authorized-apps-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(6)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="authorized-apps-tab" i]::before {
 	-webkit-mask: var(--settingsicons-apps) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(7)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="sessions-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(7)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="sessions-tab" i]::before {
 	-webkit-mask: var(--settingsicons-sessions) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(8)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="connections-tab" i]::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="passport-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(8)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="connections-tab" i]::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="passport-tab" i]::before {
 	-webkit-mask: var(--settingsicons-connections) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(9)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="friend-requests-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(9)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="friend-requests-tab" i]::before {
 	-webkit-mask: var(--settingsicons-friendrequests) center/contain no-repeat;
 }
 
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(12)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="discord-nitro-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(12)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="discord-nitro-tab" i]::before {
 	-webkit-mask: var(--settingsicons-nitro) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(13)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="nitro-server-boost-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(13)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="nitro-server-boost-tab" i]::before {
 	-webkit-mask: var(--settingsicons-boosts) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(14)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="subscriptions-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(14)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="subscriptions-tab" i]::before {
 	-webkit-mask: var(--settingsicons-subscriptions) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(15)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="library-inventory-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(15)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="library-inventory-tab" i]::before {
 	-webkit-mask: var(--settingsicons-gifts) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(16)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="billing-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(16)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="billing-tab" i]::before {
 	-webkit-mask: var(--settingsicons-billing) center/contain no-repeat;
 }
 
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(19)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="appearance-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(19)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="appearance-tab" i]::before {
 	-webkit-mask: var(--settingsicons-appearance) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(20)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="accessibility-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(20)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="accessibility-tab" i]::before {
 	-webkit-mask: var(--settingsicons-accessibility) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(21)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="voice-&-video-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(21)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="voice-&-video-tab" i]::before {
 	-webkit-mask: var(--settingsicons-voice) center/contain no-repeat;
 }
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="powermode-settings-tab" i]::before {
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="powermode-settings-tab" i]::before {
 	-webkit-mask: var(--settingsicons-powermode) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(22)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="text-&-images-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(22)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="text-&-images-tab" i]::before {
 	-webkit-mask: var(--settingsicons-text) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(23)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="notifications-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(23)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="notifications-tab" i]::before {
 	-webkit-mask: var(--settingsicons-notifications) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(24)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="keybinds-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(24)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="keybinds-tab" i]::before {
 	-webkit-mask: var(--settingsicons-keybinds) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(25)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="language-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(25)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="language-tab" i]::before {
 	-webkit-mask: var(--settingsicons-language) center/contain no-repeat;
 }
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(26)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="windows-tab" i]::before {
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(26)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="windows-tab" i]::before {
 	-webkit-mask: var(--settingsicons-windows) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(26)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(27)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="streamer-mode-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(26)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(27)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="streamer-mode-tab" i]::before {
 	-webkit-mask: var(--settingsicons-streamermode) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(27)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(28)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="advanced-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(27)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(28)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="advanced-tab" i]::before {
 	-webkit-mask: var(--settingsicons-advanced) center/contain no-repeat;
 }
 
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(30)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(31)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="activity-privacy-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(30)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(31)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="activity-privacy-tab" i]::before {
 	-webkit-mask: var(--settingsicons-activityprivacy) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(31)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(32)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="game-activity-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(31)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(32)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="game-activity-tab" i]::before {
 	-webkit-mask: var(--settingsicons-games) center/contain no-repeat;
 }
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(33)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="overlay-tab" i]::before {
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(33)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="overlay-tab" i]::before {
 	-webkit-mask: var(--settingsicons-overlay) center/contain no-repeat;
 }
 
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.bd-settings-tab::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.bd-settings-tab::before {
 	-webkit-mask: var(--settingsicons-bd-settings) center/contain no-repeat !important;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.bd-updates-tab::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.bd-updates-tab::before {
 	-webkit-mask: var(--settingsicons-bd-changelog) center/contain no-repeat !important;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.bd-customcss-tab::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.bd-customcss-tab::before {
 	-webkit-mask: var(--settingsicons-bd-customcss) center/contain no-repeat !important;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.bd-plugins-tab::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.bd-plugins-tab::before {
 	-webkit-mask: var(--settingsicons-bd-plugins) center/contain no-repeat !important;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.bd-themes-tab::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.bd-themes-tab::before {
 	-webkit-mask: var(--settingsicons-bd-themes) center/contain no-repeat !important;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab::before {
 	-webkit-mask: var(--settingsicons-bd-pluginrepo) center/contain no-repeat !important;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab::before {
 	-webkit-mask: var(--settingsicons-bd-themerepo) center/contain no-repeat !important;
 }
 
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(40)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(41)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(41)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(42)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(42)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(43)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(43)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(44)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="changelog-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(40)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(41)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(41)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(42)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(42)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(43)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(43)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(44)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="changelog-tab" i]::before {
 	-webkit-mask: var(--settingsicons-changelog) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(41)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(42)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(42)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(43)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(43)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(44)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(44)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(45)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="hypesquad-online-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(41)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(42)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(42)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(43)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(43)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(44)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(44)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(45)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="hypesquad-online-tab" i]::before {
 	-webkit-mask: var(--settingsicons-hypesquad) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(42)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(43)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(43)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(44)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(44)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(45)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(45)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(46)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="experiments-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(42)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(43)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(43)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(44)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(44)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(45)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(45)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(46)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="experiments-tab" i]::before {
 	-webkit-mask: var(--settingsicons-experiments) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(43)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(44)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(44)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(45)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(45)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(46)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(46)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(47)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="developer-options-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(43)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(44)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(44)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(45)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(45)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(46)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(46)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(47)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="developer-options-tab" i]::before {
 	-webkit-mask: var(--settingsicons-developer) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(44)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(45)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(45)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(46)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(46)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(47)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(47)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(48)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="hotspot-options-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(44)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(45)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(45)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(46)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(46)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(47)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(47)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(48)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="hotspot-options-tab" i]::before {
 	-webkit-mask: var(--settingsicons-hotspots) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(45)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(46)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(46)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(47)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(47)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(48)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(48)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(49)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="dismissible-content-options-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(45)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(46)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(46)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(47)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(47)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(48)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(48)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(49)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="dismissible-content-options-tab" i]::before {
 	-webkit-mask: var(--settingsicons-dismissable) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(46)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(47)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(47)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(48)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(48)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(49)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(49)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(50)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="payment-flow-modals-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(46)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(47)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(47)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(48)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(48)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(49)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(49)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(50)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="payment-flow-modals-tab" i]::before {
 	-webkit-mask: var(--settingsicons-paymentmodals) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(47)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(48)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(48)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(49)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(49)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(50)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(50)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(51)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="text-playground-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(47)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(48)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(48)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(49)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(49)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(50)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(50)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(51)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="text-playground-tab" i]::before {
 	-webkit-mask: var(--settingsicons-textplayground) center/contain no-repeat;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(48)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(49)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(49)::before,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(50)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-child(50)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0:nth-child(51)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.themerepo-tab ~ .item_a0:nth-child(51)::before,
-.platform-win .sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0.pluginrepo-tab ~ .item_a0.themerepo-tab ~ .item_a0:nth-child(52)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="text-component-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(48)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(49)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(49)::before,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(50)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-child(50)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026:nth-child(51)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(51)::before,
+.platform-win .sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026.pluginrepo-tab ~ .item_b3f026.themerepo-tab ~ .item_b3f026:nth-child(52)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="text-component-tab" i]::before {
 	-webkit-mask: var(--settingsicons-textcomponent) center/contain no-repeat;
 }
 
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0:nth-last-child(4)::before,
-#app-mount .sidebar_c25c6d .side_a0 .item_a0[aria-controls="logout-tab" i]::before {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026:nth-last-child(4)::before,
+#app-mount .sidebar__23e6b .side_b3f026 .item_b3f026[aria-controls="logout-tab" i]::before {
 	-webkit-mask: var(--settingsicons-logout) center/contain no-repeat !important;
 }
 
-.bd-server-search ~ .item_a0::before {
+.bd-server-search ~ .item_b3f026::before {
 	display: none;
 }
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .item_a0 .icon_f7189e,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .premiumLabel_ae3c77 > svg,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .premiumLabel_ae3c77 img,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .tabBarItemContainer_e7c031 > svg,
-.sidebar_c25c6d:has(.socialLinks_c44e94) .side_a0 .tabBarItemContainer_e7c031 img {
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .item_b3f026 .icon_cbe0b4,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .premiumLabel_e681d1 > svg,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .premiumLabel_e681d1 img,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .tabBarItemContainer_c7e907 > svg,
+.sidebar__23e6b:has(.socialLinks__7df54) .side_b3f026 .tabBarItemContainer_c7e907 img {
 	transform: scaleX(calc(1 - var(--use-settingsicons)));
 }
 
@@ -371,62 +371,62 @@ svg path[d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-
 }
 
 
-.sidebar_c25c6d .side_a0 .item_a0[data-tab-id=VencordSettings]::before {
+.sidebar__23e6b .side_b3f026 .item_b3f026[data-tab-id=VencordSettings]::before {
     -webkit-mask: var(--si-vencordsettings) center/contain no-repeat !important;
     mask: var(--si-vencordsettings) center/contain no-repeat !important
 }
 
-.sidebar_c25c6d .side_a0 .item_a0[data-tab-id=VencordPlugins]::before {
+.sidebar__23e6b .side_b3f026 .item_b3f026[data-tab-id=VencordPlugins]::before {
     -webkit-mask: var(--si-vencordplugins) center/contain no-repeat !important;
     mask: var(--si-vencordplugins) center/contain no-repeat !important
 }
 
-.sidebar_c25c6d .side_a0 .item_a0[data-tab-id=VencordThemes]::before {
+.sidebar__23e6b .side_b3f026 .item_b3f026[data-tab-id=VencordThemes]::before {
     -webkit-mask: var(--si-vencordthemes) center/contain no-repeat;
     mask: var(--si-vencordthemes) center/contain no-repeat
 }
 
-.sidebar_c25c6d .side_a0 .item_a0[data-tab-id=VencordUpdater]::before {
+.sidebar__23e6b .side_b3f026 .item_b3f026[data-tab-id=VencordUpdater]::before {
     -webkit-mask: var(--si-vencordupdater) center/contain no-repeat;
     mask: var(--si-vencordupdater) center/contain no-repeat
 }
 
-.sidebar_c25c6d .side_a0 .item_a0[data-tab-id=VencordCloud]::before {
+.sidebar__23e6b .side_b3f026 .item_b3f026[data-tab-id=VencordCloud]::before {
     -webkit-mask: var(--si-vencordcloud) center/contain no-repeat;
     mask: var(--si-vencordcloud) center/contain no-repeat
 }
 
-.sidebar_c25c6d .side_a0 .item_a0[data-tab-id=VencordSettingsSync]::before {
+.sidebar__23e6b .side_b3f026 .item_b3f026[data-tab-id=VencordSettingsSync]::before {
     -webkit-mask: var(--si-vencordsettingssync) center/contain no-repeat;
     mask: var(--si-vencordsettingssync) center/contain no-repeat
 }
 
-.sidebar_c25c6d .side_a0 .item_a0[data-tab-id=VencordSettings]::before {
+.sidebar__23e6b .side_b3f026 .item_b3f026[data-tab-id=VencordSettings]::before {
     -webkit-mask: var(--si-vencordsettings) center/contain no-repeat !important;
     mask: var(--si-vencordsettings) center/contain no-repeat !important
 }
 
-.sidebar_c25c6d .side_a0 .item_a0[data-tab-id=VencordPlugins]::before {
+.sidebar__23e6b .side_b3f026 .item_b3f026[data-tab-id=VencordPlugins]::before {
     -webkit-mask: var(--si-vencordplugins) center/contain no-repeat !important;
     mask: var(--si-vencordplugins) center/contain no-repeat !important
 }
 
-.sidebar_c25c6d .side_a0 .item_a0[data-tab-id=VencordThemes]::before {
+.sidebar__23e6b .side_b3f026 .item_b3f026[data-tab-id=VencordThemes]::before {
     -webkit-mask: var(--si-vencordthemes) center/contain no-repeat;
     mask: var(--si-vencordthemes) center/contain no-repeat
 }
 
-.sidebar_c25c6d .side_a0 .item_a0[data-tab-id=VencordUpdater]::before {
+.sidebar__23e6b .side_b3f026 .item_b3f026[data-tab-id=VencordUpdater]::before {
     -webkit-mask: var(--si-vencordupdater) center/contain no-repeat;
     mask: var(--si-vencordupdater) center/contain no-repeat
 }
 
-.sidebar_c25c6d .side_a0 .item_a0[data-tab-id=VencordCloud]::before {
+.sidebar__23e6b .side_b3f026 .item_b3f026[data-tab-id=VencordCloud]::before {
     -webkit-mask: var(--si-vencordcloud) center/contain no-repeat;
     mask: var(--si-vencordcloud) center/contain no-repeat
 }
 
-.sidebar_c25c6d .side_a0 .item_a0[data-tab-id=VencordSettingsSync]::before {
+.sidebar__23e6b .side_b3f026 .item_b3f026[data-tab-id=VencordSettingsSync]::before {
     -webkit-mask: var(--si-vencordsettingssync) center/contain no-repeat;
     mask: var(--si-vencordsettingssync) center/contain no-repeat
 }
