@@ -7,82 +7,82 @@
 
 /* Title Bar */
 .theme-dark { 
-.container_fc4f04.themed_fc4f04, .header_fd6364 {
+.container__9293f.themed__9293f, .header_f37cb1 {
     background: var(--surCordTitleBar);
     border-bottom: .5px solid black;
 }
-.children_fc4f04:after {
+.children__9293f:after {
   background: #00000000;
 }
-.themed_fc4f04 {
+.themed__9293f {
   background: var(--surCordTitleBar);
   border-bottom: .5px solid black;
 }
-    .communityInfoVisible_fd6364 .header_fd6364, .communityInfoVisible_fd6364 .header_fd6364:hover, .hasBanner_fd6364 .header_fd6364, .hasBanner_fd6364 .header_fd6364:hover {
+    .communityInfoVisible_f37cb1 .header_f37cb1, .communityInfoVisible_f37cb1 .header_f37cb1:hover, .hasBanner_f37cb1 .header_f37cb1, .hasBanner_f37cb1 .header_f37cb1:hover {
       border-bottom: .5px solid rgba(0, 0, 0, 0);
       background-color: transparent !important;
     }
-    .communityInfoPill_fd6364 {
+    .communityInfoPill_f37cb1 {
         display: none;
     }
- .children_fc4f04:after {
+ .children__9293f:after {
     background: rgba(0, 0, 0, 0);
 }
-    .title_fc4f04 {
+    .title__9293f {
         font-weight: 750;
     }
 }
 .theme-light {
- .container_fc4f04.themed_fc4f04, .header_fd6364{
+ .container__9293f.themed__9293f, .header_f37cb1{
         background: rgba(231, 234, 237) !important; 
         border-bottom: .5px solid rgba(186, 186, 186, 0.386);
     }
-        .communityInfoVisible_fd6364 .header_fd6364, .communityInfoVisible_fd6364 .header_fd6364:hover, .hasBanner_fd6364 .header_fd6364, .hasBanner_fd6364 .header_fd6364:hover {
+        .communityInfoVisible_f37cb1 .header_f37cb1, .communityInfoVisible_f37cb1 .header_f37cb1:hover, .hasBanner_f37cb1 .header_f37cb1, .hasBanner_f37cb1 .header_f37cb1:hover {
           border-bottom: .5px solid rgba(0, 0, 0, 0);
           background-color: transparent !important;
         }
-        .communityInfoPill_fd6364 {
+        .communityInfoPill_f37cb1 {
             display: none;
         }
-     .children_fc4f04:after {
+     .children__9293f:after {
         background: rgba(0, 0, 0, 0);
     }
-        .title_fc4f04 {
+        .title__9293f {
             font-weight: 750;
             color: rgba(73, 73, 73);
         }
-    .clickable_fc4f04 .icon_fc4f04 {
+    .clickable__9293f .icon__9293f {
         color: rgba(115, 115, 115);
     }
 }
 
- .searchBar_f0963d {
+ .searchBar__35e86 {
     border-right: .5px solid black;
 }
 .theme-light {
-.searchBar_f0963d {
+.searchBar__35e86 {
     border-right: .5px solid rgba(186, 186, 186, 0.386)
 }
 }
 
 /* Search and other Text fields */
 .theme-dark {
-.searchBar_a46bef, .searchBar_f0963d .searchBarComponent_f0963d, .inner__999f6, .wrapper_c4c084, .searchBar_c6ee36, .input_df4dd0 {
+.searchBar__97492, .searchBar__35e86 .searchBarComponent__35e86, .inner__999f6, .wrapper_c4c084, .searchBar_c0e32c, .input_df4dd0 {
     background-color: var(--surCordSearch);
     border-radius: 4px;
     border: 1px solid var(--surCordBorder); 
 }
-.searchBar_a46bef:hover, .searchBar_f0963d .searchBarComponent_f0963d:hover, .wrapper_c4c084:hover,  .inner__999f6:hover, .searchBar_c6ee36:hover, .input_df4dd0:hover, .searchBar_e0840f:hover {
+.searchBar__97492:hover, .searchBar__35e86 .searchBarComponent__35e86:hover, .wrapper_c4c084:hover,  .inner__999f6:hover, .searchBar_c0e32c:hover, .input_df4dd0:hover, .searchBar__5ec2f:hover {
     box-shadow: 0 0 3px 3px var(--accent-focused);
 }
 }
 .theme-light {
-    .searchBar_a46bef, .searchBar_f0963d .searchBarComponent_f0963d, .inner__999f6, .wrapper_c4c084, .searchBar_c6ee36, .input_df4dd0 {
+    .searchBar__97492, .searchBar__35e86 .searchBarComponent__35e86, .inner__999f6, .wrapper_c4c084, .searchBar_c0e32c, .input_df4dd0 {
         background-color: rgb(238, 238, 238);
         border-radius: 4px;
         border: 1px solid rgb(217, 217, 217); 
     }
-    .searchBar_a46bef:hover, .searchBar_f0963d .searchBarComponent_f0963d:hover, .wrapper_c4c084:hover,  .inner__999f6:hover, .searchBar_c6ee36:hover, .input_df4dd0:hover, .searchBar_e0840f:hover {
+    .searchBar__97492:hover, .searchBar__35e86 .searchBarComponent__35e86:hover, .wrapper_c4c084:hover,  .inner__999f6:hover, .searchBar_c0e32c:hover, .input_df4dd0:hover, .searchBar__5ec2f:hover {
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
     }
 }

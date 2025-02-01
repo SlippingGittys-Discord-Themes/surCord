@@ -5,61 +5,61 @@
 /*
 
 /* Text Box */
-.scrollableContainer_bdf0de, .hasStackedBar_bdf0de, .preview_a614a7 {
+.scrollableContainer__74017, .hasStackedBar__74017, .preview__3e443 {
     border-radius: 20px;
     border: 1px solid var(--surCordBorder); 
   }
-  .scrollableContainer_bdf0de:hover {
+  .scrollableContainer__74017:hover {
     box-shadow: 0 0 2px 2px var(--accent-selected);
   }
 
-[class="buttonContainer_df39bd app-launcher-entrypoint"] {
+[class="buttonContainer_e6e74f app-launcher-entrypoint"] {
   border: 1px solid var(--surCordBorder);
   border-radius: 39%;
   background-color: var(--bg-overlay-3, var(--channeltextarea-background));
 }
 
-[class="buttonContainer_df39bd app-launcher-entrypoint"]:hover {
+[class="buttonContainer_e6e74f app-launcher-entrypoint"]:hover {
   box-shadow: 0 0 2px 2px var(--accent-selected);
 }
 
 .theme-light {
-    .scrollableContainer_bdf0de, .hasStackedBar_bdf0de, .preview_a614a7 {
+    .scrollableContainer__74017, .hasStackedBar__74017, .preview__3e443 {
         border-radius: 20px;
         background: rgba(231, 234, 237) !important; 
         border: 1px solid rgb(97, 96, 99); 
       }
-      .scrollableContainer_bdf0de:hover {
+      .scrollableContainer__74017:hover {
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
       }
 }
-  .theme-dark .autocomplete_bcc24e {
+  .theme-dark .autocomplete__13533 {
     background: rgba(41, 38, 39, 0.276);
     backdrop-filter: blur(20px);
     border: 1px solid var(--surCordBorder); 
     }
-    .upload_df1eaf {
+    .upload_aa605f {
         background: rgba(8, 4, 5, 0.429);
         border: 1px solid var(--surCordBorder); 
     }
-    .actionBar_df1eaf .wrapper_f7e168 {
+    .actionBar_aa605f .wrapper_f7ecac {
         background: rgba(8, 4, 5, 0.429);
         backdrop-filter: blur(3px);
         border: 1px solid var(--surCordBorder); 
         border-radius: 50px;
     }
 .theme-light {
-    .autocomplete_bcc24e {
+    .autocomplete__13533 {
         background: rgba(231, 234, 237, 0.436) !important; 
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772); 
         }
-        .upload_df1eaf {
+        .upload_aa605f {
             background: rgba(231, 234, 237, 0.436) !important; 
             border: 1px solid rgba(249, 249, 249, 0.772); 
         }
-        .actionBar_df1eaf .wrapper_f7e168 {
+        .actionBar_aa605f .wrapper_f7ecac {
             background: rgba(231, 234, 237, 0.436) !important; 
             backdrop-filter: blur(20px);
             box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
@@ -67,17 +67,17 @@
             border-radius: 50px;
         }
 }
-.autocompleteRowVerticalSmall_bcc24e .base_bcc24e:hover, .clickable_bcc24e[aria-disabled=false]>.base_bcc24e:hover {
+.autocompleteRowVerticalSmall__13533 .base__13533:hover, .clickable__13533[aria-disabled=false]>.base__13533:hover {
     background-color: rgba(26, 127, 251, 0.612) !important; 
 backdrop-filter: blur(10px);
 }
-    .clickable_bcc24e[aria-disabled=false]>.base_bcc24e:hover, .clickable_bcc24e[aria-selected=true]>.base_bcc24e {
+    .clickable__13533[aria-disabled=false]>.base__13533:hover, .clickable__13533[aria-selected=true]>.base__13533 {
         background-color: rgba(26, 127, 251, 0.353) !important; 
     backdrop-filter: blur(10px);
     }
 
 /* New Messages Banner */
-.newMessagesBar_cf58b5 {
+.newMessagesBar__0f481 {
     background-color: var(--accent-selected) !important; 
     backdrop-filter: blur(10px);
     border-radius: 50px;
@@ -85,38 +85,38 @@ backdrop-filter: blur(10px);
 }
 
 /* Reply Bar */
-.replyBar_b11c5e, .jumpToPresentBar_cf58b5 {
+.replyBar__841c8, .jumpToPresentBar__0f481 {
     background-color: var(--accent-selected) !important; 
     backdrop-filter: blur(10px);
     border-radius: 50px;
     padding-bottom: 1px;
     margin-bottom: 12px;  
 }
-.barBase_cf58b5:hover {
+.barBase__0f481:hover {
     margin-bottom: 12px;  
 }
-.stackedBars_bdf0de, .clipContainer_b11c5e, .container_b11c5e, .channelTextArea_a7d72e {
+.stackedBars__74017, .clipContainer__841c8, .container__841c8, .channelTextArea_f75fb0 {
     background: transparent;
 }
 
 /* Embeds and MarkUp */
-.grid_b0068a, .markup_f8f345 code, .attachment_b52bef, .theme-dark .wrapperAudio_f316dd{
+.grid__623de, .markup__75297 code, .fileWrapper__0ccae, .theme-dark .wrapperAudio_f316dd{
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid var(--surCordBorder); 
     background: rgba(41, 38, 39, 0.276);
 }
-.embedFull_b0068a {
+.embedFull__623de {
         background-color: transparent;
     }
 .theme-light {
-    .grid_b0068a, .markup_f8f345 code, .attachment_b52bef, .theme-dark .wrapperAudio_f316dd{
+    .grid__623de, .markup__75297 code, .fileWrapper__0ccae, .theme-dark .wrapperAudio_f316dd{
         background: rgba(231, 234, 237, 0.436) !important; 
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772); 
     }
 }
 /* Nitro Claim a Gift, Join a Server */
-.description_ab47a1, .userSelectNone_c16c2b  {
+.description__72090, .userSelectNone_c16c2b  {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
     border: 1px solid var(--surCordBorder); 
@@ -124,7 +124,7 @@ backdrop-filter: blur(10px);
     background: rgba(41, 38, 39, 0.276);
 }
 .theme-light {
-.description_ab47a1, .userSelectNone_c16c2b {
+.description__72090, .userSelectNone_c16c2b {
     background: rgba(231, 234, 237, 0.436) !important; 
     backdrop-filter: blur(20px);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
@@ -134,20 +134,20 @@ backdrop-filter: blur(10px);
 }
 
 /* Empty Channel Icon */
-.emptyChannelIcon_c2668b {
+.emptyChannelIcon__00de6 {
     background-color: var(--accent);
 }
 
 /* Reply Highlight */
 
 #app-mount {
-    .message_d5deea {
+    .message__5126c {
         margin-left: 5px;
         border-radius: vaR(--accent-focused); // ARG, MATEY! :KarenPirate:
         &::before {
             border-radius: 6px;
         }
-    &.mentioned_d5deea {
+    &.mentioned__5126c {
             background-color: var(--accent-focused);
             &::before {
                 background-color: var(--accent);
@@ -156,7 +156,7 @@ backdrop-filter: blur(10px);
                 background-color: var(--accent-focused);
             }
         }
-    &.replying_d5deea, &.ephemeral_d5deea {
+    &.replying__5126c, &.ephemeral__5126c {
         background-color: var(--accent-focused);
         &::before {
             background-color: var(--accent);
