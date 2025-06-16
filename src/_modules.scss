@@ -262,7 +262,14 @@ experimental hot patches for now
     border: 1px solid var(--surCordBorder); 
 }
 
-.visual-refresh .container__37e49 {
+.message__5126c.selected__5126c .buttonsInner__5126c, .mouse-mode .message__5126c:hover .buttonsInner__5126c {
+      background: rgba(0, 0, 0, 0.436); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid var(--surCordBorder); 
+}
+
+.visual-refresh .container__37e49, .visual-refresh .privateChannels__35e86 {
   background: transparent;
 }
 
@@ -278,3 +285,4 @@ experimental hot patches for now
 .visual-refresh .replyBar__841c8, .visual-refresh .threadSuggestionBar__841c8 {
       border: 0px;
 }
+
