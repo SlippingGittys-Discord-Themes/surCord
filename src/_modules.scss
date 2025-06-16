@@ -246,3 +246,30 @@ experimental hot patches for now
 .visual-refresh .container__2637a {
     background: var(--surCordBackground2);
 }
+
+.theme-dark .container__37e49 {
+  border-radius: 15px;
+    background: rgba(0, 0, 0, 0.436); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid var(--surCordBorder); 
+}
+
+.visual-refresh .wrapperAudio_cf09d8, .visual-refresh .grid__623de, .visual-refresh .container_d9c882, .visual-refresh .header_d9c882 {
+    background: rgba(0, 0, 0, 0.436); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid var(--surCordBorder); 
+}
+
+.visual-refresh .container__37e49 {
+  background: transparent;
+}
+
+.guilds_c48ade {
+    margin-top: 0px;
+}
+
+.floatingBars__74017:empty+.stackedBars__74017:nth-child(2), .stackedBars__74017:first-child {
+    background: rgba(0, 0, 0, 0);
+}
