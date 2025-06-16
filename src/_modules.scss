@@ -235,7 +235,7 @@ experimental hot patches for now
   background-color: var(--surCordGuilds);
 }
 
-.scrollableContainer__74017, .hasStackedBar__74017, .preview__3e443 {
+.scrollableContainer__74017, .hasStackedBar__74017, .preview__3e443, .visual-refresh .channelAttachmentArea_b77158 {
   background-color: var(--surCordTextBackground);
 }
 
@@ -255,7 +255,7 @@ experimental hot patches for now
     border: 1px solid var(--surCordBorder); 
 }
 
-.visual-refresh .wrapperAudio_cf09d8, .visual-refresh .grid__623de, .visual-refresh .container_d9c882, .visual-refresh .header_d9c882 {
+.visual-refresh .wrapperAudio_cf09d8, .visual-refresh .grid__623de, .visual-refresh .container_d9c882, .visual-refresh .header_d9c882, .visual-refresh .upload_aa605f {
     background: rgba(0, 0, 0, 0.436); 
     backdrop-filter: blur(10px);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
@@ -270,6 +270,11 @@ experimental hot patches for now
     margin-top: 0px;
 }
 
-.floatingBars__74017:empty+.stackedBars__74017:nth-child(2), .stackedBars__74017:first-child {
+.visual-refresh .channelTextArea_f75fb0 {
     background: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+
+.visual-refresh .replyBar__841c8, .visual-refresh .threadSuggestionBar__841c8 {
+      border: 0px;
 }
