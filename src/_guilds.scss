@@ -14,26 +14,26 @@
         background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87));
         backdrop-filter: blur(5px);
     }
-    .expandedFolderBackground__48112 {
+    .folderGroupBackground__48112 {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid var(--surCordBorder);
         border-radius: 15px;
         background: rgba(41, 38, 39, 0.276);
     }
-    .closedFolderIconWrapper__48112 {
+    .folderPreview__48112 {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid var(--surCordBorder);
         border-radius: 15px;
         background: rgba(41, 38, 39, 0.276);
     }
-    .expandedFolderBackground__48112.collapsed__48112,
-    .expandedFolderBackground__48112.collapsed__48112.hover__48112 {
+    .folderGroupBackground__48112.collapsed__48112,
+    .folderGroupBackground__48112.collapsed__48112.hover__48112 {
         display: none;
     }
-    .folder__48112,
-    .folder__48112:hover {
+    .hiddenVisually__27f77,
+    .hiddenVisually__27f77:hover {
         background-color: #00000000;
     }
     .item__58105 {
@@ -64,26 +64,26 @@
     .unreadMentionsIndicatorBottom_ef3116 .unreadMentionsBar_ef3116 {
         background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87));
     }
-    .expandedFolderBackground__48112 {
+    .folderGroupBackground__48112 {
         backdrop-filter: blur(20px);
         background: rgba(226, 221, 225, 0.89);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772);
         border-radius: 15px;
     }
-    .closedFolderIconWrapper__48112 {
+    .folderPreview__48112 {
         backdrop-filter: blur(20px);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
         border: 1px solid rgb(186, 186, 186);
         border-radius: 15px;
         background: rgba(207, 222, 222, 0.276);
     }
-    .expandedFolderBackground__48112.collapsed__48112,
-    .expandedFolderBackground__48112.collapsed__48112.hover__48112 {
+    .folderGroupBackground__48112.collapsed__48112,
+    .folderGroupBackground__48112.collapsed__48112.hover__48112 {
         display: none;
     }
-    .folder__48112,
-    .folder__48112:hover {
+    .hiddenVisually__27f77,
+    .hiddenVisually__27f77:hover {
         background-color: #00000000;
     }
     .item__58105 {
