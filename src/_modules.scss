@@ -297,3 +297,56 @@ input[type="checkbox"] {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
   line-height: 17px !important;
 }
+
+
+
+/* 
+
+
+
+experimental hot patches for now 
+
+
+
+*/
+
+
+.scrollerInner__36d07 {
+  background-color: var(--surCordBackground);
+}
+
+.visual-refresh .form_f75fb0 {
+    background-color: var(--surCordBackground);
+}
+
+.members_c8ffbb, .membersListNotices_c8ffbb {
+  background-color: var(--surCordBackground2);  
+}
+
+.scroller__36d07 {
+   background-color: var(--surCordBackground); 
+}
+
+.visual-refresh .scroller__629e4, .childContainer__91a9d {
+  background-color: var(--surCordBackground2);    
+}
+
+.visual-refresh .sidebar_c48ade:after, .visual-refresh .panels_c48ade, .panels_c48ade, .visual-refresh .scroller__99e7c, .visual-refresh .sidebarListRounded_c48ade {
+    background-color: var(--surCordBackground2) !important;    
+}
+
+.platform-win .sidebar_c48ade {
+  background-color: var(--surCordGuilds);
+}
+
+.scrollableContainer__74017, .hasStackedBar__74017, .preview__3e443 {
+  background-color: var(--surCordTextBackground);
+}
+
+.visual-refresh .channelTextArea_f75fb0 {
+  background-color: transparent;
+}
+
+.visual-refresh .container__2637a {
+    background: var(--surCordBackground2);
+}
