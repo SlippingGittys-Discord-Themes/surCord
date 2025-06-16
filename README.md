@@ -1,4 +1,4 @@
-# broken rn
+# Fixes are WIP
 
 <h1 align="center">surCord</h1>
 <p align="center">Hello. Again. </p>
