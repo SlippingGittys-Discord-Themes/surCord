@@ -86,3 +86,120 @@
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
     }
 }
+
+
+
+/* removes gay discord title bar bs */
+
+.visual-refresh {
+  --vr-header-snippet-top: 0px;
+  --vr-header-snippet-server-padding: 16px;
+  --vr-header-snippet-space: 230px;
+  --vr-header-snippet-button-padding: 0;
+
+  div.chat_f75fb0:not(.threadSidebarOpen_f75fb0),
+  main.container__133bf,
+  div.chatLayerWrapper__01ae2 {
+    & section.container__9293f {
+      padding-right: var(--vr-header-snippet-space);
+    }
+  }
+
+  div.headerBar__8a7fc.overlay__8a7fc {
+    padding-right: var(--vr-header-snippet-space);
+
+    & .tab__65d41,
+    & .searchBar__1ac1c {
+      -webkit-app-region: no-drag;
+    }
+  }
+
+  div.videoControls_bfe55a div.subtitleContainer__49508 {
+    padding-right: calc(var(--vr-header-snippet-space) - 20px);
+
+    & .toolbar__9293f {
+      -webkit-app-region: no-drag;
+    }
+  }
+
+  div.page_c48ade {
+    &:not(:has(> div.chat_f75fb0)) {
+      anchor-name: --vr-header-snippet;
+    }
+
+    & > div.chat_f75fb0 {
+      anchor-name: --vr-header-snippet;
+    }
+  }
+
+  div.base_c48ade {
+    grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
+
+    &:has(div.bar_c38106 > div.trailing_c38106 .updateIconForeground__49676) {
+      & div.chat_f75fb0,
+      & div.subtitleContainer_f75fb0,
+      & main.container__133bf,
+      & div.chatLayerWrapper__01ae2 {
+        & section.container__9293f {
+          padding-right: calc(var(--vr-header-snippet-space) + 50px);
+        }
+      }
+
+      & div.videoControls_bfe55a .topControls_bfe55a div.toolbar__9293f {
+        margin-right: calc(var(--vr-header-snippet-space) + 30px) !important;
+      }
+    }
+
+    & > div.content_c48ade {
+      z-index: 0;
+    }
+
+    & > div.bar_c38106 {
+      position: absolute;
+      position-anchor: --vr-header-snippet;
+      top: var(--vr-header-snippet-top);
+      right: anchor(right);
+      width: anchor-size(width);
+      padding: 0 var(--vr-header-snippet-button-padding) 0 0;
+
+      & > .title_c38106 {
+        display: none;
+      }
+    }
+
+    &:has(> .notice__6e2b9) {
+      & > div.bar_c38106 {
+        top: anchor(top);
+      }
+    }
+
+    & div.trailing_c38106 {
+      background: none;
+      border: none;
+      height: var(--custom-channel-header-height);
+    }
+
+    &:has(.threadSidebarOpen_f75fb0.threadSidebarFloating_f75fb0) > .bar_c38106 {
+      z-index: 0;
+    }
+  }
+
+  :not(:has(div.page_c48ade > div.chat_f75fb0)) div.base_c48ade > div.bar_c38106 {
+    right: 0 !important;
+  }
+
+  ul[data-list-id="guildsnav"] > div.itemsContainer_ef3116 > div.stack_dbd263 {
+    margin-top: var(--vr-header-snippet-server-padding);
+  }
+
+  section.header__0b563 div.toolbar__9293f,
+  section.header_c791b2 div.toolbar__9293f,
+  section.header_c791b2 div.children__9293f,
+  :not(.videoControls_bfe55a) div.topic__6ec1a {
+    -webkit-app-region: no-drag;
+  }
+
+  .div.videoControls_bfe55a .topControls_bfe55a {
+    z-index: -1;
+  }
+}
