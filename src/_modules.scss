@@ -413,6 +413,10 @@ Y88b      / ,e,                           888
   backdrop-filter: blur(10px);
 }
 
+.visual-refresh .scroller__629e4, .childContainer__91a9d {
+    background-color: transparent;
+}
+
 .visual-refresh #vc-spotify-player {
   background: rgba(0, 0, 0, 0.436);
   backdrop-filter: blur(10px);
@@ -420,3 +424,5 @@ Y88b      / ,e,                           888
   border: 1px solid var(--surCordBorder);
   border-radius: 15px;
 }
+
+
