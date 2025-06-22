@@ -196,6 +196,62 @@ input[type="checkbox"] {
 
 /* ----------- macOS title bar by LuckFire --------------- */
 
+.guilds_c48ade {
+  margin-top: 25px;
+  /* margin-right: 15px; */
+}
+
+.itemsContainer_ef3116, .tree_ef3116 {
+  /*  margin-left: 4px; */
+}
+
+.platform-win .winButtons_c38106 {
+    gap: 0px !important;
+}
+
+
+.platform-win .winButtons_c38106 {
+  left: 3px;
+  position: fixed;
+  flex-direction: row-reverse;
+}
+.platform-win .bar_c38106[data-windows=true] {
+  padding-right: var(--space-12);
+}
+.platform-win .winButtonsWithDivider_c38106:before {
+  display: none;
+}
+.platform-win .winButton_c38106 {
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+  border-radius: 15px;
+  background-color: var(--background-primary);
+  background-size: 0;
+  -webkit-app-region: no-drag;
+}
+.platform-win .winButton_c38106 svg {
+  display: none;
+}
+.platform-win.app-focused .winButtons_c38106:hover .winButton_c38106 {
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.platform-win.app-focused .winButtons_c38106 .winButtonClose_c38106 {
+  background-color: #ff5c57;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUuMjkyODkgNkwyLjgxODAxIDMuNTI1MTNMMy41MjUxMiAyLjgxODAyTDUuOTk5OTkgNS4yOTI4OUw4LjQ3NDg3IDIuODE4MDJMOS4xODE5NyAzLjUyNTEzTDYuNzA3MSA2TDkuMTgxOTcgOC40NzQ4N0w4LjQ3NDg3IDkuMTgxOThMNS45OTk5OSA2LjcwNzExTDMuNTI1MTIgOS4xODE5OEwyLjgxODAxIDguNDc0ODdMNS4yOTI4OSA2WiIgZmlsbD0iI0EyMDAwOCIvPgo8L3N2Zz4=);
+}
+.platform-win.app-focused .winButtons_c38106 .winButtonMinMax_c38106:nth-child(1) {
+  background-color: #fdbd3d;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDUuMzk5OTlIMlY2LjU5OTk5SDEwVjUuMzk5OTlaIiBmaWxsPSIjQjM3MTFBIi8+Cjwvc3ZnPg==);
+}
+.platform-win.app-focused .winButtons_c38106 .winButtonMinMax_c38106:nth-child(2) {
+  order: -1;
+  background-color: #26c84b;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuMzkyOTMgMy4wMDg5M0wzLjAwODg3IDcuMzkyOTlMMi44MTc5NSAyLjgxODAxTDcuMzkyOTMgMy4wMDg5M1oiIGZpbGw9IiMwMjZBMTUiLz4KPHBhdGggZD0iTTQuNjA2OTUgOC45OTEwMUw4Ljk5MTAxIDQuNjA2OTVMOS4xODE5MyA5LjE4MTkzTDQuNjA2OTUgOC45OTEwMVogIiBmaWxsPSIjMDI2QTE1Ii8+Cjwvc3ZnPg==);
+}
+
 
 /* 
 
