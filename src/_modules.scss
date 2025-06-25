@@ -271,35 +271,24 @@ Y88b      / ,e,                           888
 888 ~-_   "88___/   "88_/888  "88___/  \_88P  888 Cb      888  888 
                                                    Y8""8D          
 */
-
-.scrollerInner__36d07 {
-  background-color: var(--surCordBackground);
-}
-
+/* General Layout and Backgrounds */
+.scrollerInner__36d07,
+.scroller__36d07,
 .visual-refresh .form_f75fb0 {
   background-color: var(--surCordBackground);
 }
 
 .members_c8ffbb,
-.membersListNotices_c8ffbb {
-  background-color: var(--surCordBackground2);
-}
-
-.visual-refresh .scroller__629e4 {
-    background-color: transparent;
-}
-
-.container__91a9d {
-    padding: 0px;
-}
-
-.scroller__36d07 {
-  background-color: var(--surCordBackground);
-}
-
+.membersListNotices_c8ffbb,
 .visual-refresh .scroller__629e4,
-.childContainer__91a9d {
+.childContainer__91a9d,
+.visual-refresh .container__2637a,
+.visual-refresh .sidebarRegionScroller__23e6b {
   background-color: var(--surCordBackground2);
+}
+
+.visual-refresh .scroller__629e4 .childContainer__91a9d {
+    background-color: transparent !important;
 }
 
 .visual-refresh .sidebar_c48ade:after,
@@ -314,67 +303,59 @@ Y88b      / ,e,                           888
   background-color: var(--surCordGuilds);
 }
 
-.scrollableContainer__74017,
-.hasStackedBar__74017,
-.preview__3e443,
-.visual-refresh .channelAttachmentArea_b77158 {
-  background-color: var(--surCordTextBackground);
-}
-
+.visual-refresh .scroller__629e4,
 .visual-refresh .channelTextArea_f75fb0 {
   background-color: transparent;
 }
 
-.visual-refresh .container__2637a {
-  background: var(--surCordBackground2);
+.visual-refresh .container__2637a .scroller__629e4 {
+  background-color: transparent !important;
 }
 
-.theme-dark .container__37e49 {
-  border-radius: 15px;
-  background: rgba(0, 0, 0, 0.436);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-  border: 1px solid var(--surCordBorder);
+.scrollableContainer__74017,
+.hasStackedBar__74017,
+.preview__3e443,
+.visual-refresh .channelAttachmentArea_b77158,
+.visual-refresh.platform-win .contentRegionScroller__23e6b {
+  background-color: var(--surCordTextBackground);
 }
 
+/* Specific Element Styling with Blur/Shadow/Border */
+.theme-dark .container__37e49,
 .visual-refresh .wrapperAudio_cf09d8,
 .visual-refresh .grid__623de,
 .visual-refresh .container_d9c882,
 .visual-refresh .header_d9c882,
-.visual-refresh .upload_aa605f {
-  background: rgba(0, 0, 0, 0.436);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-  border: 1px solid var(--surCordBorder);
-}
-
+.visual-refresh .upload_aa605f,
 .message__5126c.selected__5126c .buttonsInner__5126c,
-.mouse-mode .message__5126c:hover .buttonsInner__5126c {
+.mouse-mode .message__5126c:hover .buttonsInner__5126c,
+.visual-refresh .contentWrapper__08434,
+.visual-refresh #vc-spotify-player {
   background: rgba(0, 0, 0, 0.436);
   backdrop-filter: blur(10px);
   box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
   border: 1px solid var(--surCordBorder);
 }
 
-.visual-refresh .container__37e49,
-.visual-refresh .privateChannels__35e86 {
-  background: transparent;
+.visual-refresh #vc-spotify-player,
+.theme-dark .container__37e49 {
+  border-radius: 15px;
 }
 
-.guilds_c48ade {
-  margin-top: 0px;
+.visual-refresh .emojiPickerHasTabWrapper_c0e32c .header_c0e32c,
+.scroller_affa7e,
+.visual-refresh .wrapper__14245,
+.visual-refresh .header__8ef02,
+.visual-refresh .header_fed6d3,
+.visual-refresh .inspector_aeaaeb {
+  background: rgba(0, 0, 0, 0.436);
 }
 
-.visual-refresh .channelTextArea_f75fb0 {
-  background: rgba(0, 0, 0, 0);
-  border: 0px;
+.visual-refresh .inspector_aeaaeb {
+  backdrop-filter: blur(10px);
 }
 
-.visual-refresh .replyBar__841c8,
-.visual-refresh .threadSuggestionBar__841c8 {
-  border: 0px;
-}
-
+/* Buttons and Inputs */
 .button_d5f3cd.buttonSize_d5f3cd,
 .lookFilled__201d5.colorPrimary__201d5,
 .popoutBannerPremium_c3e427 .pencilContainer_c3e427,
@@ -387,47 +368,31 @@ Y88b      / ,e,                           888
   border-radius: 50px;
 }
 
-.visual-refresh .sidebarRegionScroller__23e6b {
-  background: var(--surCordBackground2);
+/* Overrides and Specific Adjustments */
+.container__91a9d {
+  padding: 0px;
 }
 
-.visual-refresh.platform-win .contentRegionScroller__23e6b {
-  background-color: var(--surCordTextBackground);
-
+.visual-refresh .container__37e49,
+.visual-refresh .privateChannels__35e86 {
+  background: transparent;
 }
 
-.visual-refresh .contentWrapper__08434 {
-  background: rgba(0, 0, 0, 0.436);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-  border: 1px solid var(--surCordBorder);
+.guilds_c48ade {
+  margin-top: 0px;
 }
 
-.visual-refresh .emojiPickerHasTabWrapper_c0e32c .header_c0e32c,
-.scroller_affa7e,
-.visual-refresh .wrapper__14245,
-.visual-refresh .header__8ef02,
-.visual-refresh .header_fed6d3 {
-  background: rgba(0, 0, 0, 0.436);
+.visual-refresh .channelTextArea_f75fb0 {
+  border: 0px;
 }
 
-.visual-refresh .inspector_aeaaeb {
-  background: rgba(0, 0, 0, 0.436);
-  backdrop-filter: blur(10px);
-}
-
-.visual-refresh #vc-spotify-player {
-  background: rgba(0, 0, 0, 0.436);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
-  border: 1px solid var(--surCordBorder);
-  border-radius: 15px;
+.visual-refresh .replyBar__841c8,
+.visual-refresh .threadSuggestionBar__841c8 {
+  border: 0px;
 }
 
 .visual-refresh {
-    --vr-header-snippet-space: 85px !important;
+  --vr-header-snippet-space: 85px !important;
 }
 
-.visual-refresh .container__2637a .scroller__629e4 {
-    background-color: transparent !important;
-}
+
