@@ -320,6 +320,11 @@ Y88b      / ,e,                           888
   background-color: var(--surCordTextBackground);
 }
 
+.theme-dark .lookFilled__201d5.colorPrimary__201d5 {
+  border: var(--surCordBorder) 1px solid;
+  background-color: var(--surcordTextBackground);
+}
+
 /* Specific Element Styling with Blur/Shadow/Border */
 .theme-dark .container__37e49,
 .visual-refresh .wrapperAudio_cf09d8,
