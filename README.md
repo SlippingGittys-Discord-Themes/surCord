@@ -1,4 +1,8 @@
-# Fixes are WIP
+## Fixes are WIP
+
+- Dark theme works again
+   - Light theme work in progress
+- Blur effects need to be fixed
 
 <h1 align="center">surCord</h1>
 <p align="center">Hello. Again. </p>
