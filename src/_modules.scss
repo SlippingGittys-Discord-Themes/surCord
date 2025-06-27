@@ -408,4 +408,157 @@ Y88b      / ,e,                           888
   --vr-header-snippet-space: 85px !important;
 }
 
+/* -------------------------------- 
+--------------------------
+----------------- light theme shit 
+-------------------------
+-----------------------------------*/
+ .theme-light {
+   --background-tertiary: rgb(225, 225, 225);
+   --background-secondary: rgb(225, 225, 225);
+   --background-secondary-alt: rgb(225, 225, 225);
+   --background-primary: rgb(231, 234, 237);
+   --channeltextarea-background: rgb(213, 213, 213);
+   --background-accent: var(--accent);
+   --background-modifier-hover: rgb(213, 214, 214);
+   --background-modifier-active: rgb(231, 231, 231);
+   --background-modifier-selected: var(--accent-selected);
+   --deprecated-card-bg: #12141f63;
+   --background-floating: rgba(236, 236, 236, 0.771);
+   --deprecated-quickswitcher-input-background: rgb(237, 237, 237);
+   --elevation-low: none;
+   --toast-background: #ffffff !important;
+   --toast-header: #ffffff !important;
+   --toast-contents: #ffffff !important;
+   --brand-experiment-500: var(--accent-selected);
+   --brand-experiment-560: var(--accent-selected);
+   --surCordBackground: var(--background-primary);
+   --surCordBackground2: var(--background-secondary);
+   --surCordTextBackground: var(--channeltextarea-background);
+   --surCordGuilds: var(--background-tertiary);
+   --surCordBorder: 1px solid rgba(0, 0, 0, 0.06);
+   --vr-header-snippet-space: 85px !important;
+ }
+
+ .theme-light .scrollerInner__36d07,
+ .theme-light .visual-refresh .form_f75fb0,
+ .theme-light .scroller__36d07 {
+   background-color: var(--surCordBackground);
+ }
+
+ .theme-light .members_c8ffbb,
+ .theme-light .membersListNotices_c8ffbb,
+ .theme-light .visual-refresh .scroller__629e4,
+ .theme-light .childContainer__91a9d,
+ .theme-light .visual-refresh .container__2637a,
+ .theme-light .visual-refresh .sidebarListRounded_c48ade,
+ .theme-light .visual-refresh .sidebarRegionScroller__23e6b {
+   background-color: var(--surCordBackground2);
+ }
+
+ .theme-light .scrollableContainer__74017,
+ .theme-light .hasStackedBar__74017,
+ .theme-light .preview__3e443,
+ .theme-light .visual-refresh .channelAttachmentArea_b77158,
+ .theme-light .visual-refresh.platform-win .contentRegionScroller__23e6b {
+   background-color: var(--surCordTextBackground);
+ }
+
+ .theme-light .container__37e49,
+ .theme-light .visual-refresh .wrapperAudio_cf09d8,
+ .theme-light .visual-refresh .grid__623de,
+ .theme-light .visual-refresh .container_d9c882,
+ .theme-light .visual-refresh .header_d9c882,
+ .theme-light .visual-refresh .upload_aa605f,
+ .theme-light .message__5126c.selected__5126c .buttonsInner__5126c,
+ .theme-light .mouse-mode .message__5126c:hover .buttonsInner__5126c,
+ .theme-light .visual-refresh .contentWrapper__08434,
+ .theme-light .visual-refresh #vc-spotify-player {
+   background: rgba(255, 255, 255, 0.65);
+   backdrop-filter: blur(10px);
+   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+   border: 1px solid rgba(255, 255, 255, 0.8);
+ }
+
+ .theme-light .container__37e49,
+ .theme-light .visual-refresh #vc-spotify-player {
+   border-radius: 15px;
+ }
+
+ .theme-light .platform-win .sidebar_c48ade {
+   background-color: var(--surCordGuilds);
+ }
+
+ .theme-light .visual-refresh .sidebar_c48ade:after,
+ .theme-light .visual-refresh .panels_c48ade,
+ .theme-light .panels_c48ade,
+ .theme-light .visual-refresh .scroller__99e7c {
+   background-color: var(--surCordBackground2) !important;
+ }
+
+ .theme-light .guilds_c48ade {
+   margin-top: 0px;
+ }
+
+ .theme-light .visual-refresh .channelTextArea_f75fb0 {
+   background-color: transparent;
+   border: 0;
+ }
+
+ .theme-light .visual-refresh .replyBar__841c8,
+ .theme-light .visual-refresh .threadSuggestionBar__841c8 {
+   border: 0;
+ }
+
+ .theme-light .button_d5f3cd.buttonSize_d5f3cd,
+ .theme-light .lookFilled__201d5.colorPrimary__201d5,
+ .theme-light .popoutBannerPremium_c3e427 .pencilContainer_c3e427,
+ .theme-light .full-motion .button__292b6,
+ .theme-light .lookFilled__201d5.colorBrand__201d5,
+ .theme-light .navButtonActive__08434 {
+   background-color: var(--surCordTextBackground);
+   color: var(--text-normal, #2e3338);
+   border: var(--surCordBorder);
+   border-radius: 50px;
+ }
+
+ .theme-light .visual-refresh .scroller__629e4,
+ .theme-light .visual-refresh .channelTextArea_f75fb0,
+ .theme-light .visual-refresh .container__37e49,
+ .theme-light .visual-refresh .privateChannels__35e86 {
+   background: transparent;
+ }
+
+ .theme-light .visual-refresh .emojiPickerHasTabWrapper_c0e32c .header_c0e32c,
+ .theme-light .scroller_affa7e,
+ .theme-light .visual-refresh .wrapper__14245,
+ .theme-light .visual-refresh .header__8ef02,
+ .theme-light .visual-refresh .header_fed6d3 {
+   background: rgba(248, 249, 250, 0.75);
+ }
+
+ .theme-light .visual-refresh .inspector_aeaaeb {
+   background: rgba(255, 255, 255, 0.5);
+   backdrop-filter: blur(10px);
+ }
+
+ .theme-light .container__91a9d {
+   padding: 0px;
+ }
+
+ .theme-light .wrapper_f7ecac {
+   background: rgba(255, 255, 255, 0.436) !important;
+   backdrop-filter: blur(10px);
+   box-shadow: 0 0 3px 1px rgba(0, 0, 0, .483);
+   border: 1px solid var(--surCordBorder);
+ }
+
+ .visual-refresh .emojiPickerHasTabWrapper_c0e32c .header_c0e32c,
+ .visual-refresh .wrapper__14245,
+ .visual-refresh .inspector_aeaaeb,
+ .visual-refresh .header_fed6d3,
+ .visual-refresh .header__8ef02 {
+   background: rgba(255, 255, 255, 0);
+   backdrop-filter: blur(10px);
+ }
 
