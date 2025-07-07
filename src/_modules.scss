@@ -412,6 +412,13 @@ Y88b      / ,e,                           888
     border-radius: 25px;
 }
 
+.theme-dark .messageContainer__95796, .messages__1ccd1, .messageGroupWrapper__45690 {
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.603);
+    border: 1px solid var(--surCordBorder);
+    border-radius: 5px;
+    background-color: #00000067;
+}
+
 /* -------------------------------- 
 --------------------------
 ----------------- light theme shit 
