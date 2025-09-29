@@ -4,70 +4,70 @@
   --accent-selected: rgb(136, 192, 208, 0.612);
   --accent-focused: rgb(143, 188, 187, 0.2);
 }
-.iconWrapper_e44302 .icon_e44302,
+.iconWrapper__9293f .icon__9293f,
 .stickerIcon__3ceda,
-.icon_cecf00,
-.circleIcon_db6521,
-.buttonWrapper_cecf00 {
+.icon__24af7,
+.circleIcon__5bc7e,
+.buttonWrapper__24af7 {
   color: rgb(215, 222, 233);
 }
-.item_c2739c .item-3XjbnG .themed-2-lozF[aria-controls="add_friend-tab"] {
+.item__133bf .item-3XjbnG .themed-2-lozF[aria-controls="add_friend-tab"] {
   background-color: var(--accent-hover) !important;
 }
-.content_a7d72e,
-.membersWrap_cbd271 {
+.content_f75fb0,
+.membersWrap_c8ffbb {
   border-left: 0.5px solid rgb(50, 50, 50);
 }
-.container_e44302.themed_e44302,
-.header_fd6364 {
+.container__9293f.themed__9293f,
+.header_f37cb1 {
   border-bottom: 0.5px solid rgb(50, 50, 50) !important;
 }
-.searchBar_f0963d {
+.searchBar__35e86 {
   border-right: 0.5px solid rgb(50, 50, 50);
 }
-.clickable_e44302 .icon_e44302,
-.linkButtonIcon_c91bad {
+.clickable__9293f .icon__9293f,
+.linkButtonIcon__972a0 {
   color: rgb(215, 222, 233) !important;
 }
-.contents-3ca1mk .button_cecf00 .button_d0696b {
+.contents-3ca1mk .button__24af7 .button__74017 {
   color: rgb(80, 111, 170);
 }
-.circleIcon_db6521 {
+.circleIcon__5bc7e {
   color: rgb(120, 136, 162) !important;
 }
-.name_d8bfb3,
-.membersGroup_cbd271 {
+.name__2ea32,
+.membersGroup_c8ffbb {
   color: rgb(98, 110, 132);
 }
-.addButtonIcon_a08117,
-.modeUnreadImportant_d8bfb3 .icon_d8bfb3,
-.unreadImportant_d8bfb3 {
+.addButtonIcon__29444,
+.modeUnreadImportant__2ea32 .icon__2ea32,
+.unreadImportant__2ea32 {
   color: rgb(131, 190, 186) !important;
 }
-.messageContent_ec86aa,
-.modeConnected_d8bfb3 .name_d8bfb3,
-.modeConnected_d8bfb3:hover .name_d8bfb3,
-.modeSelected_d8bfb3 .name_d8bfb3,
-.modeSelected_d8bfb3:hover .name_d8bfb3,
-.modeUnreadImportant_d8bfb3 .name_d8bfb3,
-.modeUnreadImportant_d8bfb3:hover .name_d8bfb3,
-.notInteractive_d8bfb3.modeConnected_d8bfb3 .name_d8bfb3,
-.notInteractive_d8bfb3.modeSelected_d8bfb3 .name_d8bfb3 {
+.messageContent_c19a55,
+.modeConnected__2ea32 .name__2ea32,
+.modeConnected__2ea32:hover .name__2ea32,
+.modeSelected__2ea32 .name__2ea32,
+.modeSelected__2ea32:hover .name__2ea32,
+.modeUnreadImportant__2ea32 .name__2ea32,
+.modeUnreadImportant__2ea32:hover .name__2ea32,
+.notInteractive__2ea32.modeConnected__2ea32 .name__2ea32,
+.notInteractive__2ea32.modeSelected__2ea32 .name__2ea32 {
   color: rgba(215, 222, 333) !important;
 }
-.modeSelected_d8bfb3 .icon_d8bfb3,
-.modeSelected_d8bfb3:hover .icon_d8bfb3,
-.modeUnreadImportant_d8bfb3 .icon_d8bfb3,
-.modeUnreadImportant_d8bfb3:hover .icon_d8bfb3,
-.mainContent_a08117 .overflow_c74e70,
-.mainContent_a08117 {
+.modeSelected__2ea32 .icon__2ea32,
+.modeSelected__2ea32:hover .icon__2ea32,
+.modeUnreadImportant__2ea32 .icon__2ea32,
+.modeUnreadImportant__2ea32:hover .icon__2ea32,
+.mainContent__29444 .overflow__82b15,
+.mainContent__29444 {
   color: rgb(215, 222, 233) !important;
 }
-.theme-dark .unreadMentionsIndicatorTop_fea3ef .unreadMentionsBar_fea3ef,
-.theme-dark .unreadMentionsIndicatorBottom_fea3ef .unreadMentionsBar_fea3ef,
-.theme-dark .unreadMentionsIndicatorTop_fea3ef .unreadMentionsBar_fea3ef,
+.theme-dark .unreadMentionsIndicatorTop_ef3116 .unreadMentionsBar_ef3116,
+.theme-dark .unreadMentionsIndicatorBottom_ef3116 .unreadMentionsBar_ef3116,
+.theme-dark .unreadMentionsIndicatorTop_ef3116 .unreadMentionsBar_ef3116,
 .numberBadge__40d6f,
-.unreadImportant_d8bfb3,
+.unreadImportant__2ea32,
 .newBadge__4f501 {
   background: rgba(106, 120, 144) !important;
 }

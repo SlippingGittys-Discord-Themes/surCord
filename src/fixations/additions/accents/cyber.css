@@ -10,25 +10,25 @@
     --accent-selected: rgba(10, 168, 173, 0.616);
     --accent-focused: rgba(237, 60, 69, 0.733);
   }
-  .clickable_e44302 .icon_e44302, .linkButtonIcon_c91bad  {
+  .clickable__9293f .icon__9293f, .linkButtonIcon__972a0  {
     color: var(--accent-hover) !important;
   }
-  .iconWrapper_e44302 .icon_e44302 {
+  .iconWrapper__9293f .icon__9293f {
     color: var(--accent-hover);
   }
   .stickerIcon__3ceda {
     color: var(--accent-hover);
   }
-  .icon_cecf00 {
+  .icon__24af7 {
     color: var(--accent-hover);
   }
-  .contents-3ca1mk .button_cecf00 .button_d0696b {
+  .contents-3ca1mk .button__24af7 .button__74017 {
     color: var(--accent-hover);
   }
-  .buttonWrapper_cecf00 {
+  .buttonWrapper__24af7 {
     color: var(--accent-hover);
   }
-  .theme-dark .button_f67531 {
+  .theme-dark .button__67645 {
     color: var(--accent-hover) !important;
   }
 .theme-dark {
@@ -37,10 +37,10 @@
 .theme-light {
   --text-normal: rgba(26, 60, 61, 0.849);
 }
-.theme-dark .channelName-3KPsGw, .theme-dark .searchBarComponent_f0963d, .theme-dark .public-DraftEditorPlaceholder-inner, .icon_effbe2 {
+.theme-dark .channelName-3KPsGw, .theme-dark .searchBarComponent__35e86, .theme-dark .public-DraftEditorPlaceholder-inner, .icon_fea832 {
   color: rgba(148, 251, 255, 0.849) !important;
 }
-.theme-dark .name_f9647d {
+.theme-dark .name__20a53 {
   color: rgb(169, 247, 250);
 }
 
@@ -48,6 +48,6 @@
   background-color: var(--accent) !important;
 }
 
-.item_fd07a3 {
+.item__58105 {
   background-color: var(--accent-focused) !important;
 }
