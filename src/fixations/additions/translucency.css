@@ -5,10 +5,10 @@
   --background-tertiary: #ffffff1d;
 }
 
-.theme-dark .appMount__51fd7, .theme-dark .app__160d8, .theme-dark .bg__960e4, .theme-dark .scroller_ef3116, .theme-dark .guilds_c48ade, .theme-dark .channelName-3w2Y3c, .theme-dark .sidebar_c48ade, .theme-dark .privateChannels__35e86, .theme-dark .searchBar__35e86, .theme-dark .scroller__99e7c, .theme-dark .container__2637a, .theme-dark .header_f37cb1,  .theme-dark .searchBar__35e86 .searchBarComponent__35e86 {
+.theme-dark .appMount__51fd7, .theme-dark .app__160d8, .theme-dark .bg__960e4, .theme-dark .scroller_ef3116, .theme-dark .guilds__5e434, .theme-dark .channelName-3w2Y3c, .theme-dark .sidebar__5e434, .theme-dark .privateChannels_e6b769, .theme-dark .searchBar_e6b769, .theme-dark .scroller__99e7c, .theme-dark .container__2637a, .theme-dark .header_f37cb1,  .theme-dark .searchBar_e6b769 .searchBarComponent__35e86 {
   background: transparent !important;
 }
-.theme-light .appMount__51fd7, .theme-light .app__160d8, .theme-light .bg__960e4, .theme-light .scroller_ef3116, .theme-light .guilds_c48ade, .theme-light .channelName-3w2Y3c, .theme-light .sidebar_c48ade, .theme-light .privateChannels__35e86, .theme-light .searchBar__35e86, .theme-light .scroller__99e7c, .theme-light .container__2637a, .theme-light .header_f37cb1,  .theme-light .searchBar__35e86 .searchBarComponent__35e86 {
+.theme-light .appMount__51fd7, .theme-light .app__160d8, .theme-light .bg__960e4, .theme-light .scroller_ef3116, .theme-light .guilds__5e434, .theme-light .channelName-3w2Y3c, .theme-light .sidebar__5e434, .theme-light .privateChannels_e6b769, .theme-light .searchBar_e6b769, .theme-light .scroller__99e7c, .theme-light .container__2637a, .theme-light .header_f37cb1,  .theme-light .searchBar_e6b769 .searchBarComponent__35e86 {
   background: transparent !important;
 }
 .theme-dark .header_f37cb1, .theme-light .header_f37cb1 {
