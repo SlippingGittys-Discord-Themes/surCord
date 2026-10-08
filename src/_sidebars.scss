@@ -25,7 +25,7 @@
 }
 
 /* User Settings + VC Controls */
-.panels_c48ade {
+.panels__5e434 {
     border-radius: 20px;
     margin-bottom: 18px;
     margin-right: 5px;
@@ -37,7 +37,7 @@
 }
 
 .theme-light {
-    .panels_c48ade {
+    .panels__5e434 {
         background: rgba(226, 221, 225, 0.89);
         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
         border: 1px solid rgba(249, 249, 249, 0.772); 
@@ -89,12 +89,12 @@
 }
 
 /* Muted Icons in VC/User Box */
-.theme-dark .panels_c48ade .button__67645 svg {
+.theme-dark .panels__5e434 .button__67645 svg {
   fill: var(--interactive-normal) !important;
 }
 
 /* Channels */
-.modeSelected__2ea32 .icon__2ea32, .modeSelected__2ea32:hover .icon__2ea32, .modeUnreadImportant__2ea32 .icon__2ea32, .modeUnreadImportant__2ea32:hover .icon__2ea32, .mainContent__29444 .overflow__82b15, .mainContent__29444 {
+.modeSelected__2ea32 .icon__2ea32, .modeSelected__2ea32:hover .icon__2ea32, .modeUnreadImportant__2ea32 .icon__2ea32, .modeUnreadImportant__2ea32:hover .icon__2ea32, .mainContent__29444 .overflow_b0dfc2, .mainContent__29444 {
     color: white;
 }
 .iconContainer__2ea32[aria-label="Text (Age-Restricted)"]>svg {
@@ -123,7 +123,7 @@
 }
 
 .theme-light {
-    .mainContent__29444 .overflow__82b15 {
+    .mainContent__29444 .overflow_b0dfc2 {
         color:black;
     }
 }
